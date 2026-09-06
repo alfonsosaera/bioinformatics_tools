@@ -1704,24 +1704,24 @@ Spatial transcriptomics deconvolution framework combining leverage-score-based s
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7451704513482235904](https://www.linkedin.com/feed/update/urn:li:share:7451704513482235904)
 
 #### omnideconv
-R package providing a unified interface to multiple single-cell-informed deconvolution methods.
+R package for using and benchmarking single-cell-informed deconvolution of bulk RNA-seq data.
+- Paper: [https://doi.org/10.1186/s13059-026-03955-w](https://link.springer.com/article/10.1186/s13059-026-03955-w)
 - Code: [https://github.com/omnideconv/omnideconv](https://github.com/omnideconv/omnideconv)
-- Paper: [https://doi.org/10.1186/s13059-026-03955-w](https://doi.org/10.1186/s13059-026-03955-w)
 - Website: [https://omnideconv.org/](https://omnideconv.org/)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7436093806825017344](https://www.linkedin.com/feed/update/urn:li:ugcPost:7436093806825017344)
 
 #### RETROFIT
-Unsupervised Bayesian framework for reference-free deconvolution of spatial transcriptomics, factorizing ST counts into latent cell-type expression and spatial proportions via hierarchical Bayesian modeling; single-cell references are only needed post hoc to label components. *(Listed here as the closest available subcategory — note this method is explicitly reference-free.)*.
+Unsupervised Bayesian framework for *reference-free* deconvolution of spatial transcriptomics, factorizing ST counts into latent cell-type expression and spatial proportions via hierarchical Bayesian modeling; single-cell references are only needed post hoc to label components. 
+- Paper: [https://www.nature.com/articles/s41467-026-74928-7](https://www.nature.com/articles/s41467-026-74928-7)
 - Code: [https://bioconductor.org/packages/retrofit/](https://bioconductor.org/packages/retrofit/)
 - Code: [https://github.com/qunhualilab/retrofit-scripts](https://github.com/qunhualilab/retrofit-scripts)
-- Paper: [https://www.biorxiv.org/content/10.1101/2023.06.07.544126v2](https://www.biorxiv.org/content/10.1101/2023.06.07.544126v2)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7471187399113539584](https://www.linkedin.com/feed/update/urn:li:share:7471187399113539584)
 
 #### scSemiProfiler
 ‍ Overcoming Traditional Limits in Cellular Analysis ‍
 Traditional cellular deconvolution methods, crucial in bulk sequencing, often fall short in providing the detailed resolution needed for single-cell-level analyses. Enter "scSemiProfiler," a game-changing computational framework set to revolutionize our approach to single-cell profiling.
-- Paper: []()
-- Code: []()
+- Paper: [https://www.nature.com/articles/s41467-024-50150-1](https://www.nature.com/articles/s41467-024-50150-1)
+- Code: [https://github.com/mcgilldinglab/scSemiProfiler](https://github.com/mcgilldinglab/scSemiProfiler)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7138120241938698240/](https://www.linkedin.com/feed/update/urn:li:share:7138120241938698240/)
 
 #### scSurv
