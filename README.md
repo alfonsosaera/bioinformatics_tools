@@ -1821,21 +1821,20 @@ Foundation model for single-cell based on a generative pretrained transformer ac
 #### scKGBERT
 Knowledge-enhanced dual-encoder foundation model for single-cell transcriptomics.
 - Paper: [https://doi.org/10.1186/s13059-025-03862-6](https://doi.org/10.1186/s13059-025-03862-6)
-- Website: [https://huggingface.co/catly/scKGBERT](https://huggingface.co/catly/scKGBERT)
-- Website: [https://huggingface.co/datasets/catly/scKGBERT-41M](https://huggingface.co/datasets/catly/scKGBERT-41M)
+- Code: [https://huggingface.co/catly/scKGBERT](https://huggingface.co/catly/scKGBERT)
+- Human fine-tuned: [https://huggingface.co/datasets/catly/scKGBERT-41M](https://huggingface.co/datasets/catly/scKGBERT-41M)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7417868814505242625](https://www.linkedin.com/feed/update/urn:li:share:7417868814505242625)
 
 #### scMulan
-Novel multitask generative pre-trained language model specifically designed for single-cell analysis.
-- Paper: []()
-- Code: []()
+Multitask generative pre-trained language model specifically designed for single-cell analysis.
+- Paper: [https://www.biorxiv.org/content/10.1101/2024.01.25.577152v2](https://www.biorxiv.org/content/10.1101/2024.01.25.577152v2)
+- Code: [https://github.com/SuperBianC/scMulan](https://github.com/SuperBianC/scMulan)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7165284495992971264/](https://www.linkedin.com/feed/update/urn:li:share:7165284495992971264/)
 
 #### scPRINT-2
 Next-generation single-cell foundation model trained on a 350M-cell multi-organism corpus and an additive benchmark.
-- Code: [https://github.com/cantinilab/scPRINT-2](https://github.com/cantinilab/scPRINT-2)
 - Paper: [https://doi.org/10.64898/2025.12.11.693702](https://doi.org/10.64898/2025.12.11.693702)
-- Website: [https://www.linkedin.com/posts/jkobject_christmas-foundation-model-release-activity-7406801435935285248-zjeg](https://www.linkedin.com/posts/jkobject_christmas-foundation-model-release-activity-7406801435935285248-zjeg)
+- Code: [https://github.com/cantinilab/scPRINT-2](https://github.com/cantinilab/scPRINT-2)
 - Website: [https://cantinilab.github.io/scPRINT-2/](https://cantinilab.github.io/scPRINT-2/)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7415332108090372096](https://www.linkedin.com/feed/update/urn:li:share:7415332108090372096)
 
