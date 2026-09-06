@@ -1840,21 +1840,20 @@ Next-generation single-cell foundation model trained on a 350M-cell multi-organi
 
 #### scUnify
 Unified zero-shot inference framework that runs multiple single-cell RNA-seq foundation models from a standard AnnData object while automating environment setup, preprocessing, and tokenization.
+- Paper: [https://www.biorxiv.org/content/10.64898/2026.03.01.708392v2](https://www.biorxiv.org/content/10.64898/2026.03.01.708392v2)
 - Code: [https://github.com/DHKim327/scUnify](https://github.com/DHKim327/scUnify)
-- Paper: [https://doi.org/10.64898/2026.03.01.708392](https://doi.org/10.64898/2026.03.01.708392)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7448342860413890560](https://www.linkedin.com/feed/update/urn:li:share:7448342860413890560)
 
 #### TranscriptFormer
-Generative cross-species single-cell foundation model trained on up to 112M cells from 12 species spanning 1.5 billion years of evolution, modeling gene identities and expression jointly.
+Family of generative foundation models representing a cross-species generative cell atlas trained on up to 112 million cells spanning 1.53 billion years of evolution across 12 species.
+- Paper: [https://www.science.org/doi/10.1126/science.aec8514](https://www.science.org/doi/10.1126/science.aec8514)
 - Code: [https://github.com/czi-ai/transcriptformer](https://github.com/czi-ai/transcriptformer)
-- Paper: [https://doi.org/10.1101/2025.04.25.650731](https://doi.org/10.1101/2025.04.25.650731)
-- Website: [https://cellxgene.cziscience.com/census-models](https://cellxgene.cziscience.com/census-models)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7407721959964233728](https://www.linkedin.com/feed/update/urn:li:share:7407721959964233728)
 
 #### USHER
 EM-style framework that learns low-complexity transforms to map out-of-distribution foundation-model embeddings back into a reference embedding space without retraining.
 - Code: [https://github.com/rohitsinghlab/USHER](https://github.com/rohitsinghlab/USHER)
-- Paper: [https://doi.org/10.1101/2025.11.20.689462](https://doi.org/10.1101/2025.11.20.689462)
+- Paper: [https://www.biorxiv.org/content/10.1101/2025.11.20.689462v2](https://www.biorxiv.org/content/10.1101/2025.11.20.689462v2)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7412131265639849984](https://www.linkedin.com/feed/update/urn:li:share:7412131265639849984)
 
 ### Spatial Foundation Models
