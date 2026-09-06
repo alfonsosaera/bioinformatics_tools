@@ -1090,6 +1090,12 @@ Combined single-cell genetic and chemical screening platform (sci-Plex-Gene-by-E
 - Code: [https://github.com/cole-trapnell-lab/sci-Plex-GxE](https://github.com/cole-trapnell-lab/sci-Plex-GxE)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7162472963902980098/](https://www.linkedin.com/feed/update/urn:li:share:7162472963902980098/)
 
+#### scPert
+Multi-modal LLM/knowledge-graph fusion Transformer predicting single-cell transcriptomic responses to genetic perturbations
+- Paper: [https://www.biorxiv.org/content/10.64898/2026.04.24.720560v1](https://www.biorxiv.org/content/10.64898/2026.04.24.720560v1)
+- Code: [https://github.com/AI4VirtualCell/scPert](https://github.com/AI4VirtualCell/scPert)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7462160418459942912/?skipRedirect=true](https://www.linkedin.com/feed/update/urn:li:share:7462160418459942912/?skipRedirect=true)
+
 #### scPerturb
 Database harmonizing 44 single-cell perturbation-response datasets (transcriptomics, proteomics, epigenomics) with a novel E-statistics/E-distance approach for quantifying perturbation effects.
 - Paper: [https://www.nature.com/articles/s41592-023-02144-y](https://www.nature.com/articles/s41592-023-02144-y)
@@ -1724,11 +1730,13 @@ Traditional cellular deconvolution methods, crucial in bulk sequencing, often fa
 - Code: [https://github.com/mcgilldinglab/scSemiProfiler](https://github.com/mcgilldinglab/scSemiProfiler)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7138120241938698240/](https://www.linkedin.com/feed/update/urn:li:share:7138120241938698240/)
 
-#### scSurv  ---- POR AQUI
+#### scSurv
 Method that links single-cell transcriptomes to patient survival by combining a Cox proportional hazards model with a conditional variational autoencoder for cell-level deconvolution.
 - Paper: [https://doi.org/10.1093/bioinformatics/btaf671](https://doi.org/10.1093/bioinformatics/btaf671)
 - Code: [https://github.com/3254c/scSurv](https://github.com/3254c/scSurv)
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7455967109500612608](https://www.linkedin.com/feed/update/urn:li:ugcPost:7455967109500612608)
+- LinkedIn post: 
+  - [https://www.linkedin.com/feed/update/urn:li:ugcPost:7455967109500612608](https://www.linkedin.com/feed/update/urn:li:ugcPost:7455967109500612608)
+  - []()
 
 #### STRIDE
 Decompose cell types from spatial mixtures by leveraging topic profiles trained from single-cell transcriptomics. STRIDE also provides several downstream analysis functions, including (1) signature (i.e., topic) detection and visualization, (2) spatial clustering and domain identification based on neighborhood cell populations and (3) reconstruction of three-dimensional architecture from sequential ST slides of the same tissue.
@@ -1942,6 +1950,12 @@ Medical Conversational Model Tailored with Oncology Domain Expertise on a Large 
 - Code: [https://github.com/OncoGPT1](https://github.com/OncoGPT1)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7175427835015163905/](https://www.linkedin.com/feed/update/urn:li:share:7175427835015163905/)
 
+#### OmniCellAgent
+Multi-agent AI framework (planner/executor/reporter) for omics-driven scientific discovery
+- Paper: [https://www.biorxiv.org/content/10.1101/2025.07.31.667797v3](https://www.biorxiv.org/content/10.1101/2025.07.31.667797v3)
+- Code: [https://github.com/FuhaiLiAiLab/OmniCellAgent](https://github.com/FuhaiLiAiLab/OmniCellAgent)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7470480486109319168](https://www.linkedin.com/feed/update/urn:li:ugcPost:7470480486109319168)
+
 #### Pathology Foundation Model Benchmark
 Large evaluation of 19 histopathology foundation models as feature extractors across 13 cohorts, 6,818 patients and 9,528 slides for weakly-supervised computational pathology tasks.
 - Paper: [https://doi.org/10.1038/s41551-025-01516-3](https://doi.org/10.1038/s41551-025-01516-3)
@@ -2080,11 +2094,7 @@ Database of spatial drug perturbation maps.
 
 *(Real tools/methods that don't map cleanly onto any proposed subcategory — general AI/ML methods, clinical/translational platforms, structural biology, or cross-cutting resources.)*
 
-- **DoFormer** — causal Transformer modeling gene perturbations directly in gene space via a causal do-operator in attention. [Post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7475553917074980864)
-- **ConvergeCELL** — end-to-end platform converting patient transcriptomics into LLM-driven therapeutic hypotheses. [Post](https://www.linkedin.com/feed/update/urn:li:share:7473724110095917056)
-- **OmniGene-4** — unified bio-language mixture-of-experts foundation model with router-level interpretability (protein homology/structure prediction). [Post](https://www.linkedin.com/feed/update/urn:li:share:7470845035844972544)
-- **OmniCellAgent** — multi-agent AI framework (planner/executor/reporter) for omics-driven scientific discovery. [Post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7470480486109319168)
-- **Decima** — sequence-to-function deep learning model predicting cell-type/condition-specific gene expression from DNA sequence. [Post](https://www.linkedin.com/feed/update/urn:li:share:7469461519626440704)
+
 - **scooby** — sequence-to-function model predicting multimodal single-cell RNA+ATAC profiles from DNA sequence windows. [Post](https://www.linkedin.com/feed/update/urn:li:share:7468650685358698496)
 - **AIDO.Builder** — autonomous agentic AI system automating the full ML model-building lifecycle for biomedical tasks. [Post](https://www.linkedin.com/feed/update/urn:li:share:7468308371197206528)
 - **TissueFormer** — Transformer extending single-cell foundation models to predict population/tissue-level phenotypes. [Post](https://www.linkedin.com/feed/update/urn:li:share:7467572581240385536)
@@ -2092,14 +2102,11 @@ Database of spatial drug perturbation maps.
 - **scSurvival** — attention-based multiple-instance Cox regression modeling tumor samples as cell ensembles to predict survival. [Post](https://www.linkedin.com/feed/update/urn:li:share:7466388268725456897)
 - **Phoenix** — latent flow-matching generative model predicting virtual spatial gene expression from routine H&E histology. [Post](https://www.linkedin.com/feed/update/urn:li:share:7465035866663546880)
 - **OmicClaw** (+ OmicVerse ecosystem) — executable natural-language framework for bulk/single-cell/spatial/multi-omics analysis. [Post](https://www.linkedin.com/feed/update/urn:li:share:7464697128376950784)
-- **VCHarness** — autonomous AI system searching over executable ML programs to build virtual-cell perturbation-response models. [Post](https://www.linkedin.com/feed/update/urn:li:share:7464388088526692352)
 - **AGENTBENCH** — benchmark evaluating repository-level context files for coding agents (general AI/software engineering, not omics). [Post](https://www.linkedin.com/feed/update/urn:li:share:7463577248437116928)
-- **scPert** — multi-modal LLM/knowledge-graph fusion Transformer predicting single-cell transcriptomic responses to genetic perturbations. [Post](https://www.linkedin.com/feed/update/urn:li:share:7462160418459942912)
 - **Solve‑RD workflow** — The study “Standardized transcriptome analysis improves rare disease diagnosis in the pan-European Solve-RD consortium”, published in medRxiv by Vicente A. Yépez, Rebeka Luknárová, [Post](https://www.linkedin.com/feed/update/urn:li:share:7434982840259407872)
 - **scTREND** — deep generative framework that estimates time- and condition-dependent risks at single-cell resolution [Post](https://www.linkedin.com/feed/update/urn:li:share:7434630778753331200)
 - **IgPose** — unified framework for immunoglobulin-antigen pose classification and scoring [Post](https://www.linkedin.com/feed/update/urn:li:share:7431430174841225217)
 - **Covariance-Invariant Dual-Reporter framework** — The study Exploiting fluctuations in gene expression to detect causal interactions between genes, published in eLife by Euan Joly-Smith, Mir Mikdad Talpur, Paige Allard, Fotini Pap [Post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7423820031639281664)
-- **scSurv** — deep generative model that quantifies individual cells' contributions to clinical outcomes using bulk and single-cell transcriptomes [Post](https://www.linkedin.com/feed/update/urn:li:share:7423410220468633601)
 - **scooby** — powerful framework for predicting multimodal single-cell genomic profiles directly from DNA sequence (links in the comments) [Post](https://www.linkedin.com/feed/update/urn:li:share:7401546120704720896)
 - **LDNets (Latent Dynamics Networks)** — Neural network family that learns temporal dynamics of space-dependent fields in a data-driven manner, enabling adaptable predictions with efficient training and robustness to miss [Post](https://www.linkedin.com/feed/update/urn:li:share:7171543020012617730/)
 - **Stator** — Stator is a novel method, workflow, and app that's transforming the way we identify cell types, subtypes, and states in single-cell data. [Post](https://www.linkedin.com/feed/update/urn:li:share:7154488285208141824/)
