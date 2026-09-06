@@ -1864,6 +1864,12 @@ Family of generative foundation models representing a cross-species generative c
 - Code: [https://github.com/czi-ai/transcriptformer](https://github.com/czi-ai/transcriptformer)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7407721959964233728](https://www.linkedin.com/feed/update/urn:li:share:7407721959964233728)
 
+#### TissueFormer
+Extending single-cell foundation models to predict population-level phenotypes
+- Paper: [https://link.springer.com/article/10.1186/s12859-026-06490-4](https://link.springer.com/article/10.1186/s12859-026-06490-4)
+- Code: [https://github.com/ZadorLaboratory/TissueFormer](https://github.com/ZadorLaboratory/TissueFormer)
+- LinkedIn post: [https://www.linkedin.com/posts/alfonso-saera-vila_population-level-phenotype-prediction-activity-7467572582360252416-Bjlj](https://www.linkedin.com/posts/alfonso-saera-vila_population-level-phenotype-prediction-activity-7467572582360252416-Bjlj)
+
 #### USHER
 EM-style framework that learns low-complexity transforms to map out-of-distribution foundation-model embeddings back into a reference embedding space without retraining.
 - Code: [https://github.com/rohitsinghlab/USHER](https://github.com/rohitsinghlab/USHER)
@@ -2101,8 +2107,6 @@ Database of spatial drug perturbation maps.
 *(Real tools/methods that don't map cleanly onto any proposed subcategory — general AI/ML methods, clinical/translational platforms, structural biology, or cross-cutting resources.)*
 
 
-- **AIDO.Builder** — autonomous agentic AI system automating the full ML model-building lifecycle for biomedical tasks. [Post](https://www.linkedin.com/feed/update/urn:li:share:7468308371197206528)
-- **TissueFormer** — Transformer extending single-cell foundation models to predict population/tissue-level phenotypes. [Post](https://www.linkedin.com/feed/update/urn:li:share:7467572581240385536)
 - **Solve-RD RNA framework** — consortium-wide harmonized RNA-seq framework for rare-disease diagnosis (bulk/tissue RNA-seq, not single-cell). [Post](https://www.linkedin.com/feed/update/urn:li:share:7467235143083053057)
 - **scSurvival** — attention-based multiple-instance Cox regression modeling tumor samples as cell ensembles to predict survival. [Post](https://www.linkedin.com/feed/update/urn:li:share:7466388268725456897)
 - **Phoenix** — latent flow-matching generative model predicting virtual spatial gene expression from routine H&E histology. [Post](https://www.linkedin.com/feed/update/urn:li:share:7465035866663546880)
