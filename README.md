@@ -1859,35 +1859,29 @@ EM-style framework that learns low-complexity transforms to map out-of-distribut
 ### Spatial Foundation Models
 
 #### Nicheformer
-Transformer-based foundation model that unifies spatial and dissociated single-cell data to better understand how cells organize in tissues (see the comments for the link) 📌 Nicheformer integrates single-cell and spatial transcriptomics to learn representations that capture microenvironmental context.
-- Code: [https://github.com/theislab/nicheformer/](https://github.com/theislab/nicheformer/)
+Transformer-based foundation model that integrates single-cell and spatial transcriptomics to learn representations that capture microenvironmental context.
 - Paper: [https://doi.org/10.1038/s41592-025-02814-z](https://doi.org/10.1038/s41592-025-02814-z)
+- Code: [https://github.com/theislab/nicheformer/](https://github.com/theislab/nicheformer/)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7393936369556979713](https://www.linkedin.com/feed/update/urn:li:share:7393936369556979713)
 
 #### Novae
 Graph-based, self-supervised foundation model for spatial transcriptomics.
-- Code: [https://github.com/MICS-Lab/novae](https://github.com/MICS-Lab/novae)
 - Paper: [https://www.nature.com/articles/s41592-025-02899-6](https://www.nature.com/articles/s41592-025-02899-6)
+- Code: [https://github.com/MICS-Lab/novae](https://github.com/MICS-Lab/novae)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7410278548504064000](https://www.linkedin.com/feed/update/urn:li:share:7410278548504064000)
 
 ### Bio-LLMs, Agents & Chat Assistants
 
-#### BioLLMBench
-In the world of bioinformatics, a new study titled "BioLLMBench: A Comprehensive Benchmarking of Large Language Models in Bioinformatics" has surfaced from bioRxiv. This pivotal work presents BioLLMBench, a cutting-edge framework designed to methodically evaluate the prowess of Large Language Models (LLMs) in bioinformatics. Explore the full paper here: https://buff.ly/49hbl5w.
-- Paper: []()
-- Code: []()
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7181894433301250050/](https://www.linkedin.com/feed/update/urn:li:share:7181894433301250050/)
-
 #### CellAtria
 Agentic AI system that uses an LLM to orchestrate pre‑vetted tools for end‑to‑end, dialogue‑driven, document‑to‑analysis automation of scRNA‑seq studies.
-- Code: [https://github.com/AstraZeneca/cellatria](https://github.com/AstraZeneca/cellatria)
 - Paper: [https://doi.org/10.1038/s44387-025-00064-0](https://doi.org/10.1038/s44387-025-00064-0)
+- Code: [https://github.com/AstraZeneca/cellatria](https://github.com/AstraZeneca/cellatria)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7428098480088391680](https://www.linkedin.com/feed/update/urn:li:ugcPost:7428098480088391680)
 
 #### CellVoyager
 Agentic AI system that autonomously analyzes single-cell biological data and generates interpretable insights.
 - Code: [https://github.com/zou-group/CellVoyager](https://github.com/zou-group/CellVoyager)
-- Paper: [https://doi.org/10.1101/2025.06.03.657517](https://doi.org/10.1101/2025.06.03.657517)
+- Paper: [https://www.nature.com/articles/s41592-026-03029-6](https://www.nature.com/articles/s41592-026-03029-6)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7443635631471235072](https://www.linkedin.com/feed/update/urn:li:share:7443635631471235072)
 
 #### CellWhisperer
