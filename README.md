@@ -1886,29 +1886,30 @@ Agentic AI system that autonomously analyzes single-cell biological data and gen
 
 #### CellWhisperer
 Multimodal AI that embeds transcriptomes and text to enable chat-based exploration of bulk and single-cell RNA-seq data.
+- Paper: [https://www.nature.com/articles/s41587-025-02857-9](https://www.nature.com/articles/s41587-025-02857-9)
 - Code: [https://github.com/epigen/cellwhisperer](https://github.com/epigen/cellwhisperer)
-- Paper: [https://doi.org/10.1038/s41587-025-02857-9](https://doi.org/10.1038/s41587-025-02857-9)
 - Website: [https://cellwhisperer.bocklab.org](https://cellwhisperer.bocklab.org)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7419741414143512576](https://www.linkedin.com/feed/update/urn:li:share:7419741414143512576)
 
 #### ChatSpatial
 Schema-enforced, Model Context Protocol-driven platform for reproducible, cross-language spatial transcriptomics analysis.
+- Paper: [https://www.biorxiv.org/content/10.64898/2026.02.26.708361v3](https://www.biorxiv.org/content/10.64898/2026.02.26.708361v3)
 - Code: [https://github.com/cafferychen777/ChatSpatial](https://github.com/cafferychen777/ChatSpatial)
-- Paper: [https://doi.org/10.64898/2026.02.26.708361](https://doi.org/10.64898/2026.02.26.708361)
 - Website: [https://cafferyang.com/ChatSpatial/](https://cafferyang.com/ChatSpatial/)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7440782056785276930](https://www.linkedin.com/feed/update/urn:li:share:7440782056785276930)
 
-#### Context-dependent GRNs
+#### Context-dependent GRNs from Literature with LLMs
 BERT-based literature-mining framework that builds quantitative, context-aware gene regulatory networks for disease- and cell-specific modeling.
+- Paper: [https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag101/8499661](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag101/8499661)
 - Code: [https://github.com/okadalabipr/context-dependent-GRNs](https://github.com/okadalabipr/context-dependent-GRNs)
 - Code: [https://github.com/okadalabipr/BioMathForge](https://github.com/okadalabipr/BioMathForge)
-- Paper: [https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag101/8499661](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag101/8499661)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7441883050734555138](https://www.linkedin.com/feed/update/urn:li:share:7441883050734555138)
 
 #### CyteType
 AI-driven multi-agent framework enabling evidence-based cell annotation in single-cell transcriptomics.
-- Paper: []()
-- Code: []()
+- Paper: [https://www.biorxiv.org/content/10.1101/2025.11.06.686964v1](https://www.biorxiv.org/content/10.1101/2025.11.06.686964v1)
+- Code: [https://github.com/NygenAnalytics/CyteType](https://github.com/NygenAnalytics/CyteType)
+- Code: [https://github.com/NygenAnalytics/CyteTypeR](https://github.com/NygenAnalytics/CyteTypeR)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7398647413554458624](https://www.linkedin.com/feed/update/urn:li:share:7398647413554458624)
 
 #### GeneGPT
