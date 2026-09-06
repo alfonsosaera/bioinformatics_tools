@@ -1039,6 +1039,12 @@ Niche-aware generative model that predicts perturbation-induced gene expression 
 - Paper: [https://doi.org/10.1101/2025.11.08.686890](https://doi.org/10.1101/2025.11.08.686890)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7411692887697932288](https://www.linkedin.com/feed/update/urn:li:share:7411692887697932288)
 
+#### Continual Learning (CL) & Relative Representations (RR) Mapping
+Expand single-cell atlases and link observational atlases to perturbational datasets using robust case–control integration without catastrophic forgetting
+- Paper: [https://www.biorxiv.org/content/10.64898/2026.03.03.708171v3](https://www.biorxiv.org/content/10.64898/2026.03.03.708171v3)
+- Code: [https://github.com/theislab/comparative_atlas](https://github.com/theislab/comparative_atlas)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7455260196605607936](https://www.linkedin.com/feed/update/urn:li:ugcPost:7455260196605607936)
+
 #### DEPICT
 Transformer-based framework that predicts condition-matched, drug-induced transcriptional responses from baseline expression, drug features, and exposure settings.
 - Code: [https://github.com/lazypuff/DEPICT](https://github.com/lazypuff/DEPICT)
@@ -1679,28 +1685,22 @@ Framework to evaluate clustering results in spatial omics.
 
 #### cellGeometry
 R package implementing non-negative geometric deconvolution (NGD) for ultra-fast reference-based deconvolution of bulk RNA-Seq using single-cell RNA-Seq data.
+- Paper: [https://www.nature.com/articles/s41467-026-75762-7](https://www.nature.com/articles/s41467-026-75762-7)
 - Code: [https://github.com/myles-lewis/cellGeometry](https://github.com/myles-lewis/cellGeometry)
 - Code: [https://cran.r-project.org/package=cellGeometry](https://cran.r-project.org/package=cellGeometry)
-- Paper: [https://doi.org/10.64898/2026.01.24.701240](https://doi.org/10.64898/2026.01.24.701240)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7434272904227311617](https://www.linkedin.com/feed/update/urn:li:share:7434272904227311617)
 
-#### Comparative atlas
-Robust case–control integration without catastrophic forgetting
-- Code: [https://github.com/theislab/comparative_atlas](https://github.com/theislab/comparative_atlas)
-- Paper: [https://doi.org/10.64898/2026.03.03.708171](https://doi.org/10.64898/2026.03.03.708171)
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7455260196605607936](https://www.linkedin.com/feed/update/urn:li:ugcPost:7455260196605607936)
-
-#### Dual Simplex
-Framework that casts NMF and deconvolution as joint identification of complementary simplexes in feature and sample spaces.
+#### Dual Simplex <Move to correct section>
+Framework that casts Non-negative matrix factorization (NMF) and deconvolution as joint identification of complementary simplexes in feature and sample spaces.
+- Paper: [https://link.springer.com/article/10.1186/s13059-025-03910-1](https://link.springer.com/article/10.1186/s13059-025-03910-1)
 - Code: [https://github.com/artyomovlab/dualsimplex](https://github.com/artyomovlab/dualsimplex)
-- Paper: [https://doi.org/10.1186/s13059-025-03910-1](https://doi.org/10.1186/s13059-025-03910-1)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7425561762709798912](https://www.linkedin.com/feed/update/urn:li:share:7425561762709798912)
 
 #### FlashDeconv
 Spatial transcriptomics deconvolution framework combining leverage-score-based structure-preserving sketching with sparse graph Laplacian regularization.
+- Paper: [https://www.biorxiv.org/content/10.64898/2025.12.22.696108v4](https://www.biorxiv.org/content/10.64898/2025.12.22.696108v4)
 - Code: [https://github.com/cafferychen777/flashdeconv](https://github.com/cafferychen777/flashdeconv)
 - Code: [https://github.com/cafferychen777/flashdeconv-reproducibility](https://github.com/cafferychen777/flashdeconv-reproducibility)
-- Paper: [https://doi.org/10.64898/2025.12.22.696108](https://doi.org/10.64898/2025.12.22.696108)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7451704513482235904](https://www.linkedin.com/feed/update/urn:li:share:7451704513482235904)
 
 #### omnideconv
