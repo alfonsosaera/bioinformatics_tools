@@ -1913,38 +1913,21 @@ AI-driven multi-agent framework enabling evidence-based cell annotation in singl
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7398647413554458624](https://www.linkedin.com/feed/update/urn:li:share:7398647413554458624)
 
 #### GeneGPT
-New paper on Bioinformatics journal combines Large Language Models (LLMs) with omics to enhance access to biomedical information.
-- Paper: []()
-- Code: []()
+Combines Large Language Models (LLMs) with omics using Web APIs from the National Center for Biotechnology Information (NCBI) to enhance access to biomedical information.
+- Paper: [https://academic.oup.com/bioinformatics/article/40/2/btae075/7606338](https://academic.oup.com/bioinformatics/article/40/2/btae075/7606338)
+- Code: [https://github.com/ncbi/GeneGPT](https://github.com/ncbi/GeneGPT)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7167198853887209473/](https://www.linkedin.com/feed/update/urn:li:share:7167198853887209473/)
 
 #### GPTCelltype
-In the ever-evolving field of bioinformatics, a recent study in Nature Methods titled "Assessing GPT-4 for cell type annotation in single-cell RNA-seq analysis" has highlighted the potential of GPT-4 in single-cell RNA-seq analysis. Check out the full study here: https://buff.ly/4ayePle.
-- Paper: []()
-- Code: []()
+R software package for GPT-4’s automated cell type annotation.
+- Paper: [https://www.nature.com/articles/s41592-024-02235-4](https://www.nature.com/articles/s41592-024-02235-4)
+- Code: [https://github.com/Winnie09/GPTCelltype](https://github.com/Winnie09/GPTCelltype)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7181624152015945730/](https://www.linkedin.com/feed/update/urn:li:share:7181624152015945730/)
-
-#### Literature-Aligned Cell Embeddings
-Framework connecting scRNA-seq data with biomedical literature via shared embeddings, representing each cell as a 'cell sentence' aligned to structurally similar PubMed text using a fine-tuned Siamese BERT model.
-- Paper: [https://doi.org/10.1101/2025.08.23.671699](https://doi.org/10.1101/2025.08.23.671699)
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7406258560189431808](https://www.linkedin.com/feed/update/urn:li:share:7406258560189431808)
-
-#### LLM Roundup for Single-Cell & Oncology
-Curated roundup of LLMs applied to single-cell and oncology data, including CellPLM (cells-as-tokens pretraining), Cell2Sentence (gene expression as 'cell sentences'), and GPTCelltype (GPT-4 for cell-type annotation).
-- Paper: []()
-- Code: []()
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7201530070413299712/](https://www.linkedin.com/feed/update/urn:li:share:7201530070413299712/)
-
-#### LLMs Learn Oncology
-Exciting news for biologists, bioinformaticians, and pharma leaders! A recent paper from arXiv, "OncoGPT: A Medical Conversational Model Tailored with Oncology Domain Expertise on a Large Language Model Meta-AI (LLaMA)," unveils a significant advancement in AI-driven medical consultation. Developed by researchers at Shenzhen Kanghua Juntai Biotech Co. Ltd., OncoGPT is specifically designed to tack.
-- Paper: []()
-- Code: []()
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7175427835015163905/](https://www.linkedin.com/feed/update/urn:li:share:7175427835015163905/)
 
 #### MarkerGeneBERT
 Exciting news for the bioinformatics community! A recent study published in bioRxiv and featured by CBIRT unveils MarkerGeneBERT, a cutting-edge NLP system transforming the way we extract cell type markers from single-cell sequencing literature.
-- Paper: []()
-- Code: []()
+- Paper: [https://www.nature.com/articles/s41598-024-72204-6](https://www.nature.com/articles/s41598-024-72204-6)
+- Code: [https://github.com/chengpeng1116/MarkerGeneBERT](https://github.com/chengpeng1116/MarkerGeneBERT)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7169226461638180864/](https://www.linkedin.com/feed/update/urn:li:share:7169226461638180864/)
 
 #### NetMedGPT
@@ -1954,6 +1937,12 @@ Transformer-based network-medicine foundation model for mechanistic disease mini
 - Website: [https://prototypes.cosy.bio/chatnetmedgpt/](https://prototypes.cosy.bio/chatnetmedgpt/)
 - Website: [https://cloud.uni-hamburg.de/s/r74Ro8rmQ2sHwsL](https://cloud.uni-hamburg.de/s/r74Ro8rmQ2sHwsL)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7428483894041010177](https://www.linkedin.com/feed/update/urn:li:share:7428483894041010177)
+
+#### OncoGPT
+Medical Conversational Model Tailored with Oncology Domain Expertise on a Large Language Model Meta-AI (LLaMA).
+- Paper: [https://arxiv.org/abs/2402.16810](https://arxiv.org/abs/2402.16810)
+- Code: [https://github.com/OncoGPT1](https://github.com/OncoGPT1)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7175427835015163905/](https://www.linkedin.com/feed/update/urn:li:share:7175427835015163905/)
 
 #### Pathology Foundation Model Benchmark
 Large evaluation of 19 histopathology foundation models as feature extractors across 13 cohorts, 6,818 patients and 9,528 slides for weakly-supervised computational pathology tasks.
