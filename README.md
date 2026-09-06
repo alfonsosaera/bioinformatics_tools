@@ -2030,103 +2030,36 @@ Geometry-preserving, scalable, memory-efficient method for integrating multimoda
 
 #### SingleRust
 Toolkit designed to overcome scalability limits in single-cell RNA-seq analysis.
-- Paper: []()
-- Code: []()
+- Paper: [https://www.biorxiv.org/content/10.1101/2025.08.04.668429v2](https://www.biorxiv.org/content/10.1101/2025.08.04.668429v2)
+- Code: [https://github.com/SingleRust](https://github.com/SingleRust)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7365780434359660547](https://www.linkedin.com/feed/update/urn:li:share:7365780434359660547)
 
 #### SpatialData
 Recently published in Nature Methods by Josh Moore, Fabian J. Theis, Oliver Stegle & others.
-- Paper: []()
-- Code: []()
+- Paper: [https://www.nature.com/articles/s41592-024-02212-x](https://www.nature.com/articles/s41592-024-02212-x)
+- Code: [https://spatialdata.scverse.org/en/latest/](https://spatialdata.scverse.org/en/latest/)
 - LinkedIn posts:
   - [https://www.linkedin.com/feed/update/urn:li:share:7200155009638928384/](https://www.linkedin.com/feed/update/urn:li:share:7200155009638928384/)
   - [https://www.linkedin.com/feed/update/urn:li:share:7163881242071969794/](https://www.linkedin.com/feed/update/urn:li:share:7163881242071969794/)
 
 #### Tidyomics
-"The tidyomics ecosystem" recently published in bioRxiv merges the tidy data principles of R's tidyverse with the powerful omic data analysis capabilities of Bioconductor, designed to enhance the efficiency and effectiveness of your research.
-- Paper: []()
-- Code: []()
+Merges the tidy data principles of R's tidyverse with the powerful omic data analysis capabilities of Bioconductor, designed to enhance the efficiency and effectiveness of your research.
+- Paper: [https://www.biorxiv.org/content/10.1101/2023.09.10.557072v3](https://www.biorxiv.org/content/10.1101/2023.09.10.557072v3)
+- Code: [https://github.com/tidyomics/tidyomics](https://github.com/tidyomics/tidyomics)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7189537797257498624/](https://www.linkedin.com/feed/update/urn:li:share:7189537797257498624/)
 
-### Reference Atlases & Data Resources
-
-#### Colorectal Malignancy Multi-Scale Atlas
-Single-cell and spatially resolved atlas of ~3.5 million cells spanning normal mucosa, adenomas, carcinomas and metastases, mapping colorectal tumor evolution across scales.
-- Paper: []()
-- Code: []()
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7366601618986823681](https://www.linkedin.com/feed/update/urn:li:share:7366601618986823681)
-
-#### CSF Multi-Modal Atlas and Analysis Portal
-Multi-modal single-cell and spatial CSF dataset with analysis code and an interactive portal to map immune and tumor states in leptomeningeal and CNS disease.
-- Paper: []()
-- Code: []()
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7447015618454679552](https://www.linkedin.com/feed/update/urn:li:share:7447015618454679552)
-
-#### Cytokine Response scRNA-seq Atlas
-Large-scale scRNA-seq dataset systematically profiling single-cell transcriptomic responses to 86 cytokines across 17+ immune cell types.
-- Paper: []()
-- Code: []()
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7164630433916297216/](https://www.linkedin.com/feed/update/urn:li:share:7164630433916297216/)
-
-#### Ensembl
-Genome database and browser suite spanning vertebrates, plants, fungi, protists, bacteria and rapid-release/legacy builds (GRCh37, COVID-19).
-- Paper: []()
-- Code: []()
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7155454450600419328/](https://www.linkedin.com/feed/update/urn:li:share:7155454450600419328/)
-
-#### Ensembl VEP (Dockerized)
-Ensembl Variant Effect Predictor made easier to deploy via Docker images bundling VEP plugins and dependencies from release 109 onward.
-- Paper: []()
-- Code: []()
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7127233297373421569/](https://www.linkedin.com/feed/update/urn:li:share:7127233297373421569/)
-
-#### ERGA (European Reference Genome Atlas)
-Collaborative initiative to sequence and analyze genomes across diverse European species, building a comprehensive biodiversity genomic reference supported by Ensembl.
-- Paper: []()
-- Code: []()
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7151196182248054784/](https://www.linkedin.com/feed/update/urn:li:share:7151196182248054784/)
-
-#### Human Pangenome Reference
-Draft human pangenome reference assembling 47 fully phased diploid genomes to capture human genetic diversity beyond a single linear reference.
-- Paper: []()
-- Code: []()
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7146878134338965504/](https://www.linkedin.com/feed/update/urn:li:share:7146878134338965504/)
-
-#### Portal
-Exciting news for the scientific community! The European Bioinformatics Institute (EMBL-EBI) has launched the Global Biodiversity Portal, a pivotal development in biodiversity research. This centralized open-access database is a treasure trove of genomic information, playing a crucial role in conservation and biodiversity efforts worldwide.
-- Paper: []()
-- Code: []()
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7141319331929378817/](https://www.linkedin.com/feed/update/urn:li:share:7141319331929378817/)
-
-#### RIMA
+#### RIMA <move to correct section>
 Unsupervised neighbourhood-level method to rigorously match single-cell transcriptomic atlases for cross-species comparison.
 - Code: [https://github.com/ma-jacques/RIMA](https://github.com/ma-jacques/RIMA)
 - Paper: [https://doi.org/10.64898/2026.02.18.706600](https://doi.org/10.64898/2026.02.18.706600)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7444757244308541442](https://www.linkedin.com/feed/update/urn:li:share:7444757244308541442)
 
-#### scEM
-Discover scEM, a novel ensemble method enhancing scRNA-seq data analysis, as detailed in Interdisciplinary Sciences: Computational Life Sciences by Mary Qu Yang.
-- Paper: []()
-- Code: []()
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7172614536838025216/](https://www.linkedin.com/feed/update/urn:li:share:7172614536838025216/)
-
-#### Single-Cell Database Roundup (GEO/SRA, Single Cell Expression Atlas, Single Cell Portal, CZ CELLxGENE)
-Curated overview of key public single-cell data repositories for deposition, discovery and reuse.
-- Paper: []()
-- Code: []()
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7151973527535939584/](https://www.linkedin.com/feed/update/urn:li:share:7151973527535939584/)
-
-#### TABLO
-Multimodal single-cell atlas of 5.7–5.78 million human T cells across blood and tonsils.
-- Paper: [https://doi.org/10.1016/j.immuni.2025.10.025](https://doi.org/10.1016/j.immuni.2025.10.025)
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7417491828729421824](https://www.linkedin.com/feed/update/urn:li:share:7417491828729421824)
-
 ### Drug Response & Discovery
 
 #### CellAwareGNN
 Single-cell-enhanced knowledge graph foundation model for drug indication prediction.
-- Code: [https://github.com/OHPENLab/CellAwareGNN](https://github.com/OHPENLab/CellAwareGNN)
 - Paper: [https://doi.org/10.64898/2026.02.20.707076](https://doi.org/10.64898/2026.02.20.707076)
+- Code: [https://github.com/OHPENLab/CellAwareGNN](https://github.com/OHPENLab/CellAwareGNN)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7439040317821030400](https://www.linkedin.com/feed/update/urn:li:share:7439040317821030400)
 
 #### DREEP
