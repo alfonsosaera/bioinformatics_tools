@@ -1798,27 +1798,24 @@ Comprehensive benchmarking framework evaluating 21 spatial deconvolution and 18 
 ### Single-cell Foundation Models
 
 #### Cell2Sentence
-The bioRxiv paper "Cell2Sentence: Teaching Large Language Models the Language of Biology" by David van Dijk and team shows how large language models like GPT are being adapted to single-cell transcriptomics, transforming how we analyze and interpret expression data.
-- Paper: []()
-- Code: []()
+Cell2Sentence (C2S) framework represents scRNA-seq profiles as textual “cell sentences,” to train Large Language Models (LLMs) on a corpus comprising over one billion tokens of transcriptomic data, biological text, and metadata. Scaling the model to 27 billion parameters yields consistent improvements in predictive and generative capabilities and supports advanced downstream tasks that require synthesis of information across multi-cellular contexts.
+- Paper: [https://www.biorxiv.org/content/10.1101/2023.09.11.557287v4](https://www.biorxiv.org/content/10.1101/2023.09.11.557287v4)
+- Paper: [https://www.biorxiv.org/content/10.1101/2025.04.14.648850v4](https://www.biorxiv.org/content/10.1101/2025.04.14.648850v4)
+- Code: [https://github.com/rahuldhodapkar/cell2sentence](https://github.com/rahuldhodapkar/cell2sentence)
+- Code: [https://github.com/vandijklab/cell2sentence](https://github.com/vandijklab/cell2sentence)
+- Website: [https://www.vandijklab.org/c2s-scale](https://www.vandijklab.org/c2s-scale)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7189231282097119232/](https://www.linkedin.com/feed/update/urn:li:share:7189231282097119232/)
-
-#### CellPLM
-The model was published in the bioRxiv paper "CellPLM: Pre-training of Cell Language Model Beyond Single Cells" by Hongzhi Wen, Wenzhuo Tang, Xinnan Dai, Jiayuan Ding, Wei Jin, Yuying Xie, & Jiliang Tang!.
-- Paper: []()
-- Code: []()
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7199652448653713408/](https://www.linkedin.com/feed/update/urn:li:share:7199652448653713408/)
 
 #### HEIMDALL
 Unified, modular framework to dissect and redesign tokenization strategies for single-cell foundation models.
+- Paper: [https://doi.org/10.1101/2025.11.09.687403](https://www.biorxiv.org/content/10.1101/2025.11.09.687403v3)
 - Code: [https://github.com/ma-compbio-lab/Heimdall](https://github.com/ma-compbio-lab/Heimdall)
-- Paper: [https://doi.org/10.1101/2025.11.09.687403](https://doi.org/10.1101/2025.11.09.687403)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7459623707985190912](https://www.linkedin.com/feed/update/urn:li:ugcPost:7459623707985190912)
 
-#### LLMs Learn Single-Cell!
-ScGPT, a new foundation model in the realm of single-cell RNA-sequencing, was recently presented in Nature Methods by Bo Wang and team.
-- Paper: []()
-- Code: []()
+#### scGPT
+Foundation model for single-cell based on a generative pretrained transformer across a repository of over 33 million cells.
+- Paper: [https://www.nature.com/articles/s41592-024-02201-0](https://www.nature.com/articles/s41592-024-02201-0)
+- Code: [https://github.com/bowang-lab/scGPT](https://github.com/bowang-lab/scGPT)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7171762678040805376/](https://www.linkedin.com/feed/update/urn:li:share:7171762678040805376/)
 
 #### scKGBERT
