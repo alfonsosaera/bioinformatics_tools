@@ -810,6 +810,12 @@ Powerful framework for generating and modeling single-cell gene expression data.
 - Code: [https://github.com/czi-ai/scLDM](https://github.com/czi-ai/scLDM)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7396473587702059009](https://www.linkedin.com/feed/update/urn:li:share:7396473587702059009)
 
+#### scooby
+sequence-to-function model predicting multimodal single-cell RNA+ATAC profiles from DNA sequence windows
+- Paper: [https://www.nature.com/articles/s41592-025-02854-5](https://www.nature.com/articles/s41592-025-02854-5)
+- Code: [https://github.com/gagneurlab/scooby/](https://github.com/gagneurlab/scooby/)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7468650685358698496](https://www.linkedin.com/feed/update/urn:li:share:7468650685358698496)
+
 #### SimSpace
 Hierarchical spatial omics simulator using a factorized generative model that separates locations, phenotypes, and molecular profiles, with reference-free and reference-based modes to benchmark deconvolution and spatially-variable-gene methods. 
 - Paper: [https://www.biorxiv.org/content/10.1101/2025.07.18.665587v3](https://www.biorxiv.org/content/10.1101/2025.07.18.665587v3)
@@ -2095,7 +2101,6 @@ Database of spatial drug perturbation maps.
 *(Real tools/methods that don't map cleanly onto any proposed subcategory — general AI/ML methods, clinical/translational platforms, structural biology, or cross-cutting resources.)*
 
 
-- **scooby** — sequence-to-function model predicting multimodal single-cell RNA+ATAC profiles from DNA sequence windows. [Post](https://www.linkedin.com/feed/update/urn:li:share:7468650685358698496)
 - **AIDO.Builder** — autonomous agentic AI system automating the full ML model-building lifecycle for biomedical tasks. [Post](https://www.linkedin.com/feed/update/urn:li:share:7468308371197206528)
 - **TissueFormer** — Transformer extending single-cell foundation models to predict population/tissue-level phenotypes. [Post](https://www.linkedin.com/feed/update/urn:li:share:7467572581240385536)
 - **Solve-RD RNA framework** — consortium-wide harmonized RNA-seq framework for rare-disease diagnosis (bulk/tissue RNA-seq, not single-cell). [Post](https://www.linkedin.com/feed/update/urn:li:share:7467235143083053057)
