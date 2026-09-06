@@ -2063,19 +2063,13 @@ Single-cell-enhanced knowledge graph foundation model for drug indication predic
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7439040317821030400](https://www.linkedin.com/feed/update/urn:li:share:7439040317821030400)
 
 #### DREEP
-Today I share a new development in personalized cancer treatment: DREEP (Drug Response Estimation from single-cell Expression Profiles). This innovative computational method, recently featured in BMC Medicine, is set to transform our approach to cancer therapy.
-- Paper: []()
-- Code: []()
+Predicts drug sensitivity at the single-cell level from transcriptomic data, leveraging pharmacogenomic screens, o prioritize drugs based on single-cell transcriptional profiles
+- Paper: [https://link.springer.com/article/10.1186/s12916-023-03182-1](https://link.springer.com/article/10.1186/s12916-023-03182-1)
+- Code: [https://github.com/gambalab/DREEP](https://github.com/gambalab/DREEP)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7145307466166177792/](https://www.linkedin.com/feed/update/urn:li:share:7145307466166177792/)
 
-#### Revolutionizing Cancer Research
-I'm excited to share a groundbreaking advancement in cancer research recently published in eBioMedicine. A new study introduces a patient-specific immunocompetent disease model using human precision-cut tissue slices (PCTS) derived from resected tumors, offering a novel approach to cancer drug testing.
-- Paper: []()
-- Code: []()
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7144724264590503936/](https://www.linkedin.com/feed/update/urn:li:share:7144724264590503936/)
-
 #### SDMap
-Interesting resource linking spatial omics with pharmacogenomics (publication and link in the comments).
+Database of spatial drug perturbation maps.
 - Paper: [https://doi.org/10.1093/nar/gkaf1046](https://doi.org/10.1093/nar/gkaf1046)
 - Website: [http://bio-bigdata.hrbmu.edu.cn/SDMap/](http://bio-bigdata.hrbmu.edu.cn/SDMap/)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7393575487907971072](https://www.linkedin.com/feed/update/urn:li:share:7393575487907971072)
@@ -2107,7 +2101,6 @@ Interesting resource linking spatial omics with pharmacogenomics (publication an
 - **Covariance-Invariant Dual-Reporter framework** — The study Exploiting fluctuations in gene expression to detect causal interactions between genes, published in eLife by Euan Joly-Smith, Mir Mikdad Talpur, Paige Allard, Fotini Pap [Post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7423820031639281664)
 - **scSurv** — deep generative model that quantifies individual cells' contributions to clinical outcomes using bulk and single-cell transcriptomes [Post](https://www.linkedin.com/feed/update/urn:li:share:7423410220468633601)
 - **scooby** — powerful framework for predicting multimodal single-cell genomic profiles directly from DNA sequence (links in the comments) [Post](https://www.linkedin.com/feed/update/urn:li:share:7401546120704720896)
-- **ClockBase Agent** — ambitious AI-powered framework aimed at understanding and modulating biological aging [Post](https://www.linkedin.com/feed/update/urn:li:share:7401183711096020992)
 - **LDNets (Latent Dynamics Networks)** — Neural network family that learns temporal dynamics of space-dependent fields in a data-driven manner, enabling adaptable predictions with efficient training and robustness to miss [Post](https://www.linkedin.com/feed/update/urn:li:share:7171543020012617730/)
 - **Stator** — Stator is a novel method, workflow, and app that's transforming the way we identify cell types, subtypes, and states in single-cell data. [Post](https://www.linkedin.com/feed/update/urn:li:share:7154488285208141824/)
 - **scNAT** — Exciting news for Biologists, Bioinformaticians, and Pharma Leaders! A novel deep learning method, scNAT, is set to revolutionize the integration of single-cell RNA and T cell rece [Post](https://www.linkedin.com/feed/update/urn:li:share:7149422472684118016/)
