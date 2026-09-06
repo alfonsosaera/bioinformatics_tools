@@ -1295,6 +1295,20 @@ Python tool for single-cell epigenomics analysis.
 - Code: [https://github.com/scverse/SnapATAC2](https://github.com/scverse/SnapATAC2)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7160527773864755202/](https://www.linkedin.com/feed/update/urn:li:share:7160527773864755202/)
 
+### Survival Analysis
+
+#### scSurv
+Method that links single-cell transcriptomes to patient survival by combining a Cox proportional hazards model with a conditional variational autoencoder for cell-level deconvolution.
+- Paper: [https://doi.org/10.1093/bioinformatics/btaf671](https://doi.org/10.1093/bioinformatics/btaf671)
+- Code: [https://github.com/3254c/scSurv](https://github.com/3254c/scSurv)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7455967109500612608](https://www.linkedin.com/feed/update/urn:li:ugcPost:7455967109500612608)
+
+#### scSurvival
+Attention-based multiple-instance Cox regression modeling tumor samples as cell ensembles to predict survival
+- Paper: [https://aacrjournals.org/cancerdiscovery/article/16/5/931/784405/scSurvival-Single-Cell-Survival-Analysis-of](https://aacrjournals.org/cancerdiscovery/article/16/5/931/784405/scSurvival-Single-Cell-Survival-Analysis-of)
+- Code: [https://github.com/cliffren/scSurvival ](https://github.com/cliffren/scSurvival )
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7466388268725456897/?skipRedirect=true](https://www.linkedin.com/feed/update/urn:li:share:7466388268725456897/?skipRedirect=true)
+
 
 ---
 
@@ -1730,19 +1744,10 @@ Unsupervised Bayesian framework for *reference-free* deconvolution of spatial tr
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7471187399113539584](https://www.linkedin.com/feed/update/urn:li:share:7471187399113539584)
 
 #### scSemiProfiler
-‍ Overcoming Traditional Limits in Cellular Analysis ‍
-Traditional cellular deconvolution methods, crucial in bulk sequencing, often fall short in providing the detailed resolution needed for single-cell-level analyses. Enter "scSemiProfiler," a game-changing computational framework set to revolutionize our approach to single-cell profiling.
+Combines deep generative models and active learning to economically generate single-cell data for biological studies. Two modes: Bulk Deconvolution & Semi-profile a Cohort
 - Paper: [https://www.nature.com/articles/s41467-024-50150-1](https://www.nature.com/articles/s41467-024-50150-1)
 - Code: [https://github.com/mcgilldinglab/scSemiProfiler](https://github.com/mcgilldinglab/scSemiProfiler)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7138120241938698240/](https://www.linkedin.com/feed/update/urn:li:share:7138120241938698240/)
-
-#### scSurv
-Method that links single-cell transcriptomes to patient survival by combining a Cox proportional hazards model with a conditional variational autoencoder for cell-level deconvolution.
-- Paper: [https://doi.org/10.1093/bioinformatics/btaf671](https://doi.org/10.1093/bioinformatics/btaf671)
-- Code: [https://github.com/3254c/scSurv](https://github.com/3254c/scSurv)
-- LinkedIn post: 
-  - [https://www.linkedin.com/feed/update/urn:li:ugcPost:7455967109500612608](https://www.linkedin.com/feed/update/urn:li:ugcPost:7455967109500612608)
-  - []()
 
 #### STRIDE
 Decompose cell types from spatial mixtures by leveraging topic profiles trained from single-cell transcriptomics. STRIDE also provides several downstream analysis functions, including (1) signature (i.e., topic) detection and visualization, (2) spatial clustering and domain identification based on neighborhood cell populations and (3) reconstruction of three-dimensional architecture from sequential ST slides of the same tissue.
@@ -2106,9 +2111,6 @@ Database of spatial drug perturbation maps.
 
 *(Real tools/methods that don't map cleanly onto any proposed subcategory — general AI/ML methods, clinical/translational platforms, structural biology, or cross-cutting resources.)*
 
-
-- **Solve-RD RNA framework** — consortium-wide harmonized RNA-seq framework for rare-disease diagnosis (bulk/tissue RNA-seq, not single-cell). [Post](https://www.linkedin.com/feed/update/urn:li:share:7467235143083053057)
-- **scSurvival** — attention-based multiple-instance Cox regression modeling tumor samples as cell ensembles to predict survival. [Post](https://www.linkedin.com/feed/update/urn:li:share:7466388268725456897)
 - **Phoenix** — latent flow-matching generative model predicting virtual spatial gene expression from routine H&E histology. [Post](https://www.linkedin.com/feed/update/urn:li:share:7465035866663546880)
 - **OmicClaw** (+ OmicVerse ecosystem) — executable natural-language framework for bulk/single-cell/spatial/multi-omics analysis. [Post](https://www.linkedin.com/feed/update/urn:li:share:7464697128376950784)
 - **AGENTBENCH** — benchmark evaluating repository-level context files for coding agents (general AI/software engineering, not omics). [Post](https://www.linkedin.com/feed/update/urn:li:share:7463577248437116928)
