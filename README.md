@@ -1932,10 +1932,8 @@ Exciting news for the bioinformatics community! A recent study published in bioR
 
 #### NetMedGPT
 Transformer-based network-medicine foundation model for mechanistic disease mining and drug repurposing.
+- Paper: [https://www.biorxiv.org/content/10.64898/2026.01.04.697552v1](https://www.biorxiv.org/content/10.64898/2026.01.04.697552v1)
 - Code: [https://github.com/faren-f/NetMedGPT](https://github.com/faren-f/NetMedGPT)
-- Paper: [https://doi.org/10.64898/2026.01.04.697552](https://doi.org/10.64898/2026.01.04.697552)
-- Website: [https://prototypes.cosy.bio/chatnetmedgpt/](https://prototypes.cosy.bio/chatnetmedgpt/)
-- Website: [https://cloud.uni-hamburg.de/s/r74Ro8rmQ2sHwsL](https://cloud.uni-hamburg.de/s/r74Ro8rmQ2sHwsL)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7428483894041010177](https://www.linkedin.com/feed/update/urn:li:share:7428483894041010177)
 
 #### OncoGPT
@@ -1951,15 +1949,15 @@ Large evaluation of 19 histopathology foundation models as feature extractors ac
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7403721844370886659](https://www.linkedin.com/feed/update/urn:li:share:7403721844370886659)
 
 #### rbio1
-Suite of 3B-parameter reasoning models trained with soft biological verifiers for scientific reasoning.
-- Paper: []()
-- Code: []()
+Suite of 3B-parameter reasoning models trained with predictions from Virtual Cell Models (VCMs) as soft biological verifiers for scientific reasoning.
+- Paper: [https://www.biorxiv.org/content/10.1101/2025.08.18.670981v4](https://www.biorxiv.org/content/10.1101/2025.08.18.670981v4)
+- Code: [https://github.com/czi-ai/rbio](https://github.com/czi-ai/rbio)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7447650054665981953](https://www.linkedin.com/feed/update/urn:li:share:7447650054665981953)
 
 #### scChat
 LLM-powered multi-agent co-pilot for contextualized, interactive scRNA-seq analysis.
+- Paper: [https://aiche.onlinelibrary.wiley.com/doi/10.1002/aic.70285](https://aiche.onlinelibrary.wiley.com/doi/10.1002/aic.70285)
 - Code: [https://github.com/li-group/scChat](https://github.com/li-group/scChat)
-- Paper: [https://doi.org/10.1101/2024.10.01.616063](https://doi.org/10.1101/2024.10.01.616063)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7432446120775036928](https://www.linkedin.com/feed/update/urn:li:ugcPost:7432446120775036928)
 
 ---
@@ -1970,79 +1968,64 @@ LLM-powered multi-agent co-pilot for contextualized, interactive scRNA-seq analy
 
 #### annbatch
 Zarr-native mini-batch data loader for out-of-core deep learning on anndata.
-- Code: [https://github.com/scverse/annbatch](https://github.com/scverse/annbatch)
 - Paper: [https://arxiv.org/abs/2604.01949](https://arxiv.org/abs/2604.01949)
+- Code: [https://github.com/scverse/annbatch](https://github.com/scverse/annbatch)
 - Website: [https://annbatch.readthedocs.io/en/stable/](https://annbatch.readthedocs.io/en/stable/)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7459314659318300672](https://www.linkedin.com/feed/update/urn:li:share:7459314659318300672)
 
 #### anndataR
 R package that natively reads and writes H5AD and enables conversion between AnnData, SingleCellExperiment, and Seurat.
-- Code: [https://github.com/scverse/anndataR](https://github.com/scverse/anndataR)
 - Paper: [https://doi.org/10.1101/2025.08.18.669052](https://doi.org/10.1101/2025.08.18.669052)
+- Code: [https://github.com/scverse/anndataR](https://github.com/scverse/anndataR)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7438245347144962048](https://www.linkedin.com/feed/update/urn:li:ugcPost:7438245347144962048)
 
-#### BiocPy
-Python infrastructure project bringing Bioconductor-level data structures and workflows to the Python genomics ecosystem.
-- Website: [https://www.linkedin.com/posts/%F0%9F%8E%AF-ming-tommy-tang-40650014_biocpy-facilitate-bioconductor-workflows-activity-7398378570336739328-t5Lo/?utm_source=share&utm_medium=member_ios&rcm=ACoAAAricm8BUlozLQLK98v20YiYzteLbCPOHQI](https://www.linkedin.com/posts/%F0%9F%8E%AF-ming-tommy-tang-40650014_biocpy-facilitate-bioconductor-workflows-activity-7398378570336739328-t5Lo/?utm_source=share&utm_medium=member_ios&rcm=ACoAAAricm8BUlozLQLK98v20YiYzteLbCPOHQI)
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7402271285596200960](https://www.linkedin.com/feed/update/urn:li:share:7402271285596200960)
-
 #### BPCells
-In the dynamic world of single-cell research, speed and efficiency are paramount. I'm excited to share a new R package that focus on performance and speed: BPCells.
-- Paper: []()
-- Code: []()
+R package that focus on performance and speed for scRNAseq
+- Paper: [https://www.biorxiv.org/content/10.1101/2025.03.27.645853v1](https://www.biorxiv.org/content/10.1101/2025.03.27.645853v1)
+- Code: [https://bnprks.github.io/BPCells/index.html](https://bnprks.github.io/BPCells/index.html)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7129362458183352320/](https://www.linkedin.com/feed/update/urn:li:share:7129362458183352320/)
 
 #### Cellsnake
-In the ever-evolving landscape of genomic research, single-cell RNA sequencing (scRNA-seq) has emerged as a pivotal tool for dissecting cellular heterogeneity and understanding the complex tapestry of life at a granular level. Today, I'm excited to introduce a new tool: 'Cellsnake'.
-- Paper: []()
-- Code: []()
+Comprehensive, reproducible, and accessible single-cell data analysis workflow in Snakemake.
+- Paper: [https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giad091/7330891?login=false](https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giad091/7330891?login=false)
+- Code: [https://github.com/sinanugur/cellsnake](https://github.com/sinanugur/cellsnake)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7128653871987515393/](https://www.linkedin.com/feed/update/urn:li:share:7128653871987515393/)
 
 #### h5adify
-Neuro-symbolic metadata harmonization toolkit for AnnData H5AD objects that combines deterministic biological inference with local large language models to produce schema-normalized, integration-ready representations.
+Search, download, and convert public single-cell / spatial datasets into standardized .h5ad (AnnData) with consistent metadata fields (.obs).
+- Paper: [https://www.biorxiv.org/content/10.64898/2026.02.28.708740v1](https://www.biorxiv.org/content/10.64898/2026.02.28.708740v1)
 - Code: [https://github.com/LOCImm/h5adify.git](https://github.com/LOCImm/h5adify.git)
-- Paper: [https://doi.org/10.64898/2026.02.28.708740](https://doi.org/10.64898/2026.02.28.708740)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7446094549526974466](https://www.linkedin.com/feed/update/urn:li:share:7446094549526974466)
 
 #### Milo
-What is Milo?
-Milo is a flexible and scalable tool designed for differential abundance testing in single-cell omic studies. It uniquely assigns cells to partially overlapping neighborhoods on a k-nearest neighbor graph, offering a fresh perspective on cell data analysis.
-- Paper: []()
-- Code: []()
+Flexible and scalable tool designed for differential abundance testing in single-cell.
+- Paper: [https://www.nature.com/articles/s41587-021-01033-z](https://www.nature.com/articles/s41587-021-01033-z)
+- Code: [https://github.com/MarioniLab/miloR](https://github.com/MarioniLab/miloR)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7135976370286772225/](https://www.linkedin.com/feed/update/urn:li:share:7135976370286772225/)
 
-#### Nextflow
-Portable & scalable workflows across systems
-  Reproducible results with built in error handling & resume capabilities
-  Perfect for bioinformatics & beyond.
-- Paper: []()
-- Code: []()
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7366600780692230144](https://www.linkedin.com/feed/update/urn:li:share:7366600780692230144)
-
 #### polars-bio
-Python library for fast, parallel, out-of-core genomic interval operations.
-- Code: [https://github.com/biodatageeks/polars-bio](https://github.com/biodatageeks/polars-bio)
+Python library for fast, parallel, out-of-core DataFrame operations for genomic interval operations.
 - Paper: [https://doi.org/10.1093/bioinformatics/btaf640](https://doi.org/10.1093/bioinformatics/btaf640)
+- Code: [https://github.com/biodatageeks/polars-bio](https://github.com/biodatageeks/polars-bio)
 - Website: [https://biodatageeks.org/polars-bio/](https://biodatageeks.org/polars-bio/)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7416766336514809858](https://www.linkedin.com/feed/update/urn:li:ugcPost:7416766336514809858)
 
 #### rapids-singlecell
 GPU-accelerated framework for scalable single-cell analysis operating directly on AnnData.
 - Code: [https://github.com/scverse/rapids-singlecell](https://github.com/scverse/rapids-singlecell)
-- Paper: [https://www.biorxiv.org/content/10.1101/2024.03.18.537012v1](https://www.biorxiv.org/content/10.1101/2024.03.18.537012v1)
 - Website: [https://rapids-singlecell.readthedocs.io/en/stable](https://rapids-singlecell.readthedocs.io/en/stable)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7445835348217184256](https://www.linkedin.com/feed/update/urn:li:share:7445835348217184256)
 
 #### ScaleSC
-The study “ScaleSC: a superfast and scalable single-cell RNA-seq data analysis pipeline powered by GPU”, recently published in Bioinformatics Advances by Wenxing Hu, Haotian Zhang, Yu H. Sun, Shaolong Cao, Jake Gagnon, Yuka Moroishi, Yirui Chen, Zhengyu Ouyang & Baohong Zhang, made a remarkable advance in scaling single-cell transcriptomics.
-- Paper: []()
-- Code: []()
+Fast and scalable single-cell RNA-seq data analysis pipeline powered by GPU.
+- Paper: [https://academic.oup.com/bioinformaticsadvances/article/5/1/vbaf167/8205667?login=false](https://academic.oup.com/bioinformaticsadvances/article/5/1/vbaf167/8205667?login=false)
+- Code: [https://github.com/interactivereport/ScaleSC](https://github.com/interactivereport/ScaleSC)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7364715839620632576](https://www.linkedin.com/feed/update/urn:li:share:7364715839620632576)
 
-#### scSAGA
+#### scSAGA  <move to right section>
 Geometry-preserving, scalable, memory-efficient method for integrating multimodal single-cell data using sampled Gromov-Wasserstein optimal transport.
+- Paper: [https://www.biorxiv.org/content/10.64898/2026.03.26.714573v1](https://www.biorxiv.org/content/10.64898/2026.03.26.714573v1)
 - Code: [https://github.com/AluruLab/scSAGA](https://github.com/AluruLab/scSAGA)
-- Paper: [https://doi.org/10.64898/2026.03.26.714573](https://doi.org/10.64898/2026.03.26.714573)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7455624776494231553](https://www.linkedin.com/feed/update/urn:li:share:7455624776494231553)
 
 #### SingleRust
