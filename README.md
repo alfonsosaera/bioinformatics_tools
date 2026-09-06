@@ -1753,35 +1753,35 @@ Model-based and constrained deep learning framework for single-cell Data Integra
 ### Spatial Cell Mapping & Reconstruction
 
 #### scSpace
-Nature Communications features an article on "scSpace", a method enhancing our understanding of cellular complexity.
-- Paper: []()
-- Code: []()
+Reconstruction of cell pseudo space from single-cell RNA sequencing data.
+- Paper: [https://www.nature.com/articles/s41467-023-38121-4](https://www.nature.com/articles/s41467-023-38121-4)
+- Code: [https://github.com/ZJUFanLab/scSpace](https://github.com/ZJUFanLab/scSpace)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7180808529463676928/](https://www.linkedin.com/feed/update/urn:li:share:7180808529463676928/)
 
 #### SpatialScope
-Exciting news for the world of genomics and bioinformatics! A new tool, SpatialScope, is set to revolutionize spatial transcriptomics, offering unprecedented insights into cellular communication and tissue structure at a single-cell level. https://buff.ly/3tfTtJ5.
-- Paper: []()
-- Code: []()
+Integrating spatial and single-cell transcriptomics data leveraging deep generative models.
+- Paper: [https://www.nature.com/articles/s41467-023-43629-w](https://www.nature.com/articles/s41467-023-43629-w)
+- Code: [https://github.com/YangLabHKUST/SpatialScope](https://github.com/YangLabHKUST/SpatialScope)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7139925392278159362/](https://www.linkedin.com/feed/update/urn:li:share:7139925392278159362/)
 
 ### Benchmarking & Method Evaluation
 
 #### IntegrateRigor
 Annotation-free, method-agnostic framework optimizing integration of single-cell and spatial transcriptomics for reliable cell identity recovery, using a per-gene batch stability score and embedding metrics (BAS/CIS) to tune hyperparameters without labels.
-- Code: [https://github.com/zhiqianZ/IntegrateRigor](https://github.com/zhiqianZ/IntegrateRigor)
 - Paper: [https://doi.org/10.64898/2026.05.14.725078](https://doi.org/10.64898/2026.05.14.725078)
+- Code: [https://github.com/zhiqianZ/IntegrateRigor](https://github.com/zhiqianZ/IntegrateRigor)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7476260828082577408](https://www.linkedin.com/feed/update/urn:li:share:7476260828082577408)
 
 #### scIB-E
 Extended benchmarking and evaluation framework for single-cell integration that separates batch correction, inter- and intra-cell-type conservation.
+- Paper: [https://link.springer.com/article/10.1186/s13059-025-03869-z](https://link.springer.com/article/10.1186/s13059-025-03869-z)
 - Code: [https://github.com/Chenxin-Yi/scIB-E](https://github.com/Chenxin-Yi/scIB-E)
-- Paper: [https://doi.org/10.1186/s13059-025-03869-z](https://doi.org/10.1186/s13059-025-03869-z)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7419303049480790016](https://www.linkedin.com/feed/update/urn:li:share:7419303049480790016)
 
-#### Spatial Deconvolution Methods Benchmark
-Benchmark study comparing spatial transcriptomics deconvolution methods (including Cell2location) for resolving mixed cell-type signals within spots.
-- Paper: []()
-- Code: []()
+#### Spatial Deconvolution Benchmark in Cardiorenal Disease
+Benchmark study comparing spatial transcriptomics deconvolution methods for resolving mixed cell-type signals within spots.
+- Paper: [https://www.frontiersin.org/journals/bioinformatics/articles/10.3389/fbinf.2024.1352594/full](https://www.frontiersin.org/journals/bioinformatics/articles/10.3389/fbinf.2024.1352594/full)
+- Code: [https://github.com/albanobel/Deconvolution-for-ST-in-Cardiorenal-Disease](https://github.com/albanobel/Deconvolution-for-ST-in-Cardiorenal-Disease)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7155137648574017536/](https://www.linkedin.com/feed/update/urn:li:share:7155137648574017536/)
 
 #### spDDB
