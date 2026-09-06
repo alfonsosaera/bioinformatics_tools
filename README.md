@@ -1650,27 +1650,26 @@ SPython toolkit for analyzing spatial transcriptomics data, combining gene expre
 
 #### Imaging-based ST Platform Comparison (FFPE)
 Systematic head-to-head comparison of CosMx, MERFISH and Xenium (unimodal and multimodal) imaging-based single-cell spatial transcriptomics platforms on FFPE tumor samples.
-- Paper: []()
-- Code: []()
+- Paper: [https://www.nature.com/articles/s41467-025-63414-1](https://www.nature.com/articles/s41467-025-63414-1)
+- Code: [https://github.com/KChen-lab/ST_Comparison](https://github.com/KChen-lab/ST_Comparison)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7378820116454666240](https://www.linkedin.com/feed/update/urn:li:share:7378820116454666240)
 
 #### Spatial Transcriptomics Technology Comparison (Tumor Cryosections)
 Comparison of four imaging-based spatial transcriptomics methods (RNAscope HiPlex, Molecular Cartography, MERFISH/Merscope, Xenium) against sequencing-based Visium on tumor cryosections.
 - Paper: [https://link.springer.com/article/10.1186/s13059-025-03624-4](https://link.springer.com/article/10.1186/s13059-025-03624-4)
-- Code: []()
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7194306723208187905/](https://www.linkedin.com/feed/update/urn:li:share:7194306723208187905/)
 
 #### SpatialBenchmarking
 Public technical reference providing datasets, code, and cross-platform benchmarks for spatial transcriptomics.
-- Code: [https://github.com/scervilla/SpatialBenchmarking](https://github.com/scervilla/SpatialBenchmarking)
 - Paper: [https://doi.org/10.1186/s13059-026-03937-y](https://doi.org/10.1186/s13059-026-03937-y)
+- Code: [https://github.com/scervilla/SpatialBenchmarking](https://github.com/scervilla/SpatialBenchmarking)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7425946936127574017](https://www.linkedin.com/feed/update/urn:li:share:7425946936127574017)
 
 #### STEAM
-Framework to evaluate clustering results in spatial omics (links on the comments).
-- Code: [https://github.com/fanzhanglab/STEAM](https://github.com/fanzhanglab/STEAM)
+Framework to evaluate clustering results in spatial omics.
 - Paper: [https://doi.org/10.1093/bib/bbaf570](https://doi.org/10.1093/bib/bbaf570)
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7396169866388586496](https://www.linkedin.com/feed/update/urn:li:share:7396169866388586496)
+- Code: [https://github.com/fanzhanglab/STEAM](https://github.com/fanzhanglab/STEAM)
+- LinkedIn post: [https://academic.oup.com/bib/article/26/5/bbaf570/8307352?login=false](https://academic.oup.com/bib/article/26/5/bbaf570/8307352?login=false)
 
 ---
 
