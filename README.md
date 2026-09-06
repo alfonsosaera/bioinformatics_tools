@@ -1724,40 +1724,33 @@ Traditional cellular deconvolution methods, crucial in bulk sequencing, often fa
 - Code: [https://github.com/mcgilldinglab/scSemiProfiler](https://github.com/mcgilldinglab/scSemiProfiler)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7138120241938698240/](https://www.linkedin.com/feed/update/urn:li:share:7138120241938698240/)
 
-#### scSurv
+#### scSurv  ---- POR AQUI
 Method that links single-cell transcriptomes to patient survival by combining a Cox proportional hazards model with a conditional variational autoencoder for cell-level deconvolution.
-- Code: [https://github.com/3254c/scSurv](https://github.com/3254c/scSurv)
 - Paper: [https://doi.org/10.1093/bioinformatics/btaf671](https://doi.org/10.1093/bioinformatics/btaf671)
-- Paper: [https://doi.org/10.5281/zenodo.17793054](https://doi.org/10.5281/zenodo.17793054)
+- Code: [https://github.com/3254c/scSurv](https://github.com/3254c/scSurv)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7455967109500612608](https://www.linkedin.com/feed/update/urn:li:ugcPost:7455967109500612608)
 
 #### STRIDE
-In the rapidly evolving field of spatial transcriptomics, understanding cellular heterogeneity within its spatial context is crucial. While recent progress has opened new avenues for exploration, limitations in current technologies often restrict our ability to delve into cellular localizations and interactions at the single-cell level.
-- Paper: []()
-- Code: []()
+Decompose cell types from spatial mixtures by leveraging topic profiles trained from single-cell transcriptomics. STRIDE also provides several downstream analysis functions, including (1) signature (i.e., topic) detection and visualization, (2) spatial clustering and domain identification based on neighborhood cell populations and (3) reconstruction of three-dimensional architecture from sequential ST slides of the same tissue.
+- Paper: [https://academic.oup.com/nar/article/50/7/e42/6543547?login=false](https://academic.oup.com/nar/article/50/7/e42/6543547?login=false)
+- Code: [https://github.com/wanglabtongji/STRIDE](https://github.com/wanglabtongji/STRIDE)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7136247865462390784/](https://www.linkedin.com/feed/update/urn:li:share:7136247865462390784/)
 
 #### Sweetwater
 Autoencoder that deconvolves bulk expression using multiple reference classes with built-in interpretability.
-- Paper: []()
-- Code: []()
+- Paper: [https://academic.oup.com/nar/article/53/16/gkaf821/8245224?login=false](https://academic.oup.com/nar/article/53/16/gkaf821/8245224?login=false)
+- Code: [https://github.com/ML4BM-Lab/Sweetwater](https://github.com/ML4BM-Lab/Sweetwater)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7378844403613810688](https://www.linkedin.com/feed/update/urn:li:share:7378844403613810688)
 
 ### Cell Mapping & Label Transfer
 
 #### scDILT
-Published in the bioRxiv paper "scDILT: a model-based and constrained deep learning framework for single-cell Data Integration, Label Transferring, and clustering," authored by Xiang Lin, Jianlan Ren, Le Gao, Zhi Wei, and Junwen Wang.
-- Paper: []()
-- Code: []()
+Model-based and constrained deep learning framework for single-cell Data Integration, Label Transferring, and clustering.
+- Paper: [https://ieeexplore.ieee.org/document/10932718](https://ieeexplore.ieee.org/document/10932718)
+- Code: [https://github.com/xianglin226/scDILT](https://github.com/xianglin226/scDILT)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7199380910398459904/](https://www.linkedin.com/feed/update/urn:li:share:7199380910398459904/)
 
 ### Spatial Cell Mapping & Reconstruction
-
-#### MERLIN
-Machine-learning workflow that infers macrophage regional localization from single-cell RNA-seq.
-- Paper: [https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/advs.202410924](https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/advs.202410924)
-- Paper: [https://doi.org/10.6084/m9.figshare.28599722](https://doi.org/10.6084/m9.figshare.28599722)
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7459962434418716672](https://www.linkedin.com/feed/update/urn:li:ugcPost:7459962434418716672)
 
 #### scSpace
 Nature Communications features an article on "scSpace", a method enhancing our understanding of cellular complexity.
