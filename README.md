@@ -1755,6 +1755,12 @@ Combines deep generative models and active learning to economically generate sin
 - Code: [https://github.com/mcgilldinglab/scSemiProfiler](https://github.com/mcgilldinglab/scSemiProfiler)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7138120241938698240/](https://www.linkedin.com/feed/update/urn:li:share:7138120241938698240/)
 
+#### scTREND
+Deep generative framework that integrates single-cell latent representations from a VAE with bulk-level cell-type proportions and hazard coefficients. Computates patient-level risk scores and identifies cell populations whose prognostic impact dynamically changes across time and clinical conditions
+- Paper: [https://www.biorxiv.org/content/10.64898/2026.01.26.701686v1](https://www.biorxiv.org/content/10.64898/2026.01.26.701686v1)
+- Code: [https://github.com/R301Carbine/scTREND](https://github.com/R301Carbine/scTREND)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7434630778753331200](https://www.linkedin.com/feed/update/urn:li:share:7434630778753331200)
+
 #### STRIDE
 Decompose cell types from spatial mixtures by leveraging topic profiles trained from single-cell transcriptomics. STRIDE also provides several downstream analysis functions, including (1) signature (i.e., topic) detection and visualization, (2) spatial clustering and domain identification based on neighborhood cell populations and (3) reconstruction of three-dimensional architecture from sequential ST slides of the same tissue.
 - Paper: [https://academic.oup.com/nar/article/50/7/e42/6543547?login=false](https://academic.oup.com/nar/article/50/7/e42/6543547?login=false)
@@ -2119,6 +2125,7 @@ Database of spatial drug perturbation maps.
 
 
 
+- **IgPose** — unified framework for immunoglobulin-antigen pose classification and scoring [Post](https://www.linkedin.com/feed/update/urn:li:share:7431430174841225217)
 - **Covariance-Invariant Dual-Reporter framework** — The study Exploiting fluctuations in gene expression to detect causal interactions between genes, published in eLife by Euan Joly-Smith, Mir Mikdad Talpur, Paige Allard, Fotini Pap [Post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7423820031639281664)
 - **scooby** — powerful framework for predicting multimodal single-cell genomic profiles directly from DNA sequence (links in the comments) [Post](https://www.linkedin.com/feed/update/urn:li:share:7401546120704720896)
 - **LDNets (Latent Dynamics Networks)** — Neural network family that learns temporal dynamics of space-dependent fields in a data-driven manner, enabling adaptable predictions with efficient training and robustness to miss [Post](https://www.linkedin.com/feed/update/urn:li:share:7171543020012617730/)
