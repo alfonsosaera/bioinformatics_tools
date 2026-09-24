@@ -876,10 +876,16 @@ Ientify tumor-reactive T cell receptors (TCRs) directly from single-cell RNA seq
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7195433399287746560/](https://www.linkedin.com/feed/update/urn:li:share:7195433399287746560/)
 
 #### ProjecTILs
-computational method to project scRNA-seq data into reference single-cell atlases, enabling their direct comparison in a stable, annotated system of coordinates.
+Computational method to project scRNA-seq data into reference single-cell atlases, enabling their direct comparison in a stable, annotated system of coordinates.
 - Paper: [https://www.nature.com/articles/s41467-021-23324-4](https://www.nature.com/articles/s41467-021-23324-4)
 - Code: [https://github.com/carmonalab/ProjecTILs](https://github.com/carmonalab/ProjecTILs)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7388290339394027522](https://www.linkedin.com/feed/update/urn:li:share:7388290339394027522)
+
+#### scNAT
+Deep Learning Integration of paired single-cell RNA sequencing (scRNA-seq) and single-cell T cell receptor sequencing (scTCR-seq) data.
+- Paper: [https://link.springer.com/article/10.1186/s13059-023-03129-y](https://link.springer.com/article/10.1186/s13059-023-03129-y)
+- Code: [https://github.com/biqing-zhu/scNAT](https://github.com/biqing-zhu/scNAT)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7149422472684118016/](https://www.linkedin.com/feed/update/urn:li:share:7149422472684118016/)
 
 #### scXpand
 Detect T-cell clonal expansion from single-cell RNA sequencing data without paired TCR sequencing.
@@ -2128,7 +2134,3 @@ Database of spatial drug perturbation maps.
 - Paper: [https://doi.org/10.1093/nar/gkaf1046](https://doi.org/10.1093/nar/gkaf1046)
 - Website: [http://bio-bigdata.hrbmu.edu.cn/SDMap/](http://bio-bigdata.hrbmu.edu.cn/SDMap/)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7393575487907971072](https://www.linkedin.com/feed/update/urn:li:share:7393575487907971072)
-
-
-- **scNAT** — Exciting news for Biologists, Bioinformaticians, and Pharma Leaders! A novel deep learning method, scNAT, is set to revolutionize the integration of single-cell RNA and T cell rece [Post](https://www.linkedin.com/feed/update/urn:li:share:7149422472684118016/)
-
