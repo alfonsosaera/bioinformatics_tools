@@ -426,7 +426,7 @@ Parameter-free linear-algebra method for scRNA-seq representation and classifica
 - Code: [https://pypi.org/project/scTOP/](https://pypi.org/project/scTOP/)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7438630516070768640](https://www.linkedin.com/feed/update/urn:li:share:7438630516070768640)
 
-### Stator
+#### Stator
 Data-driven method that identifies cell (sub)types and states without relying on cells’ local proximity in transcriptome space through deriving higher-order gene expression dependencies from a sparse gene-by-cell expression matrix.
 - Paper: [https://link.springer.com/article/10.1038/s44320-024-00074-1](https://link.springer.com/article/10.1038/s44320-024-00074-1)
 - Code: [https://github.com/AJnsm/Stator/tree/main](https://github.com/AJnsm/Stator/tree/main)
