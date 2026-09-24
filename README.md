@@ -845,6 +845,12 @@ Annotation of T-cells with *CellAnnoTator (*CAT/starCAT) and its T-cell catalog 
 - Code: [https://github.com/immunogenomics/starCAT](https://github.com/immunogenomics/starCAT)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7388277135049711616](https://www.linkedin.com/feed/update/urn:li:share:7388277135049711616)
 
+#### IgPose
+unified framework for immunoglobulin-antigen pose classification and scoring 
+- Paper: [https://academic.oup.com/bioinformatics/article/42/3/btag076/8487143?login=false](https://academic.oup.com/bioinformatics/article/42/3/btag076/8487143?login=false)
+- Code: [https://github.com/arontier/igpose](https://github.com/arontier/igpose)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7431430174841225217](https://www.linkedin.com/feed/update/urn:li:share:7431430174841225217)
+
 #### Immunopipe
 Integrative analysis for single-cell RNA sequencing and single-cell TCR/BCR sequencing data
 - Paper: [https://academic.oup.com/nargab/article/7/2/lqaf063/8136476](https://academic.oup.com/nargab/article/7/2/lqaf063/8136476)
@@ -2125,7 +2131,7 @@ Database of spatial drug perturbation maps.
 
 
 
-- **IgPose** — unified framework for immunoglobulin-antigen pose classification and scoring [Post](https://www.linkedin.com/feed/update/urn:li:share:7431430174841225217)
+
 - **Covariance-Invariant Dual-Reporter framework** — The study Exploiting fluctuations in gene expression to detect causal interactions between genes, published in eLife by Euan Joly-Smith, Mir Mikdad Talpur, Paige Allard, Fotini Pap [Post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7423820031639281664)
 - **scooby** — powerful framework for predicting multimodal single-cell genomic profiles directly from DNA sequence (links in the comments) [Post](https://www.linkedin.com/feed/update/urn:li:share:7401546120704720896)
 - **LDNets (Latent Dynamics Networks)** — Neural network family that learns temporal dynamics of space-dependent fields in a data-driven manner, enabling adaptable predictions with efficient training and robustness to miss [Post](https://www.linkedin.com/feed/update/urn:li:share:7171543020012617730/)
