@@ -2123,18 +2123,7 @@ Database of spatial drug perturbation maps.
 - Website: [http://bio-bigdata.hrbmu.edu.cn/SDMap/](http://bio-bigdata.hrbmu.edu.cn/SDMap/)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7393575487907971072](https://www.linkedin.com/feed/update/urn:li:share:7393575487907971072)
 
----
 
-## ⚠️ Uncategorized Tools
-
-*(Real tools/methods that don't map cleanly onto any proposed subcategory — general AI/ML methods, clinical/translational platforms, structural biology, or cross-cutting resources.)*
-
-
-
-
-- **Covariance-Invariant Dual-Reporter framework** — The study Exploiting fluctuations in gene expression to detect causal interactions between genes, published in eLife by Euan Joly-Smith, Mir Mikdad Talpur, Paige Allard, Fotini Pap [Post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7423820031639281664)
-- **scooby** — powerful framework for predicting multimodal single-cell genomic profiles directly from DNA sequence (links in the comments) [Post](https://www.linkedin.com/feed/update/urn:li:share:7401546120704720896)
-- **LDNets (Latent Dynamics Networks)** — Neural network family that learns temporal dynamics of space-dependent fields in a data-driven manner, enabling adaptable predictions with efficient training and robustness to miss [Post](https://www.linkedin.com/feed/update/urn:li:share:7171543020012617730/)
 - **Stator** — Stator is a novel method, workflow, and app that's transforming the way we identify cell types, subtypes, and states in single-cell data. [Post](https://www.linkedin.com/feed/update/urn:li:share:7154488285208141824/)
 - **scNAT** — Exciting news for Biologists, Bioinformaticians, and Pharma Leaders! A novel deep learning method, scNAT, is set to revolutionize the integration of single-cell RNA and T cell rece [Post](https://www.linkedin.com/feed/update/urn:li:share:7149422472684118016/)
 
