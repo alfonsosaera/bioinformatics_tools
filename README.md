@@ -1441,13 +1441,19 @@ Integrates spatial and single-cell RNA-seq data, enhancing gene expression maps 
 - Code: [https://github.com/sunericd/TISSUE](https://github.com/sunericd/TISSUE)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7190639815099363328/](https://www.linkedin.com/feed/update/urn:li:share:7190639815099363328/)
 
-### Spatially Variable Genes
+### Spatially Variable Genes & Gene Prediction
 
 #### minkiPy
 Open-source Python library computing compact Minkowski-based morphological/topological "profiles" per gene from spatial transcriptomics transcript coordinates, compared via uncertainty-aware 2-Wasserstein distances to detect genes with spatial reorganisation independent of expression change.
 - Code: [https://github.com/BAUDOTlab/minkiPy](https://github.com/BAUDOTlab/minkiPy)
 - Paper: [https://doi.org/10.64898/2026.05.12.724373](https://doi.org/10.64898/2026.05.12.724373)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7475182721468907520](https://www.linkedin.com/feed/update/urn:li:ugcPost:7475182721468907520)
+
+#### Phoenix
+Latent flow-matching generative model predicting virtual spatial gene expression from routine H&E histology
+- Paper: [https://www.biorxiv.org/content/10.64898/2026.04.25.720812v2](https://www.biorxiv.org/content/10.64898/2026.04.25.720812v2)
+- Code: [https://github.com/peng-lab/phoenix](https://github.com/peng-lab/phoenix)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7465035866663546880](https://www.linkedin.com/feed/update/urn:li:share:7465035866663546880)
 
 #### SpaIM
 Model that leverages scRNA-seq to perform gene imputation for spatial transcriptomics
@@ -2111,12 +2117,8 @@ Database of spatial drug perturbation maps.
 
 *(Real tools/methods that don't map cleanly onto any proposed subcategory — general AI/ML methods, clinical/translational platforms, structural biology, or cross-cutting resources.)*
 
-- **Phoenix** — latent flow-matching generative model predicting virtual spatial gene expression from routine H&E histology. [Post](https://www.linkedin.com/feed/update/urn:li:share:7465035866663546880)
-- **OmicClaw** (+ OmicVerse ecosystem) — executable natural-language framework for bulk/single-cell/spatial/multi-omics analysis. [Post](https://www.linkedin.com/feed/update/urn:li:share:7464697128376950784)
-- **AGENTBENCH** — benchmark evaluating repository-level context files for coding agents (general AI/software engineering, not omics). [Post](https://www.linkedin.com/feed/update/urn:li:share:7463577248437116928)
-- **Solve‑RD workflow** — The study “Standardized transcriptome analysis improves rare disease diagnosis in the pan-European Solve-RD consortium”, published in medRxiv by Vicente A. Yépez, Rebeka Luknárová, [Post](https://www.linkedin.com/feed/update/urn:li:share:7434982840259407872)
-- **scTREND** — deep generative framework that estimates time- and condition-dependent risks at single-cell resolution [Post](https://www.linkedin.com/feed/update/urn:li:share:7434630778753331200)
-- **IgPose** — unified framework for immunoglobulin-antigen pose classification and scoring [Post](https://www.linkedin.com/feed/update/urn:li:share:7431430174841225217)
+
+
 - **Covariance-Invariant Dual-Reporter framework** — The study Exploiting fluctuations in gene expression to detect causal interactions between genes, published in eLife by Euan Joly-Smith, Mir Mikdad Talpur, Paige Allard, Fotini Pap [Post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7423820031639281664)
 - **scooby** — powerful framework for predicting multimodal single-cell genomic profiles directly from DNA sequence (links in the comments) [Post](https://www.linkedin.com/feed/update/urn:li:share:7401546120704720896)
 - **LDNets (Latent Dynamics Networks)** — Neural network family that learns temporal dynamics of space-dependent fields in a data-driven manner, enabling adaptable predictions with efficient training and robustness to miss [Post](https://www.linkedin.com/feed/update/urn:li:share:7171543020012617730/)
