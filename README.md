@@ -733,11 +733,6 @@ Organism-level reference of consensus human gene programs annotated with hub gen
 - Code: [https://github.com/MaShisongLab/GeneProgramDictionary](https://github.com/MaShisongLab/GeneProgramDictionary)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7461851374541111296](https://www.linkedin.com/feed/update/urn:li:ugcPost:7461851374541111296)
 
-#### ggkegg
-Create detailed and interactive representations of KEGG pathways with the power of tidygraph, ggraph, and ggplot2
-- Code: [https://noriakis.github.io/software/ggkegg/](https://noriakis.github.io/software/ggkegg/)
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7131174317861560320/](https://www.linkedin.com/feed/update/urn:li:share:7131174317861560320/)
-
 #### Seqtometry
 Single-cell analysis approach scoring multi-gene signatures via a relative gene-expression scale for competitive scoring, describing biological processes beyond individual marker genes.
 - Paper: [https://www.sciencedirect.com/science/article/pii/S2405471223003599](https://www.sciencedirect.com/science/article/pii/S2405471223003599)
@@ -1582,8 +1577,8 @@ spaSim: A simulator for creating realistic tissue cell spatial patterns, perfect
 
 #### Thor
 Thor enables cell-level spatial transcriptomics analysis by integrating histology and transcriptomic information through an anti-shrinking Markov diffusion method. 
-- Paper: []()
-- Code: []()
+- Paper: [https://www.nature.com/articles/s41467-025-62593-1](https://www.nature.com/articles/s41467-025-62593-1)
+- Code: [https://github.com/GuangyuWangLab2021/Thor](https://github.com/GuangyuWangLab2021/Thor)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7364696622426914817](https://www.linkedin.com/feed/update/urn:li:share:7364696622426914817)
 
 ### Spatiotemporal Dynamics
