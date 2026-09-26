@@ -43,8 +43,9 @@ ScComplete-seq, recently published in Nucleic Acids Research by Fatma Betül Din
 
 #### scEpi2-seq
 Single-cell multi-omic detection of DNA methylation and histone modifications.
-- Paper: []()
-- Code: []()
+- Paper: [https://www.nature.com/articles/s41592-025-02847-4](https://www.nature.com/articles/s41592-025-02847-4)
+- Code: [https://github.com/BuysDB/SingleCellMultiOmics](https://github.com/BuysDB/SingleCellMultiOmics)
+- Code: [https://github.com/cgeisenberger/taps-manuscript](https://github.com/cgeisenberger/taps-manuscript)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7378833536415514625](https://www.linkedin.com/feed/update/urn:li:share:7378833536415514625)
 
 #### scPortrait
@@ -270,7 +271,7 @@ Model-based and constrained deep learning framework for single-cell Data Integra
 #### scPathOT
 Pathway-informed universal domain adaptation framework that aligns single-cell RNA-seq datasets using pathway activity (KEGG, Reactome) with multi-view GNN fusion and adaptive unbalanced optimal transport, while protecting query-specific/unmatched cell populations from being forced into the reference.
 - Paper: [https://www.biorxiv.org/content/10.64898/2026.05.07.723423v1.full](https://www.biorxiv.org/content/10.64898/2026.05.07.723423v1.full)
-- Code: 
+- Code: Not shared in the bioRxiv paper
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7476535130065547264](https://www.linkedin.com/feed/update/urn:li:share:7476535130065547264)
 
 #### scPoli
@@ -311,12 +312,6 @@ Computational algorithm for scRNA-seq cell-type identification addressing false-
 - Paper: [https://www.nature.com/articles/s41467-023-43406-9](https://www.nature.com/articles/s41467-023-43406-9)
 - Code: [https://bitbucket.org/scottyler892/anticor_features/src/main/](https://bitbucket.org/scottyler892/anticor_features/src/main/)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7170072031969886208/](https://www.linkedin.com/feed/update/urn:li:share:7170072031969886208/)
-
-#### CellHorizon
-Probabilistic computational method based on a generative model that mathematically handles gene dropout and identifies cell clusters without relying on prior marker gene information
-- Paper: [https://www.biorxiv.org/content/10.1101/2023.12.12.571199v1.full](https://www.biorxiv.org/content/10.1101/2023.12.12.571199v1.full)
-- Code: 
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7151471977759698946/](https://www.linkedin.com/feed/update/urn:li:share:7151471977759698946/)
 
 #### Cellstates
 Cellstates operates directly on raw data, automatically determining the optimal partition and cluster number. It simplifies the analysis without compromising the dataset's meaningful structure.
@@ -439,7 +434,7 @@ OT-based non-parametric framework for detecting differential features in single-
 #### scPathOT
 Pathway-informed universal domain adaptation framework that aligns single-cell RNA-seq datasets using pathway activity (KEGG, Reactome) with multi-view GNN fusion and adaptive unbalanced optimal transport, while protecting query-specific/unmatched cell populations from being forced into the reference.
 - Paper: [https://www.biorxiv.org/content/10.64898/2026.05.07.723423v1.full](https://www.biorxiv.org/content/10.64898/2026.05.07.723423v1.full)
-- Code: 
+- Code: Not shared in the bioRxiv paper
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7476535130065547264](https://www.linkedin.com/feed/update/urn:li:share:7476535130065547264)
 
 #### scPML
@@ -632,7 +627,7 @@ Comprehensive RNA velocity framework modeling gene regulation, transcription, an
 #### BRIDGE-GRN
 Role-aware bi-tower graph learning framework separating undirected graph-context encoding from role-specific directional decoding to infer directed gene regulatory networks from scRNA-seq, using cross-view contrastive regularization for robustness to noisy supervision.
 - Paper: [https://doi.org/10.64898/2026.05.12.724562](https://doi.org/10.64898/2026.05.12.724562)
-- Code:
+- Code: Not shared in the bioRxiv paper
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7473017201780981760](https://www.linkedin.com/feed/update/urn:li:share:7473017201780981760)
 
 #### CORNETO
@@ -1029,7 +1024,7 @@ Method to infer ploidy and replication status from shallow single-cell DNA seque
 #### Souporcell3
 Genotype-based demultiplexing of single-cell RNA-seq data in datasets with up to 64 donors.
 - Paper: [https://academic.oup.com/bioinformatics/article/42/3/btag117/8513494](https://academic.oup.com/bioinformatics/article/42/3/btag117/8513494)
-- Code: []()
+- Code: [https://github.com/wheaton5/souporcell](https://github.com/wheaton5/souporcell)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7364699332102574080](https://www.linkedin.com/feed/update/urn:li:share:7364699332102574080)
 
 #### TSniffer
@@ -1159,8 +1154,8 @@ Normalizing and denoising protein expression data from droplet-based single cell
 
 #### Organelle Immuno-Capture Spatial Proteomics
 High-resolution subcellular proteomic mapping method combining organelle immuno-capture with mass spectrometry, mapping over 7,600 proteins across membranous and membrane-less compartments.
-- Paper: [https://doi.org/10.1016/j.cell.2024.11.028](https://doi.org/10.1016/j.cell.2024.11.028)
-- Code: []()
+- Paper: [https://www.cell.com/cell/fulltext/S0092-8674(24)01344-8](https://www.cell.com/cell/fulltext/S0092-8674(24)01344-8)
+- Code: [https://github.com/czbiohub-sf/Organelle_IP_analyses_and_figures](https://github.com/czbiohub-sf/Organelle_IP_analyses_and_figures)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7160210595672145923/](https://www.linkedin.com/feed/update/urn:li:share:7160210595672145923/)
 
 #### scLinear
@@ -1170,9 +1165,9 @@ A linear regression-based approach that predicts single-cell protein abundance b
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7177682937474138112/](https://www.linkedin.com/feed/update/urn:li:share:7177682937474138112/)
 
 #### scplainer
-A recent article from bioRxiv (https://buff.ly/4bJ3gJj) introduces 'scplainer', a new tool for the analysis of mass spectrometry-based single-cell proteomics (SCP) data.
-- Paper: []()
-- Code: []()
+Tool for the analysis of mass spectrometry-based single-cell proteomics (SCP) data.
+- Paper: [https://link.springer.com/article/10.1186/s13059-025-03713-4](https://link.springer.com/article/10.1186/s13059-025-03713-4)
+- R package: [https://bioconductor.org/packages/release/bioc/html/scp.html](https://bioconductor.org/packages/release/bioc/html/scp.html)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7170357577850077185/](https://www.linkedin.com/feed/update/urn:li:share:7170357577850077185/)
 
 #### scPROTEIN
@@ -1212,7 +1207,7 @@ This review explores the growing utility of SCLR-seq, highlighting recent develo
 #### SCOTCH
 Isoform-level characterization of gene expression through long-read single-cell RNA sequencing.
 - Paper: [https://www.nature.com/articles/s41467-026-72665-5](https://www.nature.com/articles/s41467-026-72665-5)
-- Code: []()
+- Code: [https://github.com/WGLab/SCOTCH](https://github.com/WGLab/SCOTCH)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7198988321941815296/](https://www.linkedin.com/feed/update/urn:li:share:7198988321941815296/)
 
 #### Single-Molecule RNA Sizing (Nanopore)
