@@ -183,8 +183,8 @@ ScCensus is a new approach to evaluate and categorize off-target reads in single
 #### simpleaf
 Program that simplifies single-cell data processing using the alevin-fry ecosystem, streamlining pseudoalignment-based quantification workflows.
 - Paper: [https://academic.oup.com/bioinformatics/article/39/10/btad614/7295550](https://academic.oup.com/bioinformatics/article/39/10/btad614/7295550)
-- Code: [https://github.com/COMBINE-lab/simpleaf]
-- Tutorial: [https://combine-lab.github.io/alevin-fry-tutorials/#blog(https://combine-lab.github.io/alevin-fry-tutorials/#blog)]
+- Code: [https://github.com/COMBINE-lab/simpleaf](https://github.com/COMBINE-lab/simpleaf)
+- Tutorial: [https://combine-lab.github.io/alevin-fry-tutorials/#blog](https://combine-lab.github.io/alevin-fry-tutorials/#blog)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7117448858766311424/](https://www.linkedin.com/feed/update/urn:li:share:7117448858766311424/)
 - Love, DNA & Code blog posts: 
     - [https://lovednacodeblog.com/post/2025-07-28-alevinfry/](https://lovednacodeblog.com/post/2025-07-28-alevinfry/)
@@ -431,7 +431,7 @@ Unsupervised self-supervised graph diffusion framework to resolve fine-grained f
 
 #### DeepScence
 Deep learning framework designed to identify senescent cells across single-cell and spatial transcriptomics
-- Paper: [linkinghub.elsevier.com/retrieve/pii/S2666979X25002915](linkinghub.elsevier.com/retrieve/pii/S2666979X25002915)
+- Paper: [https://www.cell.com/cell-genomics/fulltext/S2666-979X(25)00291-5](https://www.cell.com/cell-genomics/fulltext/S2666-979X(25)00291-5)
 - Code: [https://github.com/anthony-qu/DeepScence](https://github.com/anthony-qu/DeepScence)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7401984074699018241](https://www.linkedin.com/feed/update/urn:li:share:7401984074699018241)
 
@@ -626,7 +626,9 @@ unified framework for knowledge-driven network inference that integrates prior k
 Construct gene regulatory networks and infer transcription factor (TF) activity in single cells by integration of scATAC-seq and scRNA-seq data and incorporation of public bulk TF ChIP-seq data
 - Paper: [https://www.nature.com/articles/s41467-025-62252-5](https://www.nature.com/articles/s41467-025-62252-5)
 - Code: [https://github.com/xiaosaiyao/epiregulon](https://github.com/xiaosaiyao/epiregulon)
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7144252151203102720/](https://www.linkedin.com/feed/update/urn:li:share:7144252151203102720/)
+- LinkedIn post:
+  - [https://www.linkedin.com/feed/update/urn:li:share:7144252151203102720/](https://www.linkedin.com/feed/update/urn:li:share:7144252151203102720/)
+  - [https://www.linkedin.com/feed/update/urn:li:ugcPost:7451167980312489985](https://www.linkedin.com/feed/update/urn:li:ugcPost:7451167980312489985)
 
 #### hdWGCNA
 R package for performing weighted gene co-expression network analysis (WGCNA) in high dimensional transcriptomics data such as single-cell RNA-seq or spatial transcriptomics
@@ -964,7 +966,7 @@ Gene Expression Memory-based Lineage Inference: computational pipeline predictin
 
 #### Monopogen
 Call SNPs at at single cell level
-- Paper: [Single-nucleotide variant calling in single-cell sequencing data with Monopogen](Single-nucleotide variant calling in single-cell sequencing data with Monopogen)
+- Paper: [Single-nucleotide variant calling in single-cell sequencing data with Monopogen](https://www.nature.com/articles/s41587-023-01873-x)
 - Code: [https://github.com/KChen-lab/Monopogen](https://github.com/KChen-lab/Monopogen)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7124354542313324544/](https://www.linkedin.com/feed/update/urn:li:share:7124354542313324544/)
 
@@ -1750,8 +1752,6 @@ Autoencoder that deconvolves bulk expression using multiple reference classes wi
 - Paper: [https://academic.oup.com/nar/article/53/16/gkaf821/8245224?login=false](https://academic.oup.com/nar/article/53/16/gkaf821/8245224?login=false)
 - Code: [https://github.com/ML4BM-Lab/Sweetwater](https://github.com/ML4BM-Lab/Sweetwater)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7378844403613810688](https://www.linkedin.com/feed/update/urn:li:share:7378844403613810688)
-
-### Cell Mapping & Label Transfer
 
 ### Spatial Cell Mapping & Reconstruction
 
