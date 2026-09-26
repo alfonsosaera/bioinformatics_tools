@@ -1475,6 +1475,7 @@ Spatially aware contrastive learning framework that jointly models salient and b
 #### HESTIA
 Scalable multimodal framework fusing high-resolution spatial transcriptomics and H&E histology via a dual-autoencoder design to identify spatial domains, processing millions of bins on a single 24GB GPU where other multimodal methods fail.
 - Paper: [https://www.biorxiv.org/content/10.64898/2026.05.14.723098v1](https://www.biorxiv.org/content/10.64898/2026.05.14.723098v1)
+- Code: Not shared in the bioRxiv paper
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7469770558386245632](https://www.linkedin.com/feed/update/urn:li:share:7469770558386245632)
 
 #### NicheCompass
@@ -1544,6 +1545,7 @@ Transformer-based spatiotemporal recurrent autoencoder jointly inferring interce
 #### TRINUS
 Self-supervised deep generative model deciphering cell-cell interaction "syntax" in spatial transcriptomics via a vector-quantized prototype codebook that decouples intrinsic lineage identity from extrinsic niche pressure, enabling in silico perturbation and niche engineering.
 - Paper: [https://www.biorxiv.org/content/10.64898/2026.05.18.725889v1](https://www.biorxiv.org/content/10.64898/2026.05.18.725889v1)
+- Code: Not shared in the bioRxiv paper
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7471461699305431040](https://www.linkedin.com/feed/update/urn:li:share:7471461699305431040)
 
 ### Neighborhood & Microenvironment Analysis
