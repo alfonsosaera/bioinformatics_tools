@@ -1,0 +1,187 @@
+README UPDATE GUIDE  (for an LLM adding a new tool from a LinkedIn post to README.md)
+
+TASK
+Given a LinkedIn post about a bioinformatics tool/method/resource: extract its name, one-line description,
+paper/code/website links and the post URL; choose the section(s) and subsection(s) below; add the entry
+to README.md following the format and rules in this file. Only use existing sections/subsections.
+Never invent links: omit any field that does not exist.
+
+======================================================================
+1. SECTIONS AND SUBSECTIONS
+======================================================================
+(Name = exact heading text in README.md. Scope = what belongs there. "Not" = go elsewhere.)
+
+## Single-cell RNA-seq
+Tools for single-cell / single-nucleus data (mainly RNA; also scATAC, methylation, protein, scDNA, Hi-C).
+Not: spatial-first tools (-> Spatial Omics); tools needing both sc and spatial data (-> Single-cell & Spatial Integration).
+
+### Experimental Technologies
+Wet-lab protocols, assays, platforms, chemistries (fixation, multiplexing kits, imaging+seq, targeted capture,
+multiome/multi-omic assays, UMI design, lineage/temporal labelling) and lab-method comparisons.
+### Preprocessing & Quality Control
+Reads -> count matrices (pseudoalignment, UMI counting, nascent/mature, transposable-element quantification),
+ambient RNA, doublets/multiplets, empty droplets, demultiplexing (HTO or genetic), imputation/denoising, off-target reads.
+### Batch Integration
+Batch correction and integration of datasets of the same modality (incl. cross-species, federated, reference mapping
+by integration); their benchmarks.
+### Dimensionality Reduction & Clustering
+Embeddings, representation learning, feature selection, clustering/over-clustering, metacells, archetypes,
+intrinsic dimension, de novo cell type/state discovery.
+### Cell Type Annotation
+Assigning labels to cells (reference/marker-based, classifiers, ontology-guided, T-cell states, senescence).
+Not: LLM/agent annotators (-> LLMs, Agents & Chat Assistants; cross-list if also a classic method).
+### Differential Expression & Marker Discovery
+DE testing (single-cell, pseudobulk, multi-donor, longitudinal), differential abundance, marker genes,
+conditional gene-trait association.
+### Trajectory Inference & Pseudotime
+Pseudotime, lineage dynamics, fate probabilities, temporal forecasting, trajectory-based DE.
+### RNA Velocity
+Splicing-based velocity, velocity vector fields, velocity + regulation models.
+### Gene Regulatory Network Inference
+GRNs, TF activity/regulons, eRegulons, co-expression networks (WGCNA-like), prior-knowledge networks.
+### Cell–Cell Communication
+Ligand-receptor / signalling inference from scRNA-seq, differential communication, metabolite-mediated CCC, CCC benchmarks.
+Not: spatially-aware CCC (-> Spatial Cell–Cell Communication).
+### Functional Enrichment & Pathway Analysis
+Gene-set enrichment/scoring, gene programs and signatures, pathway visualization.
+### Multimodal Integration
+Joint analysis of different modalities (RNA+ATAC+protein), vertical/mosaic integration, modality translation,
+latent factors. Not: same-modality batch integration (-> Batch Integration).
+### Simulation & Benchmarking
+Simulators, synthetic/generative data models, benchmark platforms for single-cell methods.
+### Visualization & Interactive Exploration
+Plotting packages, viewers, portals, atlas browsers.
+### Immune Repertoire (TCR/BCR) Analysis
+TCR/BCR sequencing and analysis, clonotypes, antigen specificity, clonal expansion, AIRR pipelines.
+### Genotyping, CNV & Clonal/Lineage Inference
+SNP/SNV/mosaic-variant calling from single-cell data, CNV/ploidy, clone inference, mtDNA, RNA editing,
+expression-based lineage inference. Not: demultiplexing (-> Preprocessing & QC; cross-list if genotype-based).
+### Allele-Specific Expression
+Allele-specific and differential allelic expression.
+### Perturbation Modeling & Virtual Cells
+Perturb-seq/CRISPR-screen analysis, prediction of genetic/drug perturbation responses, virtual-cell models,
+perturbation datasets and databases.
+### Single-cell Proteomics
+Protein-level single-cell data: CITE-seq normalization, mass-spec SCP, RNA->protein prediction, secretion.
+### Single-cell Hi-C
+Single-cell 3D genome / chromatin contact data.
+### Long-read & Isoform-resolved Analysis
+Long-read single-cell RNA, isoform quantification, differential splicing, reviews of these.
+### Epigenomics & Chromatin Accessibility
+scATAC-seq, DNA methylation, histone marks, enhancer/regulatory-element models, sequence-to-function models.
+### Phenotype & Clinical Outcome Association
+Linking cells/samples to phenotype, survival or clinical outcome.
+
+## Spatial Omics
+Spatial transcriptomics/proteomics and spatial imaging data. Not: methods requiring sc reference + spatial (-> Single-cell & Spatial Integration).
+
+### Experimental Technologies
+Wet-lab spatial assays/platforms (sequencing- or imaging-based, 3D, spatial multi-omics, subcellular spatial proteomics).
+### Preprocessing & Quality Control
+Transcript assignment/misassignment, unassigned RNA, large-scale pipelines, binning/rasterization, spatial smoothing.
+### Cell Segmentation
+Cell/nucleus segmentation for imaging and high-resolution spatial data.
+### Spatial Cell Type Annotation
+Cell/spot annotation in spatial data, incl. from H&E.
+### Spatial Differential Expression
+Niche/neighbourhood-dependent DE.
+### Spatially Variable Genes, Gene Prediction & Resolution Enhancement
+SVG detection, gene imputation, expression prediction from histology, super-resolution/cell-level recovery.
+### Spatial Domains & Tissue Architecture
+Spatial domain/niche detection, multi-slice or histology-integrated domain methods, 3D tissue structure.
+### Spatial Cell–Cell Communication
+Spatial ligand-receptor signalling, communication niches, spatial GRN+signalling.
+### Neighborhood & Microenvironment Analysis
+Cellular neighbourhoods, spatial statistics, multiplex-imaging analysis, microenvironment models.
+### Spatiotemporal Dynamics
+Time-series spatial data, spatial trajectories/dynamics.
+### Multi-sample Spatial Integration
+Slice alignment/registration, batch correction across spatial samples, multimodal spatial integration.
+### Visualization & Interactive Exploration
+Spatial analysis toolkits, viewers, general-purpose spatial suites.
+### Simulation & Benchmarking
+Spatial simulators, platform comparisons, spatial benchmarks.
+
+## Single-cell & Spatial Integration
+Methods that need BOTH single-cell and spatial (or bulk) data.
+
+### Deconvolution
+Cell-type proportion estimation in bulk or spatial spots from sc references (reference-free too).
+### Spatial Cell Mapping & Reconstruction
+Mapping sc cells to spatial coordinates, pseudo-space reconstruction, sc-spatial joint models.
+### Benchmarking & Method Evaluation
+Benchmarks/metrics for sc-spatial integration and deconvolution.
+
+## Foundation Models & LLMs
+### Single-cell Foundation Models
+Pretrained large models on single-cell data, tokenization, zero-shot/embedding frameworks, cell-language models.
+### Spatial Foundation Models
+Pretrained models for spatial data.
+### Histopathology Foundation Models
+Pathology/H&E foundation models and their benchmarks.
+### LLMs, Agents & Chat Assistants
+LLM/agentic assistants, chat interfaces, LLM annotation and literature-mining, only when built for or applied to
+single-cell/spatial data (or cell-type/marker/GRN knowledge). General biomedical LLMs are out of scope.
+
+## Infrastructure, Resources & Applications
+### Data Infrastructure & Scalable Computing
+Data formats, loaders, conversion, GPU/scalable frameworks, workflows/pipelines, atlases, curated datasets,
+reporting standards and guidelines, packages built for single-cell/spatial data.
+### Disease Genes, Drug Response & Discovery
+Drug sensitivity/response, drug-indication prediction, disease-gene prioritization, drug-perturbation databases.
+
+======================================================================
+2. DECISION RULES
+======================================================================
+- Modality first: single-cell -> "Single-cell RNA-seq"; spatial -> "Spatial Omics"; needs both -> "Single-cell & Spatial Integration".
+- Foundation model / LLM -> "Foundation Models & LLMs"; also cross-list to a task subsection if the task is its main claim.
+- Tool-vs-task: wet-lab method -> Experimental Technologies; software -> a task subsection.
+- Tie-breakers: same-modality batch effects -> Batch Integration, different modalities -> Multimodal Integration;
+  demultiplexing -> Preprocessing (genotype-based may also go to Genotyping); velocity-based -> RNA Velocity,
+  otherwise Trajectory; benchmark of a topic -> that topic's Benchmarking/Simulation subsection of the same section.
+- Works equally on single-cell and spatial data -> cross-list in the equivalent subsection of both sections.
+- CROSS-LISTING: if a tool genuinely fits several subsections, add IDENTICAL entries (byte-for-byte) in every fitting one.
+- OUT OF SCOPE (send to unassgined_posts2.md): bulk-only tools, non-omics tools, general genomics utilities, general
+  biomedical/clinical LLMs, and variant callers not designed for single-cell data; unless explicitly tied to
+  single-cell/spatial (e.g. sc-informed bulk deconvolution).
+
+======================================================================
+3. ENTRY FORMAT
+======================================================================
+#### ToolName
+One sentence: what it does and how (no marketing, no author list). Written on the line right under the heading.
+- Paper: [url](url)
+- Code: [url](url)
+- Website: [url](url)
+- LinkedIn post: [url](url)
+
+- Heading = official tool name with original capitalization.
+- Field order: Paper, Code, Website (other labels allowed: Protocol, Tutorial, Package, R package), LinkedIn post last.
+- Link text = the URL itself. Repeat a label for several links. Omit fields with no link (no empty "[]()" and no empty lines).
+- Several LinkedIn posts: "- LinkedIn posts:" followed by indented "  - [url](url)" lines.
+- One blank line between entries; no trailing spaces.
+- Insert alphabetically (case-insensitive) inside the subsection.
+
+======================================================================
+4. WORKFLOW AND CHECKS
+======================================================================
+1. Duplicate check: search README.md for the tool name and its paper/DOI/repo URL.
+   If it exists: do not add a new entry; add the new LinkedIn post to ALL copies (as a "LinkedIn posts:" list)
+   and keep all copies identical.
+2. Choose subsection(s) with sections 1-2. Add the entry/entries (section 3).
+3. Editing an existing subsection needs no TOC change. The TOC (between <!-- TOC --> and <!-- /TOC -->) lists only
+   "##" and "###" headings; if a subsection is added/renamed, regenerate it. GitHub anchors: lowercase, drop punctuation
+   except hyphens, spaces -> hyphens (so "&" leaves a double hyphen), repeated headings get -1, -2 in document order.
+4. Do not create sections/subsections and do not commit unless the user approves.
+5. Report to the user: tool name, chosen subsection(s), and any missing fields.
+
+======================================================================
+5. WHEN NOTHING FITS
+======================================================================
+Do BOTH, and leave README.md unchanged:
+a) Append to unassgined_posts2.md:
+   - **ToolName** — [post url](post url) — one-line description. No fit: <reason>. Suggested: <Section> › <New subsection name> — <scope>.
+b) Propose the new subsection (name + one-line scope + section) to the user and wait for approval.
+   After approval: add "### Name" in the right section, add the entry, regenerate the TOC, and update this file.
+Posts that are not about a specific tool (career news, events, marketing, opinion, generic education) and out-of-scope
+tools (section 2) go to unassgined_posts2.md as plain lines, with no proposal: "- Post title — [url](url)".

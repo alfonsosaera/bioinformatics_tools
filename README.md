@@ -49,7 +49,7 @@
   - [Single-cell Foundation Models](#single-cell-foundation-models)
   - [Spatial Foundation Models](#spatial-foundation-models)
   - [Histopathology Foundation Models](#histopathology-foundation-models)
-  - [Bio-LLMs, Agents & Chat Assistants](#bio-llms-agents--chat-assistants)
+  - [LLMs, Agents & Chat Assistants](#llms-agents--chat-assistants)
 - [Infrastructure, Resources & Applications](#infrastructure-resources--applications)
   - [Data Infrastructure & Scalable Computing](#data-infrastructure--scalable-computing)
   - [Disease Genes, Drug Response & Discovery](#disease-genes-drug-response--discovery)
@@ -704,13 +704,6 @@ Network-based polygenic enrichment method that integrates single-cell transcript
 - Paper: [https://doi.org/10.1038/s43587-025-01027-5](https://doi.org/10.1038/s43587-025-01027-5)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7427756974018052096](https://www.linkedin.com/feed/update/urn:li:ugcPost:7427756974018052096)
 
-#### TEA-GCN
-This pipeline generates high-quality Gene Co-expression Networks (TEA-GCN ) that capture tissue/condition-specific co-expression.
-- Paper: [https://www.nature.com/articles/s41467-026-72380-1](https://doi.org/10.1101/2024.07.22.604713)
-- Code: [https://github.com/pengkenlim/TEA-GCN](https://github.com/pengkenlim/TEA-GCN)
-- Website: [https://plantgcn.connectome.tools](https://plantgcn.connectome.tools)
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7450551285960880129](https://www.linkedin.com/feed/update/urn:li:ugcPost:7450551285960880129)
-
 ### Cell–Cell Communication
 
 #### CellChat
@@ -982,18 +975,6 @@ R package to jointly infer clonal structure and copy-number (CN) states from scR
 - Paper: [https://academic.oup.com/biometrics/article/81/3/ujaf115/8245167](https://academic.oup.com/biometrics/article/81/3/ujaf115/8245167)
 - Code: [https://github.com/pqiao29/Chloris](https://github.com/pqiao29/Chloris)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7378694000037359616](https://www.linkedin.com/feed/update/urn:li:share:7378694000037359616)
-
-#### Clair3-RNA
-Deep learning-based small-variant caller tailored for long-read RNA sequencing.
-- Paper: [https://doi.org/10.1038/s41467-025-67237-y](https://www.nature.com/articles/s41467-025-67237-y)
-- Code: [https://github.com/HKU-BAL/Clair3-RNA](https://github.com/HKU-BAL/Clair3-RNA)
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7436809621035438080](https://www.linkedin.com/feed/update/urn:li:ugcPost:7436809621035438080)
-
-#### ClairS-TO
-Deep-learning tumor-only somatic small-variant caller for long reads.
-- Paper: [https://www.nature.com/articles/s41467-025-64547-z](https://www.nature.com/articles/s41467-025-64547-z)
-- Code: [https://github.com/HKU-BAL/ClairS-TO](https://github.com/HKU-BAL/ClairS-TO)
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7436503603235676161](https://www.linkedin.com/feed/update/urn:li:ugcPost:7436503603235676161)
 
 #### CluVar
 Clustering of variants using autoencoder for inferring cancer subclones from single cell RNA sequencing data
@@ -1964,7 +1945,7 @@ Large evaluation of 19 histopathology foundation models as feature extractors ac
 - Paper: [https://doi.org/10.5281/zenodo.15749283](https://doi.org/10.5281/zenodo.15749283)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7403721844370886659](https://www.linkedin.com/feed/update/urn:li:share:7403721844370886659)
 
-### Bio-LLMs, Agents & Chat Assistants
+### LLMs, Agents & Chat Assistants
 
 #### CellAtria
 Agentic AI system that uses an LLM to orchestrate pre‑vetted tools for end‑to‑end, dialogue‑driven, document‑to‑analysis automation of scRNA‑seq studies.
@@ -2006,12 +1987,6 @@ AI-driven multi-agent framework enabling evidence-based cell annotation in singl
 - Code: [https://github.com/NygenAnalytics/CyteTypeR](https://github.com/NygenAnalytics/CyteTypeR)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7398647413554458624](https://www.linkedin.com/feed/update/urn:li:share:7398647413554458624)
 
-#### GeneGPT
-Combines Large Language Models (LLMs) with omics using Web APIs from the National Center for Biotechnology Information (NCBI) to enhance access to biomedical information.
-- Paper: [https://academic.oup.com/bioinformatics/article/40/2/btae075/7606338](https://academic.oup.com/bioinformatics/article/40/2/btae075/7606338)
-- Code: [https://github.com/ncbi/GeneGPT](https://github.com/ncbi/GeneGPT)
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7167198853887209473/](https://www.linkedin.com/feed/update/urn:li:share:7167198853887209473/)
-
 #### GPTAnno
 Automated, ontology-tree-guided framework for uncertainty-aware hierarchical cell type annotation from gene expression matrices using GPT
 - Paper: [https://www.biorxiv.org/content/10.1101/2025.11.27.690951v1](https://www.biorxiv.org/content/10.1101/2025.11.27.690951v1)
@@ -2029,18 +2004,6 @@ Exciting news for the bioinformatics community! A recent study published in bioR
 - Paper: [https://www.nature.com/articles/s41598-024-72204-6](https://www.nature.com/articles/s41598-024-72204-6)
 - Code: [https://github.com/chengpeng1116/MarkerGeneBERT](https://github.com/chengpeng1116/MarkerGeneBERT)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7169226461638180864/](https://www.linkedin.com/feed/update/urn:li:share:7169226461638180864/)
-
-#### NetMedGPT
-Transformer-based network-medicine foundation model for mechanistic disease mining and drug repurposing.
-- Paper: [https://www.biorxiv.org/content/10.64898/2026.01.04.697552v1](https://www.biorxiv.org/content/10.64898/2026.01.04.697552v1)
-- Code: [https://github.com/faren-f/NetMedGPT](https://github.com/faren-f/NetMedGPT)
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7428483894041010177](https://www.linkedin.com/feed/update/urn:li:share:7428483894041010177)
-
-#### OncoGPT
-Medical Conversational Model Tailored with Oncology Domain Expertise on a Large Language Model Meta-AI (LLaMA).
-- Paper: [https://arxiv.org/abs/2402.16810](https://arxiv.org/abs/2402.16810)
-- Code: [https://github.com/OncoGPT1](https://github.com/OncoGPT1)
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7175427835015163905/](https://www.linkedin.com/feed/update/urn:li:share:7175427835015163905/)
 
 #### OmniCellAgent
 Multi-agent AI framework (planner/executor/reporter) for omics-driven scientific discovery
@@ -2109,13 +2072,6 @@ Search, download, and convert public single-cell / spatial datasets into standar
 Standardized guidelines for reporting scRNA-seq experiments to improve reproducibility and data reuse.
 - Paper: [https://pmc.ncbi.nlm.nih.gov/articles/PMC9302581/](https://pmc.ncbi.nlm.nih.gov/articles/PMC9302581/)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7163064601088049153/](https://www.linkedin.com/feed/update/urn:li:share:7163064601088049153/)
-
-#### polars-bio
-Python library for fast, parallel, out-of-core DataFrame operations for genomic interval operations.
-- Paper: [https://doi.org/10.1093/bioinformatics/btaf640](https://doi.org/10.1093/bioinformatics/btaf640)
-- Code: [https://github.com/biodatageeks/polars-bio](https://github.com/biodatageeks/polars-bio)
-- Website: [https://biodatageeks.org/polars-bio/](https://biodatageeks.org/polars-bio/)
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7416766336514809858](https://www.linkedin.com/feed/update/urn:li:ugcPost:7416766336514809858)
 
 #### rapids-singlecell
 GPU-accelerated framework for scalable single-cell analysis operating directly on AnnData.
