@@ -1206,7 +1206,7 @@ This review explores the growing utility of SCLR-seq, highlighting recent develo
 
 #### SCOTCH
 Isoform-level characterization of gene expression through long-read single-cell RNA sequencing.
-- Paper: [https://www.nature.com/articles/s41467-026-72665-5](https://www.nature.com/articles/s41467-026-72665-5)
+- Paper: [https://www.linkedin.com/posts/alfonso-saera-vila_isoform-analytics-scotch-the-study-share-7480627346455207936-gD5M](https://www.linkedin.com/posts/alfonso-saera-vila_isoform-analytics-scotch-the-study-share-7480627346455207936-gD5M)
 - Code: [https://github.com/WGLab/SCOTCH](https://github.com/WGLab/SCOTCH)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7198988321941815296/](https://www.linkedin.com/feed/update/urn:li:share:7198988321941815296/)
 
@@ -1569,7 +1569,7 @@ End-to-end analysis of spatial multi-omics data, including spatial atlas buildin
 #### SpatioMark
 R package to identify changes in cell state relative to spatial associations.
 - Paper: [https://academic.oup.com/bioinformatics/article/41/8/btaf409/8205670?login=false](https://academic.oup.com/bioinformatics/article/41/8/btaf409/8205670?login=false)
-- Code: []()
+- Code: [https://bioconductor.org/packages/release/bioc/html/Statial.html](https://bioconductor.org/packages/release/bioc/html/Statial.html)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7364723107690954752](https://www.linkedin.com/feed/update/urn:li:share:7364723107690954752)
 
 #### SPIAT & spaSim
