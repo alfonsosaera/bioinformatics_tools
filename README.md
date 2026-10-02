@@ -27,6 +27,7 @@
   - [Long-read & Isoform-resolved Analysis](#long-read--isoform-resolved-analysis)
   - [Epigenomics & Chromatin Accessibility](#epigenomics--chromatin-accessibility)
   - [Phenotype & Clinical Outcome Association](#phenotype--clinical-outcome-association)
+  - [Metagenomics](#metagenomics)
 - [Spatial Omics](#spatial-omics)
   - [Experimental Technologies](#experimental-technologies-1)
   - [Preprocessing & Quality Control](#preprocessing--quality-control-1)
@@ -35,9 +36,12 @@
   - [Spatial Differential Expression](#spatial-differential-expression)
   - [Spatially Variable Genes, Gene Prediction & Resolution Enhancement](#spatially-variable-genes-gene-prediction--resolution-enhancement)
   - [Spatial Domains & Tissue Architecture](#spatial-domains--tissue-architecture)
+  - [Histology-integrated Analysis](#histology-integrated-analysis)
   - [Spatial Cell–Cell Communication](#spatial-cellcell-communication)
   - [Neighborhood & Microenvironment Analysis](#neighborhood--microenvironment-analysis)
   - [Spatiotemporal Dynamics](#spatiotemporal-dynamics)
+  - [Spatial Perturbation Modeling](#spatial-perturbation-modeling)
+  - [Spatial CNV & Clonal Inference](#spatial-cnv--clonal-inference)
   - [Multi-sample Spatial Integration](#multi-sample-spatial-integration)
   - [Visualization & Interactive Exploration](#visualization--interactive-exploration-1)
   - [Simulation & Benchmarking](#simulation--benchmarking-1)
@@ -103,6 +107,12 @@ Single-cell multi-omic detection of DNA methylation and histone modifications.
 - Code: [https://github.com/cgeisenberger/taps-manuscript](https://github.com/cgeisenberger/taps-manuscript)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7378833536415514625](https://www.linkedin.com/feed/update/urn:li:share:7378833536415514625)
 
+#### sci-Plex-GxE
+Combined single-cell genetic and chemical screening platform (sci-Plex-Gene-by-Environment) probing thousands of gene-by-drug combinations across over a million single-cell transcriptomes.
+- Paper: [https://www.cell.com/cell-genomics/fulltext/S2666-979X(23)00339-7](https://www.cell.com/cell-genomics/fulltext/S2666-979X(23)00339-7)
+- Code: [https://github.com/cole-trapnell-lab/sci-Plex-GxE](https://github.com/cole-trapnell-lab/sci-Plex-GxE)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7162472963902980098/](https://www.linkedin.com/feed/update/urn:li:share:7162472963902980098/)
+
 #### ScISOr-ATAC
 ScISOr-ATAC combines isoform-resolved RNA-seq and ATAC-seq to measure splicing and chromatin accessibility simultaneously.
 - Paper: [https://www.nature.com/articles/s41592-025-02847-4](https://www.nature.com/articles/s41592-025-02847-4)
@@ -130,11 +140,6 @@ Comparison of 10x Genomics CellPlex and Parse Biosciences Evercode multiplexing 
 - Paper: [https://doi.org/10.1016/j.isci.2026.114780](https://doi.org/10.1016/j.isci.2026.114780)
 - Website: [https://cellxgene.cziscience.com/collections/0dd101f7-9829-44b3-a323-18b113eabeb4](https://cellxgene.cziscience.com/collections/0dd101f7-9829-44b3-a323-18b113eabeb4)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7437903870783193089](https://www.linkedin.com/feed/update/urn:li:ugcPost:7437903870783193089)
-
-#### SMAGLinker
-Integration of single-cell genomics with metagenomics to improve the quality and accuracy of metagenome-assembled genomes (MAGs) by using single-cell amplified genomes (SAGs) as binning guides.
-- Paper: [https://link.springer.com/article/10.1186/s40168-021-01152-4](https://link.springer.com/article/10.1186/s40168-021-01152-4)
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7188100582333706242/](https://www.linkedin.com/feed/update/urn:li:share:7188100582333706242/)
 
 #### snPATHO-Seq
 Single nucleus RNA profiling from FFPE samples.
@@ -287,6 +292,12 @@ A comprehensive comparison of strategies for integrating single-cell RNA sequenc
 - LinkedIn posts:
   - [https://www.linkedin.com/feed/update/urn:li:share:7421589330646749184](https://www.linkedin.com/feed/update/urn:li:share:7421589330646749184)
   - [https://www.linkedin.com/feed/update/urn:li:share:7128366101410816006/](https://www.linkedin.com/feed/update/urn:li:share:7128366101410816006/)
+
+#### Continual Learning (CL) & Relative Representations (RR) Mapping
+Expand single-cell atlases and link observational atlases to perturbational datasets using robust case–control integration without catastrophic forgetting
+- Paper: [https://www.biorxiv.org/content/10.64898/2026.03.03.708171v3](https://www.biorxiv.org/content/10.64898/2026.03.03.708171v3)
+- Code: [https://github.com/theislab/comparative_atlas](https://github.com/theislab/comparative_atlas)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7455260196605607936](https://www.linkedin.com/feed/update/urn:li:ugcPost:7455260196605607936)
 
 #### FedscGen
 Federated learning framework for privacy-preserving batch effect correction of scRNA-seq data
@@ -496,6 +507,12 @@ Deep learning framework designed to identify senescent cells across single-cell 
 - Code: [https://github.com/anthony-qu/DeepScence](https://github.com/anthony-qu/DeepScence)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7401984074699018241](https://www.linkedin.com/feed/update/urn:li:share:7401984074699018241)
 
+#### scATAcat
+Cell-type annotation tool for scATAC-seq that co-embeds characterized bulk-ATAC prototype accessibility profiles with pseudobulk single-cell clusters in PCA space to assign labels by spatial distance.
+- Paper: [https://academic.oup.com/nargab/article/6/4/lqae135/7815643](https://academic.oup.com/nargab/article/6/4/lqae135/7815643)
+- Code: [https://github.com/aybugealtay/scATAcat](https://github.com/aybugealtay/scATAcat)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7164159071283994625/](https://www.linkedin.com/feed/update/urn:li:share:7164159071283994625/)
+
 #### scPathOT
 Pathway-informed universal domain adaptation framework that aligns single-cell RNA-seq datasets using pathway activity (KEGG, Reactome) with multi-view GNN fusion and adaptive unbalanced optimal transport, while protecting query-specific/unmatched cell populations from being forced into the reference.
 - Paper: [https://www.biorxiv.org/content/10.64898/2026.05.07.723423v1.full](https://www.biorxiv.org/content/10.64898/2026.05.07.723423v1.full)
@@ -513,6 +530,12 @@ Parameter-free linear-algebra method for scRNA-seq representation and classifica
 - Paper: [https://journals.biologists.com/dev/article/150/21/dev201873/334525/scTOP-physics-inspired-order-parameters-for](https://journals.biologists.com/dev/article/150/21/dev201873/334525/scTOP-physics-inspired-order-parameters-for)
 - Code: [https://pypi.org/project/scTOP/](https://pypi.org/project/scTOP/)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7438630516070768640](https://www.linkedin.com/feed/update/urn:li:share:7438630516070768640)
+
+#### SifiNet
+A robust and accurate method to identify feature gene sets and annotate cells bypassing traditional cell clustering stages.
+- Paper: [https://academic.oup.com/nar/article/52/9/e46/7655783?login=false](https://academic.oup.com/nar/article/52/9/e46/7655783?login=false)
+- Code: [https://github.com/jichunxie/sifinet](https://github.com/jichunxie/sifinet)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7197615523969323008/](https://www.linkedin.com/feed/update/urn:li:share:7197615523969323008/)
 
 #### Stator
 Data-driven method that identifies cell (sub)types and states without relying on cells’ local proximity in transcriptome space through deriving higher-order gene expression dependencies from a sparse gene-by-cell expression matrix.
@@ -677,6 +700,13 @@ Role-aware bi-tower graph learning framework separating undirected graph-context
 - Code: Not shared in the bioRxiv paper
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7473017201780981760](https://www.linkedin.com/feed/update/urn:li:share:7473017201780981760)
 
+#### Context-dependent GRNs from Literature with LLMs
+BERT-based literature-mining framework that builds quantitative, context-aware gene regulatory networks for disease- and cell-specific modeling.
+- Paper: [https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag101/8499661](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag101/8499661)
+- Code: [https://github.com/okadalabipr/context-dependent-GRNs](https://github.com/okadalabipr/context-dependent-GRNs)
+- Code: [https://github.com/okadalabipr/BioMathForge](https://github.com/okadalabipr/BioMathForge)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7441883050734555138](https://www.linkedin.com/feed/update/urn:li:share:7441883050734555138)
+
 #### CORNETO
 unified framework for knowledge-driven network inference that integrates prior knowledge networks (PKNs) and omics data across multiple samples
 - Paper: [https://www.nature.com/articles/s42256-025-01069-9](https://www.nature.com/articles/s42256-025-01069-9)
@@ -709,6 +739,12 @@ Network-based polygenic enrichment method that integrates single-cell transcript
 - Code: [https://github.com/mayunlong89/scMORE_reproduce](https://github.com/mayunlong89/scMORE_reproduce)
 - Paper: [https://doi.org/10.1038/s43587-025-01027-5](https://doi.org/10.1038/s43587-025-01027-5)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7427756974018052096](https://www.linkedin.com/feed/update/urn:li:ugcPost:7427756974018052096)
+
+#### SHARE-Topic
+SHARE-Topic is a Bayesian Hierarchical model and used to infer gene-region interactions from single-cell multi-omics data. SHARE-Topic provides latent representations for cells, genes, and accessible chromatin regions.
+- Paper: [https://link.springer.com/article/10.1186/s13059-024-03180-3](https://link.springer.com/article/10.1186/s13059-024-03180-3)
+- Code: [https://github.com/Nour899/SHARE-Topic](https://github.com/Nour899/SHARE-Topic)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7172903947362254848/](https://www.linkedin.com/feed/update/urn:li:share:7172903947362254848/)
 
 ### Cell–Cell Communication
 
@@ -873,6 +909,12 @@ Read, UMI count and open chromatin region simulator for scRNA-seq and scATAC-seq
 - Code: [https://github.com/JSB-UCLA/scReadSim](https://github.com/JSB-UCLA/scReadSim)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7134464156782538753/](https://www.linkedin.com/feed/update/urn:li:share:7134464156782538753/)
 
+#### scSemiProfiler
+Combines deep generative models and active learning to economically generate single-cell data for biological studies. Two modes: Bulk Deconvolution & Semi-profile a Cohort
+- Paper: [https://www.nature.com/articles/s41467-024-50150-1](https://www.nature.com/articles/s41467-024-50150-1)
+- Code: [https://github.com/mcgilldinglab/scSemiProfiler](https://github.com/mcgilldinglab/scSemiProfiler)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7138120241938698240/](https://www.linkedin.com/feed/update/urn:li:share:7138120241938698240/)
+
 ### Visualization & Interactive Exploration
 
 #### MultiModalGraphics
@@ -970,6 +1012,12 @@ Computational framework for accurate genome-wide detection of mosaic short tande
 - Code: [https://github.com/douymLab/BayesMonSTR](https://github.com/douymLab/BayesMonSTR)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7458161426679947264](https://www.linkedin.com/feed/update/urn:li:share:7458161426679947264)
 
+#### Cellector
+Computational method to detect rare foreign-genotype cells in single-cell RNA-seq datasets.
+- Paper: [https://www.biorxiv.org/content/10.64898/2026.03.26.714571v1](https://www.biorxiv.org/content/10.64898/2026.03.26.714571v1)
+- Code: [https://github.com/wheaton5/cellector](https://github.com/wheaton5/cellector)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7458503823406530561](https://www.linkedin.com/feed/update/urn:li:share:7458503823406530561)
+
 #### cellsnp-lite
 C/C++ genotyping tool for droplet- and well-based single-cell sequencing data, offering fast, memory-efficient SNP genotyping directly from aligned BAM/SAM/CRAM reads.
 - Paper: [https://academic.oup.com/bioinformatics/article/37/23/4569/6272512](https://academic.oup.com/bioinformatics/article/37/23/4569/6272512)
@@ -1005,6 +1053,12 @@ Gene Expression Memory-based Lineage Inference: computational pipeline predictin
 - Paper: [https://www.nature.com/articles/s41467-024-47158-y](https://www.nature.com/articles/s41467-024-47158-y)
 - Code: [https://github.com/UPSUTER/GEMLI](https://github.com/UPSUTER/GEMLI)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7193506323609608193/](https://www.linkedin.com/feed/update/urn:li:share:7193506323609608193/)
+
+#### MitoPerturb-Seq
+Single-cell platform combining pooled CRISPR screening with multiome profiling to measure nuclear transcription, chromatin accessibility, gRNAs, mtDNA sequence, copy number and heteroplasmy.
+- Code: [https://github.com/JvdAlab/mitoPerturb-Seq](https://github.com/JvdAlab/mitoPerturb-Seq)
+- Paper: [https://doi.org/10.1038/s41594-026-01779-7](https://doi.org/10.1038/s41594-026-01779-7)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7452723483534426112](https://www.linkedin.com/feed/update/urn:li:share:7452723483534426112)
 
 #### Monopogen
 Call SNPs at at single cell level
@@ -1102,6 +1156,12 @@ Transformer-based framework that predicts condition-matched, drug-induced transc
 - Paper: [https://doi.org/10.64898/2026.03.27.714886](https://doi.org/10.64898/2026.03.27.714886)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7450186770144595968](https://www.linkedin.com/feed/update/urn:li:share:7450186770144595968)
 
+#### MitoPerturb-Seq
+Single-cell platform combining pooled CRISPR screening with multiome profiling to measure nuclear transcription, chromatin accessibility, gRNAs, mtDNA sequence, copy number and heteroplasmy.
+- Code: [https://github.com/JvdAlab/mitoPerturb-Seq](https://github.com/JvdAlab/mitoPerturb-Seq)
+- Paper: [https://doi.org/10.1038/s41594-026-01779-7](https://doi.org/10.1038/s41594-026-01779-7)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7452723483534426112](https://www.linkedin.com/feed/update/urn:li:share:7452723483534426112)
+
 #### PACMON
 Bayesian pathway-guided multi-omics integration method to infer interpretable associations between perturbations and pathways.
 - Code: [https://github.com/mlo-lab/pacmon](https://github.com/mlo-lab/pacmon)
@@ -1166,6 +1226,12 @@ Large-scale single-cell foundation model leveraging cellular context and in-cont
 - Paper: [https://doi.org/10.64898/2026.01.09.698608](https://doi.org/10.64898/2026.01.09.698608)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7421947190950055936](https://www.linkedin.com/feed/update/urn:li:share:7421947190950055936)
 
+#### TAP-seq
+Targeted Perturb-seq method that amplifies predefined genes and gRNAs from single-cell cDNA via multiplex semi-nested PCR, concentrating sequencing on selected targets to cut cost and improve detection of weak regulatory effects (e.g., enhancer screens).
+- Code: [https://github.com/argschwind/TAPseq](https://github.com/argschwind/TAPseq)
+- Paper: [https://www.nature.com/articles/s41592-020-0837-5](https://www.nature.com/articles/s41592-020-0837-5)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7472307276905693184](https://www.linkedin.com/feed/update/urn:li:share:7472307276905693184)
+
 #### TMEformer
 Tumor-microenvironment-aware spatial transformer for in silico perturbation of tumor ecosystems, using a TME Context Encoding Module to build attention-derived context tokens from spatial neighbors and predict NEPC/CRPC transitions and TF drivers.
 - Code: [https://github.com/lishensuo/tmeformer](https://github.com/lishensuo/tmeformer)
@@ -1206,6 +1272,16 @@ Framework for single-cell proteomics using multi-task heteroscedastic regression
 - Code: [https://github.com/TencentAILabHealthcare/scPROTEIN](https://github.com/TencentAILabHealthcare/scPROTEIN)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7198561767256428544/](https://www.linkedin.com/feed/update/urn:li:share:7198561767256428544/)
 
+#### SEC-seq
+Secretion-Encoded single-cell Sequencing: captures individual cells together with their secretions, enabling simultaneous analysis of protein secretion and transcriptome.
+- Website: [https://www.partillion.com/secseq](https://www.partillion.com/secseq)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7158413844564844545/](https://www.linkedin.com/feed/update/urn:li:share:7158413844564844545/)
+
+#### Vivo-seq
+Droplet-based single-cell platform that integrates scRNA-seq with intracellular phospho-signaling via DES fixation.
+- Paper: [https://doi.org/10.1016/j.celrep.2025.116006](https://doi.org/10.1016/j.celrep.2025.116006)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7404829727112396802](https://www.linkedin.com/feed/update/urn:li:share:7404829727112396802)
+
 ### Single-cell Hi-C
 
 #### Hi-Cformer
@@ -1229,6 +1305,12 @@ Analyze Nanopore long read sequencing dataset based on 10X single cell sequencin
 - Code: [https://github.com/yuntianf/Longcell](https://github.com/yuntianf/Longcell)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7364711343314161665](https://www.linkedin.com/feed/update/urn:li:share:7364711343314161665)
 
+#### ScISOr-ATAC
+ScISOr-ATAC combines isoform-resolved RNA-seq and ATAC-seq to measure splicing and chromatin accessibility simultaneously.
+- Paper: [https://www.nature.com/articles/s41592-025-02847-4](https://www.nature.com/articles/s41592-025-02847-4)
+- Code: [https://github.com/BuysDB/SingleCellMultiOmics](https://github.com/BuysDB/SingleCellMultiOmics)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7364707784442937344](https://www.linkedin.com/feed/update/urn:li:share:7364707784442937344)
+
 #### SCLR-seq review
 This review explores the growing utility of SCLR-seq, highlighting recent developments in bioinformatics tools and pipelines designed for SCLR-seq data analysis.
 - Paper: [https://doi.org/10.1093/bib/bbaf655](https://doi.org/10.1093/bib/bbaf655)
@@ -1239,6 +1321,12 @@ Isoform-level characterization of gene expression through long-read single-cell 
 - Paper: [https://www.linkedin.com/posts/alfonso-saera-vila_isoform-analytics-scotch-the-study-share-7480627346455207936-gD5M](https://www.linkedin.com/posts/alfonso-saera-vila_isoform-analytics-scotch-the-study-share-7480627346455207936-gD5M)
 - Code: [https://github.com/WGLab/SCOTCH](https://github.com/WGLab/SCOTCH)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7198988321941815296/](https://www.linkedin.com/feed/update/urn:li:share:7198988321941815296/)
+
+#### VDJcraft
+Pipeline for comprehensive characterization of V(D)J recombination from long-read transcriptomic sequencing data.
+- Paper: [https://www.biorxiv.org/content/10.64898/2026.04.01.715879v1](https://www.biorxiv.org/content/10.64898/2026.04.01.715879v1)
+- Code: [https://github.com/kailihu-uab/VDJcraft](https://github.com/kailihu-uab/VDJcraft)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7449815567781363714](https://www.linkedin.com/feed/update/urn:li:share:7449815567781363714)
 
 ### Epigenomics & Chromatin Accessibility
 
@@ -1291,11 +1379,35 @@ Cell-type annotation tool for scATAC-seq that co-embeds characterized bulk-ATAC 
 - Code: [https://github.com/aybugealtay/scATAcat](https://github.com/aybugealtay/scATAcat)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7164159071283994625/](https://www.linkedin.com/feed/update/urn:li:share:7164159071283994625/)
 
+#### scEpi2-seq
+Single-cell multi-omic detection of DNA methylation and histone modifications.
+- Paper: [https://www.nature.com/articles/s41592-025-02847-4](https://www.nature.com/articles/s41592-025-02847-4)
+- Code: [https://github.com/BuysDB/SingleCellMultiOmics](https://github.com/BuysDB/SingleCellMultiOmics)
+- Code: [https://github.com/cgeisenberger/taps-manuscript](https://github.com/cgeisenberger/taps-manuscript)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7378833536415514625](https://www.linkedin.com/feed/update/urn:li:share:7378833536415514625)
+
+#### ScISOr-ATAC
+ScISOr-ATAC combines isoform-resolved RNA-seq and ATAC-seq to measure splicing and chromatin accessibility simultaneously.
+- Paper: [https://www.nature.com/articles/s41592-025-02847-4](https://www.nature.com/articles/s41592-025-02847-4)
+- Code: [https://github.com/BuysDB/SingleCellMultiOmics](https://github.com/BuysDB/SingleCellMultiOmics)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7364707784442937344](https://www.linkedin.com/feed/update/urn:li:share:7364707784442937344)
+
 #### scooby
 sequence-to-function model predicting multimodal single-cell RNA+ATAC profiles from DNA sequence windows
 - Paper: [https://www.nature.com/articles/s41592-025-02854-5](https://www.nature.com/articles/s41592-025-02854-5)
 - Code: [https://github.com/gagneurlab/scooby/](https://github.com/gagneurlab/scooby/)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7468650685358698496](https://www.linkedin.com/feed/update/urn:li:share:7468650685358698496)
+
+#### scTAM-seq
+scTAM-seq addresses the critical challenges of noise and low throughput in single-cell DNA methylation analysis.
+- Paper: [https://link.springer.com/article/10.1186/s13059-022-02796-7](https://link.springer.com/article/10.1186/s13059-022-02796-7)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7193914888161837058/](https://www.linkedin.com/feed/update/urn:li:share:7193914888161837058/)
+
+#### SHARE-Topic
+SHARE-Topic is a Bayesian Hierarchical model and used to infer gene-region interactions from single-cell multi-omics data. SHARE-Topic provides latent representations for cells, genes, and accessible chromatin regions.
+- Paper: [https://link.springer.com/article/10.1186/s13059-024-03180-3](https://link.springer.com/article/10.1186/s13059-024-03180-3)
+- Code: [https://github.com/Nour899/SHARE-Topic](https://github.com/Nour899/SHARE-Topic)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7172903947362254848/](https://www.linkedin.com/feed/update/urn:li:share:7172903947362254848/)
 
 #### SnapATAC2
 Python tool for single-cell epigenomics analysis.
@@ -1329,6 +1441,31 @@ Attention-based multiple-instance Cox regression modeling tumor samples as cell 
 - Code: [https://github.com/cliffren/scSurvival ](https://github.com/cliffren/scSurvival )
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7466388268725456897/?skipRedirect=true](https://www.linkedin.com/feed/update/urn:li:share:7466388268725456897/?skipRedirect=true)
 
+
+#### scTREND
+Deep generative framework that integrates single-cell latent representations from a VAE with bulk-level cell-type proportions and hazard coefficients. Computates patient-level risk scores and identifies cell populations whose prognostic impact dynamically changes across time and clinical conditions
+- Paper: [https://www.biorxiv.org/content/10.64898/2026.01.26.701686v1](https://www.biorxiv.org/content/10.64898/2026.01.26.701686v1)
+- Code: [https://github.com/R301Carbine/scTREND](https://github.com/R301Carbine/scTREND)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7434630778753331200](https://www.linkedin.com/feed/update/urn:li:share:7434630778753331200)
+
+#### SLIDE
+Data-distribution-free approach to analyze high-dimensional multiomic datasets and uncover latent factors that drive the outcome of interest
+- Paper: [https://www.nature.com/articles/s41592-024-02175-z](https://www.nature.com/articles/s41592-024-02175-z)
+- Code: [https://github.com/jishnu-lab/SLIDE](https://github.com/jishnu-lab/SLIDE)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7176845297245896705/](https://www.linkedin.com/feed/update/urn:li:share:7176845297245896705/)
+
+#### TissueFormer
+Extending single-cell foundation models to predict population-level phenotypes
+- Paper: [https://link.springer.com/article/10.1186/s12859-026-06490-4](https://link.springer.com/article/10.1186/s12859-026-06490-4)
+- Code: [https://github.com/ZadorLaboratory/TissueFormer](https://github.com/ZadorLaboratory/TissueFormer)
+- LinkedIn post: [https://www.linkedin.com/posts/alfonso-saera-vila_population-level-phenotype-prediction-activity-7467572582360252416-Bjlj](https://www.linkedin.com/posts/alfonso-saera-vila_population-level-phenotype-prediction-activity-7467572582360252416-Bjlj)
+
+### Metagenomics
+
+#### SMAGLinker
+Integration of single-cell genomics with metagenomics to improve the quality and accuracy of metagenome-assembled genomes (MAGs) by using single-cell amplified genomes (SAGs) as binning guides.
+- Paper: [https://link.springer.com/article/10.1186/s40168-021-01152-4](https://link.springer.com/article/10.1186/s40168-021-01152-4)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7188100582333706242/](https://www.linkedin.com/feed/update/urn:li:share:7188100582333706242/)
 
 ---
 
@@ -1419,6 +1556,12 @@ Transcriptomic-first segmentation and probabilistic cell-simulation toolkit for 
 
 ### Spatial Cell Type Annotation
 
+#### DeepScence
+Deep learning framework designed to identify senescent cells across single-cell and spatial transcriptomics
+- Paper: [https://www.cell.com/cell-genomics/fulltext/S2666-979X(25)00291-5](https://www.cell.com/cell-genomics/fulltext/S2666-979X(25)00291-5)
+- Code: [https://github.com/anthony-qu/DeepScence](https://github.com/anthony-qu/DeepScence)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7401984074699018241](https://www.linkedin.com/feed/update/urn:li:share:7401984074699018241)
+
 #### Focus
 Semi-supervised graph contrastive learning method that enhances cell-type annotation in spatial transcriptomics by constructing gene neighborhood networks at subcellular resolution.
 - Paper: [https://academic.oup.com/bib/article/26/1/bbaf020/7990577](https://academic.oup.com/bib/article/26/1/bbaf020/7990577)
@@ -1441,6 +1584,12 @@ Paired statistical methods: Niche-DE identifies cell-type-specific niche-associa
 
 ### Spatially Variable Genes, Gene Prediction & Resolution Enhancement
 
+#### DGAT
+Dual-graph attention model that infers spatial protein expression from transcriptomics.
+- Code: [https://github.com/osmanbeyoglulab/DGAT/](https://github.com/osmanbeyoglulab/DGAT/)
+- Paper: [https://doi.org/10.1101/2025.07.05.662121](https://doi.org/10.1101/2025.07.05.662121)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7433557046051897344](https://www.linkedin.com/feed/update/urn:li:share:7433557046051897344)
+
 #### iSCALE
 Framework designed to integrate multiple daughter captures and utilize H&E information from large tissue samples, enabling prediction of gene expression with near single-cell resolution across whole-slide tissues.
 - Paper: [https://www.nature.com/articles/s41592-025-02770-8](https://www.nature.com/articles/s41592-025-02770-8)
@@ -1458,6 +1607,12 @@ Latent flow-matching generative model predicting virtual spatial gene expression
 - Paper: [https://www.biorxiv.org/content/10.64898/2026.04.25.720812v2](https://www.biorxiv.org/content/10.64898/2026.04.25.720812v2)
 - Code: [https://github.com/peng-lab/phoenix](https://github.com/peng-lab/phoenix)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7465035866663546880](https://www.linkedin.com/feed/update/urn:li:share:7465035866663546880)
+
+#### scLinear
+A linear regression-based approach that predicts single-cell protein abundance based on RNA expression in unseen single-cell and spatial transcriptomics data.
+- Paper: [https://www.nature.com/articles/s42003-024-05958-4](https://www.nature.com/articles/s42003-024-05958-4)
+- Code: [https://github.com/DanHanh/scLinear](https://github.com/DanHanh/scLinear)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7177682937474138112/](https://www.linkedin.com/feed/update/urn:li:share:7177682937474138112/)
 
 #### scResolve
 Deep-learning method recovering single-cell gene expression profiles from multi-cellular-resolution spatial transcriptomics measurements, mapping expression to individual pixels/cells in tissue images.
@@ -1491,12 +1646,6 @@ Method for clustering spatial omics data.
 - Code: [https://github.com/prabhakarlab/Banksy](https://github.com/prabhakarlab/Banksy)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7195080573688672257/](https://www.linkedin.com/feed/update/urn:li:share:7195080573688672257/)
 
-#### Cell Synergy
-Mltimodal self-supervised learning (SSL) methods to align gene expression (GEX) and histopathology image (IMG) representations in spatial transcriptomics data.
-- Paper: [https://www.biorxiv.org/content/10.64898/2026.02.23.707420v3](https://www.biorxiv.org/content/10.64898/2026.02.23.707420v3)
-- Code: [https://github.com/microsoft/cell_synergy](https://github.com/microsoft/cell_synergy)
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7439346349935902720](https://www.linkedin.com/feed/update/urn:li:share:7439346349935902720)
-
 #### CellCharter
 CellCharter is able to automatically identify spatial domains and offers a suite of approaches for cluster characterization and comparison.
 - Paper: [https://www.nature.com/articles/s41588-023-01588-4](https://www.nature.com/articles/s41588-023-01588-4)
@@ -1514,12 +1663,6 @@ Spatially aware contrastive learning framework that jointly models salient and b
 - Code: [https://github.com/nasunlab/Haruka](https://github.com/nasunlab/Haruka)
 - Paper: [https://doi.org/10.64898/2025.12.08.693051](https://doi.org/10.64898/2025.12.08.693051)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7414667978975408129](https://www.linkedin.com/feed/update/urn:li:share:7414667978975408129)
-
-#### HESTIA
-Scalable multimodal framework fusing high-resolution spatial transcriptomics and H&E histology via a dual-autoencoder design to identify spatial domains, processing millions of bins on a single 24GB GPU where other multimodal methods fail.
-- Paper: [https://www.biorxiv.org/content/10.64898/2026.05.14.723098v1](https://www.biorxiv.org/content/10.64898/2026.05.14.723098v1)
-- Code: Not shared in the bioRxiv paper
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7469770558386245632](https://www.linkedin.com/feed/update/urn:li:share:7469770558386245632)
 
 #### NicheCompass
 End-to-end analysis of spatial multi-omics data, including spatial atlas building, niche identification & characterization, cell-cell communication inference and spatial reference mapping.
@@ -1545,6 +1688,20 @@ Multi-slice spatial domain analysis.
 - Code: [https://github.com/bm2-lab/SpaDo](https://github.com/bm2-lab/SpaDo)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7183025142355136515/](https://www.linkedin.com/feed/update/urn:li:share:7183025142355136515/)
 
+### Histology-integrated Analysis
+
+#### Cell Synergy
+Mltimodal self-supervised learning (SSL) methods to align gene expression (GEX) and histopathology image (IMG) representations in spatial transcriptomics data.
+- Paper: [https://www.biorxiv.org/content/10.64898/2026.02.23.707420v3](https://www.biorxiv.org/content/10.64898/2026.02.23.707420v3)
+- Code: [https://github.com/microsoft/cell_synergy](https://github.com/microsoft/cell_synergy)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7439346349935902720](https://www.linkedin.com/feed/update/urn:li:share:7439346349935902720)
+
+#### HESTIA
+Scalable multimodal framework fusing high-resolution spatial transcriptomics and H&E histology via a dual-autoencoder design to identify spatial domains, processing millions of bins on a single 24GB GPU where other multimodal methods fail.
+- Paper: [https://www.biorxiv.org/content/10.64898/2026.05.14.723098v1](https://www.biorxiv.org/content/10.64898/2026.05.14.723098v1)
+- Code: Not shared in the bioRxiv paper
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7469770558386245632](https://www.linkedin.com/feed/update/urn:li:share:7469770558386245632)
+
 #### SpaHDmap
 Multimodal, interpretable dimension-reduction framework that integrates spatial transcriptomics and histology to produce high-resolution spatial metagenes.
 - Code: [https://github.com/XiDsLab/SpaHDmap](https://github.com/XiDsLab/SpaHDmap)
@@ -1559,6 +1716,12 @@ Inferring ligand-receptor cellular networks from bulk and spatial transcriptomic
 - Paper: [https://academic.oup.com/nar/article/51/10/4726/7152875?login=false](https://academic.oup.com/nar/article/51/10/4726/7152875?login=false)
 - Code: [https://github.com/jcolinge/BulkSignalR](https://github.com/jcolinge/BulkSignalR)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7165604596042645504/](https://www.linkedin.com/feed/update/urn:li:share:7165604596042645504/)
+
+#### CellChat
+infers and analyzes cell-cell communication networks from single-cell RNA-sequencing (scRNA-seq) data within an easily interpretable framework. V2 includes direct incorporation of spatial locations of cells, if available, to infer spatially proximal cell-cell communication
+- Paper: [https://www.nature.com/articles/s41596-024-01045-4](https://www.nature.com/articles/s41596-024-01045-4)
+- Code: [https://github.com/jinworks/CellChat](https://github.com/jinworks/CellChat)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7132624063792857089/](https://www.linkedin.com/feed/update/urn:li:share:7132624063792857089/)
 
 #### CytoSignal & VeloCytoSignal
 Tools for detecting static and dynamic cell-cell signaling at cellular resolution from spatial transcriptomic data.
@@ -1612,6 +1775,13 @@ End-to-end analysis of spatial multi-omics data, including spatial atlas buildin
 - Code: [https://github.com/Lotfollahi-lab/nichecompass](https://github.com/Lotfollahi-lab/nichecompass)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7175749444720599040/](https://www.linkedin.com/feed/update/urn:li:share:7175749444720599040/)
 
+#### SCIMAP
+SCIMAP is a scalable toolkit for analyzing spatial molecular data, suitable for large datasets involving millions of cells developed by Ajit Johnson Nirmal from Harvard Medical School.
+- Paper: [https://joss.theoj.org/papers/10.21105/joss.06604#](https://joss.theoj.org/papers/10.21105/joss.06604#)
+- Code: [https://github.com/labsyspharm/scimap](https://github.com/labsyspharm/scimap)
+- Website: [https://scimap.xyz/](https://scimap.xyz/)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7188418426577563648/](https://www.linkedin.com/feed/update/urn:li:share:7188418426577563648/)
+
 #### SpatioMark
 R package to identify changes in cell state relative to spatial associations.
 - Paper: [https://academic.oup.com/bioinformatics/article/41/8/btaf409/8205670?login=false](https://academic.oup.com/bioinformatics/article/41/8/btaf409/8205670?login=false)
@@ -1628,11 +1798,45 @@ spaSim: A simulator for creating realistic tissue cell spatial patterns, perfect
 
 ### Spatiotemporal Dynamics
 
+#### SOAPy
+Python Package for spatial domain analysis, spatial expression tendency, spatiotemporal expression patterns, and more.
+- Paper: [https://link.springer.com/article/10.1186/s13059-025-03550-5](https://link.springer.com/article/10.1186/s13059-025-03550-5)
+- Code: [https://github.com/LiHongCSBLab/SOAPy](https://github.com/LiHongCSBLab/SOAPy)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7150803747361746946/](https://www.linkedin.com/feed/update/urn:li:share:7150803747361746946/)
+
+#### SpaTRACE
+Transformer-based spatiotemporal recurrent autoencoder jointly inferring intercellular signaling and gene regulatory networks from developmental spatial transcriptomics, modeling time-lagged TF/ligand-receptor dependencies along pseudotime with single-cell attribution.
+- Code: [https://github.com/VariaanZhou/SpaTRACE](https://github.com/VariaanZhou/SpaTRACE)
+- Paper: [https://doi.org/10.1101/2025.11.20.689569](https://doi.org/10.1101/2025.11.20.689569)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7461040543607779329](https://www.linkedin.com/feed/update/urn:li:ugcPost:7461040543607779329)
+
 #### stVCR
 Generative deep learning framework to reconstruct continuous spatiotemporal single-cell dynamics from time-series spatial transcriptomics snapshots.
 - Paper: [https://www.nature.com/articles/s41592-026-03010-3](https://www.nature.com/articles/s41592-026-03010-3)
 - Code: [https://github.com/QiangweiPeng/stVCR](https://github.com/QiangweiPeng/stVCR)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7449068901365223424](https://www.linkedin.com/feed/update/urn:li:share:7449068901365223424)
+
+### Spatial Perturbation Modeling
+
+#### CONCERT
+Niche-aware generative model that predicts perturbation-induced gene expression responses in spatial transcriptomics.
+- Code: [https://github.com/mims-harvard/CONCERT](https://github.com/mims-harvard/CONCERT)
+- Paper: [https://doi.org/10.1101/2025.11.08.686890](https://doi.org/10.1101/2025.11.08.686890)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7411692887697932288](https://www.linkedin.com/feed/update/urn:li:share:7411692887697932288)
+
+#### TRINUS
+Self-supervised deep generative model deciphering cell-cell interaction "syntax" in spatial transcriptomics via a vector-quantized prototype codebook that decouples intrinsic lineage identity from extrinsic niche pressure, enabling in silico perturbation and niche engineering.
+- Paper: [https://www.biorxiv.org/content/10.64898/2026.05.18.725889v1](https://www.biorxiv.org/content/10.64898/2026.05.18.725889v1)
+- Code: Not shared in the bioRxiv paper
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7471461699305431040](https://www.linkedin.com/feed/update/urn:li:share:7471461699305431040)
+
+### Spatial CNV & Clonal Inference
+
+#### Numbat
+Haplotype-aware CNV (Copy Number Variation) caller, specifically designed for single-cell and spatial transcriptomics data.
+- Paper: [https://www.nature.com/articles/s41587-022-01468-y](https://www.nature.com/articles/s41587-022-01468-y)
+- Code: [https://kharchenkolab.github.io/numbat/](https://kharchenkolab.github.io/numbat/)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7131929204429864960/](https://www.linkedin.com/feed/update/urn:li:share:7131929204429864960/)
 
 ### Multi-sample Spatial Integration
 
@@ -1647,6 +1851,12 @@ Computational framework for single-cell data. It features SMAI-test to statistic
 - Paper: [https://www.pnas.org/doi/10.1073/pnas.2313719121](https://www.pnas.org/doi/10.1073/pnas.2313719121)
 - Code: [https://github.com/rongstat/SMAI](https://github.com/rongstat/SMAI)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7175152762924523520/](https://www.linkedin.com/feed/update/urn:li:share:7175152762924523520/)
+
+#### SPACEL
+Python package of deep-learning-based methods for ST data analysis. Deconvolute cell type composition for each spot on single ST slice. Identify uniform spatial domains that are transcriptomically and spatially coherent across multiple ST slices. Stacks consecutive slices together to construct a three-dimensional (3D) alignment of the tissue
+- Paper: [https://www.nature.com/articles/s41467-023-43220-3](https://www.nature.com/articles/s41467-023-43220-3)
+- Code: [https://github.com/QuKunLab/SPACEL](https://github.com/QuKunLab/SPACEL)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7143193622753058816/](https://www.linkedin.com/feed/update/urn:li:share:7143193622753058816/)
 
 #### SpaMosaic
 Modality agnostic graph and contrastive learning method for integrating spatial multi-omics and imputing missing modalities.
@@ -1798,6 +2008,12 @@ Deep generative framework that integrates single-cell latent representations fro
 - Code: [https://github.com/R301Carbine/scTREND](https://github.com/R301Carbine/scTREND)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7434630778753331200](https://www.linkedin.com/feed/update/urn:li:share:7434630778753331200)
 
+#### SPACEL
+Python package of deep-learning-based methods for ST data analysis. Deconvolute cell type composition for each spot on single ST slice. Identify uniform spatial domains that are transcriptomically and spatially coherent across multiple ST slices. Stacks consecutive slices together to construct a three-dimensional (3D) alignment of the tissue
+- Paper: [https://www.nature.com/articles/s41467-023-43220-3](https://www.nature.com/articles/s41467-023-43220-3)
+- Code: [https://github.com/QuKunLab/SPACEL](https://github.com/QuKunLab/SPACEL)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7143193622753058816/](https://www.linkedin.com/feed/update/urn:li:share:7143193622753058816/)
+
 #### STRIDE
 Decompose cell types from spatial mixtures by leveraging topic profiles trained from single-cell transcriptomics. STRIDE also provides several downstream analysis functions, including (1) signature (i.e., topic) detection and visualization, (2) spatial clustering and domain identification based on neighborhood cell populations and (3) reconstruction of three-dimensional architecture from sequential ST slides of the same tissue.
 - Paper: [https://academic.oup.com/nar/article/50/7/e42/6543547?login=false](https://academic.oup.com/nar/article/50/7/e42/6543547?login=false)
@@ -1885,6 +2101,12 @@ Unified, modular framework to dissect and redesign tokenization strategies for s
 - Paper: [https://doi.org/10.1101/2025.11.09.687403](https://www.biorxiv.org/content/10.1101/2025.11.09.687403v3)
 - Code: [https://github.com/ma-compbio-lab/Heimdall](https://github.com/ma-compbio-lab/Heimdall)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7459623707985190912](https://www.linkedin.com/feed/update/urn:li:ugcPost:7459623707985190912)
+
+#### Nicheformer
+Transformer-based foundation model that integrates single-cell and spatial transcriptomics to learn representations that capture microenvironmental context.
+- Paper: [https://doi.org/10.1038/s41592-025-02814-z](https://doi.org/10.1038/s41592-025-02814-z)
+- Code: [https://github.com/theislab/nicheformer/](https://github.com/theislab/nicheformer/)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7393936369556979713](https://www.linkedin.com/feed/update/urn:li:share:7393936369556979713)
 
 #### PerturbGen
 Generative encoder-decoder transformer foundation model pre-trained on ~107 million single-cell transcriptomes to predict how genetic perturbations reshape cellular trajectories across experimentally observed stages.
@@ -2113,6 +2335,13 @@ Search, download, and convert public single-cell / spatial datasets into standar
 Standardized guidelines for reporting scRNA-seq experiments to improve reproducibility and data reuse.
 - Paper: [https://pmc.ncbi.nlm.nih.gov/articles/PMC9302581/](https://pmc.ncbi.nlm.nih.gov/articles/PMC9302581/)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7163064601088049153/](https://www.linkedin.com/feed/update/urn:li:share:7163064601088049153/)
+
+#### NeMO Analytics
+Cell-biologist‑friendly platform aggregating curated neocortical transcriptomic and multiomic datasets with interactive visualization and projection tools.
+- Paper: [https://www.nature.com/articles/s41593-026-02204-4](https://www.nature.com/articles/s41593-026-02204-4)
+- Code: [https://github.com/carlocolantuoni/NeocortexDevelopment_Sonthalia2024/](https://github.com/carlocolantuoni/NeocortexDevelopment_Sonthalia2024/)
+- Website: [https://nemoanalytics.org/landing/neocortex](https://nemoanalytics.org/landing/neocortex)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7453704697481424896](https://www.linkedin.com/feed/update/urn:li:ugcPost:7453704697481424896)
 
 #### rapids-singlecell
 GPU-accelerated framework for scalable single-cell analysis operating directly on AnnData.

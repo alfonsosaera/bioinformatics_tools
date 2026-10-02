@@ -74,6 +74,8 @@ Long-read single-cell RNA, isoform quantification, differential splicing, review
 scATAC-seq, DNA methylation, histone marks, enhancer/regulatory-element models, sequence-to-function models.
 ### Phenotype & Clinical Outcome Association
 Linking cells/samples to phenotype, survival or clinical outcome.
+### Metagenomics
+Single-cell genomics combined with metagenomics: genome binning, host-microbe and microbial single-cell methods.
 
 ## Spatial Omics
 Spatial transcriptomics/proteomics and spatial imaging data. Not: methods requiring sc reference + spatial (-> Single-cell & Spatial Integration).
@@ -91,13 +93,21 @@ Niche/neighbourhood-dependent DE.
 ### Spatially Variable Genes, Gene Prediction & Resolution Enhancement
 SVG detection, gene imputation, expression prediction from histology, super-resolution/cell-level recovery.
 ### Spatial Domains & Tissue Architecture
-Spatial domain/niche detection, multi-slice or histology-integrated domain methods, 3D tissue structure.
+Spatial domain/niche detection, multi-slice domain methods, 3D tissue structure.
+Not: methods built on joint expression + histology (H&E) modelling (-> Histology-integrated Analysis).
+### Histology-integrated Analysis
+Joint modelling of spatial omics and histology images (H&E): expression-image alignment, histology-aware domains,
+metagenes or representations.
 ### Spatial Cell–Cell Communication
 Spatial ligand-receptor signalling, communication niches, spatial GRN+signalling.
 ### Neighborhood & Microenvironment Analysis
 Cellular neighbourhoods, spatial statistics, multiplex-imaging analysis, microenvironment models.
 ### Spatiotemporal Dynamics
 Time-series spatial data, spatial trajectories/dynamics.
+### Spatial Perturbation Modeling
+In silico perturbation, niche engineering, prediction of perturbation responses in spatial data.
+### Spatial CNV & Clonal Inference
+CNV calling, clone and subclone inference in spatial data.
 ### Multi-sample Spatial Integration
 Slice alignment/registration, batch correction across spatial samples, multimodal spatial integration.
 ### Visualization & Interactive Exploration
