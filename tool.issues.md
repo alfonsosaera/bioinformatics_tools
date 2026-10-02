@@ -6,8 +6,8 @@ All 316 entries in `README.md` were checked against the rules in `sections_guide
 
 | Entry | Now in | Rule says | Suggestion |
 |---|---|---|---|
-| Automatic T-Cell Annotation (starCAT) | SC › Immune Repertoire | Immune Repertoire is for TCR/BCR analysis. Annotation goes to Cell Type Annotation. | Move, or cross-list to Cell Type Annotation. You chose to leave it earlier, and the guide now contradicts that. |
-| ProjecTILs | SC › Immune Repertoire | It projects onto a reference atlas, which is annotation or reference mapping. | Cross-list to Cell Type Annotation and/or Batch Integration. |
+| ~~Automatic T-Cell Annotation (starCAT)~~ | ~~SC › Immune Repertoire~~ | ~~Immune Repertoire is for TCR/BCR analysis. Annotation goes to Cell Type Annotation.~~ | ~~Move, or cross-list to Cell Type Annotation. You chose to leave it earlier, and the guide now contradicts that.~~ |
+| ~~ProjecTILs~~ | ~~SC › Immune Repertoire~~ | ~~It projects onto a reference atlas, which is annotation or reference mapping.~~ | ~~Cross-list to Cell Type Annotation and/or Batch Integration.~~ |
 | Stator | SC › Cell Type Annotation | De novo cell type/state discovery belongs in Dim. Reduction & Clustering. | Cross-list or move. |
 | scIB-E | SC & Spatial › Benchmarking | It benchmarks single-cell integration only (no spatial). The rule puts a benchmark with its own topic, in the same section. | Move to SC › Batch Integration. |
 | Stack, PerturbGen | SC › Perturbation Modeling only | Both describe themselves as foundation models. Foundation models go to Foundation Models, with a cross-list if the task is the main claim. | Cross-list to Single-cell Foundation Models. |

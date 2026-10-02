@@ -28,8 +28,9 @@ by integration); their benchmarks.
 Embeddings, representation learning, feature selection, clustering/over-clustering, metacells, archetypes,
 intrinsic dimension, de novo cell type/state discovery.
 ### Cell Type Annotation
-Assigning labels to cells (reference/marker-based, classifiers, ontology-guided, T-cell states, senescence).
-Not: LLM/agent annotators (-> LLMs, Agents & Chat Assistants; cross-list if also a classic method).
+Assigning labels to cells (reference/marker-based, classifiers, ontology-guided, senescence).
+Not: LLM/agent annotators (-> LLMs, Agents & Chat Assistants; cross-list if also a classic method);
+immune-specific annotators (-> Immune Cell Identification & Immune Repertoire).
 ### Differential Expression & Marker Discovery
 DE testing (single-cell, pseudobulk, multi-donor, longitudinal), differential abundance, marker genes,
 conditional gene-trait association.
@@ -51,8 +52,10 @@ latent factors. Not: same-modality batch integration (-> Batch Integration).
 Simulators, synthetic/generative data models, benchmark platforms for single-cell methods.
 ### Visualization & Interactive Exploration
 Plotting packages, viewers, portals, atlas browsers.
-### Immune Repertoire (TCR/BCR) Analysis
-TCR/BCR sequencing and analysis, clonotypes, antigen specificity, clonal expansion, AIRR pipelines.
+### Immune Cell Identification & Immune Repertoire
+Immune-specific cell identification (T/B/myeloid subset and state annotation, immune reference atlases and
+projection, e.g. TIL atlases), and TCR/BCR sequencing and analysis: clonotypes, antigen specificity, clonal
+expansion, AIRR pipelines. Not: general-purpose annotators (-> Cell Type Annotation).
 ### Genotyping, CNV & Clonal/Lineage Inference
 SNP/SNV/mosaic-variant calling from single-cell data, CNV/ploidy, clone inference, mtDNA, RNA editing,
 expression-based lineage inference. Not: demultiplexing (-> Preprocessing & QC; cross-list if genotype-based).

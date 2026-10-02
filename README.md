@@ -18,7 +18,7 @@
   - [Multimodal Integration](#multimodal-integration)
   - [Simulation & Benchmarking](#simulation--benchmarking)
   - [Visualization & Interactive Exploration](#visualization--interactive-exploration)
-  - [Immune Repertoire (TCR/BCR) Analysis](#immune-repertoire-tcrbcr-analysis)
+  - [Immune Cell Identification & Immune Repertoire](#immune-cell-identification--immune-repertoire)
   - [Genotyping, CNV & Clonal/Lineage Inference](#genotyping-cnv--clonallineage-inference)
   - [Allele-Specific Expression](#allele-specific-expression)
   - [Perturbation Modeling & Virtual Cells](#perturbation-modeling--virtual-cells)
@@ -324,6 +324,12 @@ Model-based and constrained deep learning framework for single-cell Data Integra
 - Paper: [https://ieeexplore.ieee.org/document/10932718](https://ieeexplore.ieee.org/document/10932718)
 - Code: [https://github.com/xianglin226/scDILT](https://github.com/xianglin226/scDILT)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7199380910398459904/](https://www.linkedin.com/feed/update/urn:li:share:7199380910398459904/)
+
+#### scIB-E
+Extended benchmarking and evaluation framework for single-cell integration that separates batch correction, inter- and intra-cell-type conservation.
+- Paper: [https://link.springer.com/article/10.1186/s13059-025-03869-z](https://link.springer.com/article/10.1186/s13059-025-03869-z)
+- Code: [https://github.com/Chenxin-Yi/scIB-E](https://github.com/Chenxin-Yi/scIB-E)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7419303049480790016](https://www.linkedin.com/feed/update/urn:li:share:7419303049480790016)
 
 #### scPathOT
 Pathway-informed universal domain adaptation framework that aligns single-cell RNA-seq datasets using pathway activity (KEGG, Reactome) with multi-view GNN fusion and adaptive unbalanced optimal transport, while protecting query-specific/unmatched cell populations from being forced into the reference.
@@ -888,7 +894,7 @@ Exploring and visualizing expressed single-nucleotide variants from cell-barcode
 - Code: [https://github.com/HorvathLab/scSNViz](https://github.com/HorvathLab/scSNViz)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7430635328987783169](https://www.linkedin.com/feed/update/urn:li:share:7430635328987783169)
 
-### Immune Repertoire (TCR/BCR) Analysis
+### Immune Cell Identification & Immune Repertoire
 
 #### Automatic T-Cell Annotation
 Annotation of T-cells with *CellAnnoTator (*CAT/starCAT) and its T-cell catalog (TCAT).
@@ -1497,12 +1503,6 @@ CellCharter is able to automatically identify spatial domains and offers a suite
 - Code: [https://github.com/CSOgroup/cellcharter](https://github.com/CSOgroup/cellcharter)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7143586032620404738/](https://www.linkedin.com/feed/update/urn:li:share:7143586032620404738/)
 
-#### CytoCommunity
-Unsupervised and supervised discovery of tissue cellular neighborhoods from cell phenotypes.
-- Paper: [https://www.nature.com/articles/s41592-023-02124-2](https://www.nature.com/articles/s41592-023-02124-2)
-- Code: [https://github.com/tanlabcode/CytoCommunity](https://github.com/tanlabcode/CytoCommunity)
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7163487148124397569/](https://www.linkedin.com/feed/update/urn:li:share:7163487148124397569/)
-
 #### GraphBG
 Unified and scalable framework for spatial domain detection across multi-slice and multi-modal spatial transcriptomics.
 - Code: [https://github.com/CamiLQDTULab/GraphBG](https://github.com/CamiLQDTULab/GraphBG)
@@ -1592,6 +1592,12 @@ Self-supervised deep generative model deciphering cell-cell interaction "syntax"
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7471461699305431040](https://www.linkedin.com/feed/update/urn:li:share:7471461699305431040)
 
 ### Neighborhood & Microenvironment Analysis
+
+#### CytoCommunity
+Unsupervised and supervised discovery of tissue cellular neighborhoods from cell phenotypes.
+- Paper: [https://www.nature.com/articles/s41592-023-02124-2](https://www.nature.com/articles/s41592-023-02124-2)
+- Code: [https://github.com/tanlabcode/CytoCommunity](https://github.com/tanlabcode/CytoCommunity)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7163487148124397569/](https://www.linkedin.com/feed/update/urn:li:share:7163487148124397569/)
 
 #### InterScale
 Modular graph-transformer framework jointly modeling local and global cellular interactions in spatial transcriptomics, decomposing each cell's transcriptional state into intrinsic, neighborhood, and distal tissue-level contributions via a local GNN + multi-head transformer.
@@ -1719,6 +1725,21 @@ Public technical reference providing datasets, code, and cross-platform benchmar
 - Code: [https://github.com/scervilla/SpatialBenchmarking](https://github.com/scervilla/SpatialBenchmarking)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7425946936127574017](https://www.linkedin.com/feed/update/urn:li:share:7425946936127574017)
 
+#### spDDB
+Comprehensive benchmarking framework evaluating 21 spatial deconvolution and 18 domain detection methods across tissues/technologies, introducing SynthST (a graph-attention-autoencoder simulator) and a bivariate Geary's C for more realistic benchmarking.
+- Code: [https://github.com/Zafar-Lab/spDDB](https://github.com/Zafar-Lab/spDDB)
+- Paper: [https://doi.org/10.64898/2026.05.11.724248](https://doi.org/10.64898/2026.05.11.724248)
+- Website: [https://zafar-lab.github.io/spDDB_datasets.github.io/](https://zafar-lab.github.io/spDDB_datasets.github.io/)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7472646021987241985](https://www.linkedin.com/feed/update/urn:li:ugcPost:7472646021987241985)
+
+#### SPIAT & spaSim
+SPIAT: An R toolkit for characterizing spatial patterns in multiplex tissue images, platform-agnostic and user-friendly. 
+spaSim: A simulator for creating realistic tissue cell spatial patterns, perfect for testing spatial metrics
+- Paper: [https://www.nature.com/articles/s41467-023-37822-0](https://www.nature.com/articles/s41467-023-37822-0)
+- Code: [https://github.com/TrigosTeam/SPIAT](https://github.com/TrigosTeam/SPIAT)
+- Code: [https://github.com/TrigosTeam/spaSim](https://github.com/TrigosTeam/spaSim)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7179372822400516096/](https://www.linkedin.com/feed/update/urn:li:share:7179372822400516096/)
+
 #### STEAM
 Framework to evaluate clustering results in spatial omics.
 - Paper: [https://doi.org/10.1093/bib/bbaf570](https://doi.org/10.1093/bib/bbaf570)
@@ -1803,11 +1824,23 @@ Reconstruction of cell pseudo space from single-cell RNA sequencing data.
 - Code: [https://github.com/ZJUFanLab/scSpace](https://github.com/ZJUFanLab/scSpace)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7180808529463676928/](https://www.linkedin.com/feed/update/urn:li:share:7180808529463676928/)
 
+#### SpaIM
+Model that leverages scRNA-seq to perform gene imputation for spatial transcriptomics
+- Paper: [https://www.nature.com/articles/s41467-025-63185-9](https://www.nature.com/articles/s41467-025-63185-9)
+- Code: [https://github.com/QSong-github/SpaIM](https://github.com/QSong-github/SpaIM)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7378855879493795840](https://www.linkedin.com/feed/update/urn:li:share:7378855879493795840)
+
 #### SpatialScope
 Integrating spatial and single-cell transcriptomics data leveraging deep generative models.
 - Paper: [https://www.nature.com/articles/s41467-023-43629-w](https://www.nature.com/articles/s41467-023-43629-w)
 - Code: [https://github.com/YangLabHKUST/SpatialScope](https://github.com/YangLabHKUST/SpatialScope)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7139925392278159362/](https://www.linkedin.com/feed/update/urn:li:share:7139925392278159362/)
+
+#### TISSUE
+Integrates spatial and single-cell RNA-seq data, enhancing gene expression maps with calibrated uncertainty measures.
+- Paper: [https://www.nature.com/articles/s41592-024-02184-y](https://www.nature.com/articles/s41592-024-02184-y)
+- Code: [https://github.com/sunericd/TISSUE](https://github.com/sunericd/TISSUE)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7190639815099363328/](https://www.linkedin.com/feed/update/urn:li:share:7190639815099363328/)
 
 ### Benchmarking & Method Evaluation
 
@@ -1816,12 +1849,6 @@ Annotation-free, method-agnostic framework optimizing integration of single-cell
 - Paper: [https://doi.org/10.64898/2026.05.14.725078](https://doi.org/10.64898/2026.05.14.725078)
 - Code: [https://github.com/zhiqianZ/IntegrateRigor](https://github.com/zhiqianZ/IntegrateRigor)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7476260828082577408](https://www.linkedin.com/feed/update/urn:li:share:7476260828082577408)
-
-#### scIB-E
-Extended benchmarking and evaluation framework for single-cell integration that separates batch correction, inter- and intra-cell-type conservation.
-- Paper: [https://link.springer.com/article/10.1186/s13059-025-03869-z](https://link.springer.com/article/10.1186/s13059-025-03869-z)
-- Code: [https://github.com/Chenxin-Yi/scIB-E](https://github.com/Chenxin-Yi/scIB-E)
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7419303049480790016](https://www.linkedin.com/feed/update/urn:li:share:7419303049480790016)
 
 #### Spatial Deconvolution Benchmark in Cardiorenal Disease
 Benchmark study comparing spatial transcriptomics deconvolution methods for resolving mixed cell-type signals within spots.
@@ -1858,6 +1885,14 @@ Unified, modular framework to dissect and redesign tokenization strategies for s
 - Paper: [https://doi.org/10.1101/2025.11.09.687403](https://www.biorxiv.org/content/10.1101/2025.11.09.687403v3)
 - Code: [https://github.com/ma-compbio-lab/Heimdall](https://github.com/ma-compbio-lab/Heimdall)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7459623707985190912](https://www.linkedin.com/feed/update/urn:li:ugcPost:7459623707985190912)
+
+#### PerturbGen
+Generative encoder-decoder transformer foundation model pre-trained on ~107 million single-cell transcriptomes to predict how genetic perturbations reshape cellular trajectories across experimentally observed stages.
+- Code: [https://github.com/Lotfollahi-lab/Perturbgen/](https://github.com/Lotfollahi-lab/Perturbgen/)
+- Code: [https://github.com/Lotfollahi-lab/Perturbgen-reproducibility](https://github.com/Lotfollahi-lab/Perturbgen-reproducibility)
+- Paper: [https://doi.org/10.64898/2026.03.04.709254](https://doi.org/10.64898/2026.03.04.709254)
+- Website: [https://cellatlas.io/perturbgen](https://cellatlas.io/perturbgen)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7447293957312655360](https://www.linkedin.com/feed/update/urn:li:share:7447293957312655360)
 
 #### scConcept
 Transformer-based contrastive learning framework for technology-agnostic single-cell embeddings.
@@ -1898,6 +1933,12 @@ Unified zero-shot inference framework that runs multiple single-cell RNA-seq fou
 - Paper: [https://www.biorxiv.org/content/10.64898/2026.03.01.708392v2](https://www.biorxiv.org/content/10.64898/2026.03.01.708392v2)
 - Code: [https://github.com/DHKim327/scUnify](https://github.com/DHKim327/scUnify)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7448342860413890560](https://www.linkedin.com/feed/update/urn:li:share:7448342860413890560)
+
+#### Stack
+Large-scale single-cell foundation model leveraging cellular context and in-context learning to generate cell embeddings and predict perturbations.
+- Code: [https://github.com/ArcInstitute/stack](https://github.com/ArcInstitute/stack)
+- Paper: [https://doi.org/10.64898/2026.01.09.698608](https://doi.org/10.64898/2026.01.09.698608)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7421947190950055936](https://www.linkedin.com/feed/update/urn:li:share:7421947190950055936)
 
 #### TranscriptFormer
 Family of generative foundation models representing a cross-species generative cell atlas trained on up to 112 million cells spanning 1.53 billion years of evolution across 12 species.
