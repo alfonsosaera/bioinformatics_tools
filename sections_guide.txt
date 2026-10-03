@@ -1,10 +1,4 @@
-README UPDATE GUIDE  (for an LLM adding a new tool from a LinkedIn post to README.md)
-
-TASK
-Given a LinkedIn post about a bioinformatics tool/method/resource: extract its name, one-line description,
-paper/code/website links and the post URL; choose the section(s) and subsection(s) below; add the entry
-to README.md following the format and rules in this file. Only use existing sections/subsections.
-Never invent links: omit any field that does not exist.
+README SECTIONS GUIDE  (where to place a bioinformatics tool in README.md)
 
 ======================================================================
 1. SECTIONS AND SUBSECTIONS
@@ -154,47 +148,6 @@ Drug sensitivity/response, drug-indication prediction, disease-gene prioritizati
   otherwise Trajectory; benchmark of a topic -> that topic's Benchmarking/Simulation subsection of the same section.
 - Works equally on single-cell and spatial data -> cross-list in the equivalent subsection of both sections.
 - CROSS-LISTING: if a tool genuinely fits several subsections, add IDENTICAL entries (byte-for-byte) in every fitting one.
-- OUT OF SCOPE (send to unassgined_posts2.md): bulk-only tools, non-omics tools, general genomics utilities, general
+- OUT OF SCOPE (report as out of scope, do not add to README.md): bulk-only tools, non-omics tools, general genomics utilities, general
   biomedical/clinical LLMs, and variant callers not designed for single-cell data; unless explicitly tied to
   single-cell/spatial (e.g. sc-informed bulk deconvolution).
-
-======================================================================
-3. ENTRY FORMAT
-======================================================================
-#### ToolName
-One sentence: what it does and how (no marketing, no author list). Written on the line right under the heading.
-- Paper: [url](url)
-- Code: [url](url)
-- Website: [url](url)
-- LinkedIn post: [url](url)
-
-- Heading = official tool name with original capitalization.
-- Field order: Paper, Code, Website (other labels allowed: Protocol, Tutorial, Package, R package), LinkedIn post last.
-- Link text = the URL itself. Repeat a label for several links. Omit fields with no link (no empty "[]()" and no empty lines).
-- Several LinkedIn posts: "- LinkedIn posts:" followed by indented "  - [url](url)" lines.
-- One blank line between entries; no trailing spaces.
-- Insert alphabetically (case-insensitive) inside the subsection.
-
-======================================================================
-4. WORKFLOW AND CHECKS
-======================================================================
-1. Duplicate check: search README.md for the tool name and its paper/DOI/repo URL.
-   If it exists: do not add a new entry; add the new LinkedIn post to ALL copies (as a "LinkedIn posts:" list)
-   and keep all copies identical.
-2. Choose subsection(s) with sections 1-2. Add the entry/entries (section 3).
-3. Editing an existing subsection needs no TOC change. The TOC (between <!-- TOC --> and <!-- /TOC -->) lists only
-   "##" and "###" headings; if a subsection is added/renamed, regenerate it. GitHub anchors: lowercase, drop punctuation
-   except hyphens, spaces -> hyphens (so "&" leaves a double hyphen), repeated headings get -1, -2 in document order.
-4. Do not create sections/subsections and do not commit unless the user approves.
-5. Report to the user: tool name, chosen subsection(s), and any missing fields.
-
-======================================================================
-5. WHEN NOTHING FITS
-======================================================================
-Do BOTH, and leave README.md unchanged:
-a) Append to unassgined_posts2.md:
-   - **ToolName** — [post url](post url) — one-line description. No fit: <reason>. Suggested: <Section> › <New subsection name> — <scope>.
-b) Propose the new subsection (name + one-line scope + section) to the user and wait for approval.
-   After approval: add "### Name" in the right section, add the entry, regenerate the TOC, and update this file.
-Posts that are not about a specific tool (career news, events, marketing, opinion, generic education) and out-of-scope
-tools (section 2) go to unassgined_posts2.md as plain lines, with no proposal: "- Post title — [url](url)".
