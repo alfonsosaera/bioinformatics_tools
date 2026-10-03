@@ -1,5 +1,7 @@
 # BIOINFORMATICS TOOLS
 
+A curated catalogue of bioinformatics tools for single-cell, spatial omics, multimodal analysis, and related computational biology workflows. Entries are grouped by practical analysis task and include links to papers, code, packages, websites, protocols, tutorials, and the source LinkedIn posts when available.
+
 <!-- TOC -->
 **Table of Contents**
 
