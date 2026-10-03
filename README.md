@@ -1497,6 +1497,14 @@ High-resolution subcellular proteomic mapping method combining organelle immuno-
 - Code: [https://github.com/czbiohub-sf/Organelle_IP_analyses_and_figures](https://github.com/czbiohub-sf/Organelle_IP_analyses_and_figures)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7160210595672145923/](https://www.linkedin.com/feed/update/urn:li:share:7160210595672145923/)
 
+#### Seq-Scope-X
+Sequencing-based spatial omics platform that combines tissue expansion with submicrometer Seq-Scope for sub-diffraction transcriptome and high-plex proteome profiling.
+- Paper: [https://doi.org/10.1038/s41467-026-69346-8](https://doi.org/10.1038/s41467-026-69346-8)
+- Code: [https://github.com/seqscope/NovaScope](https://github.com/seqscope/NovaScope)
+- Code: [https://github.com/seqscope/spatula](https://github.com/seqscope/spatula)
+- Code: [https://github.com/seqscope/NovaScope-exemplary-downstream-analysis](https://github.com/seqscope/NovaScope-exemplary-downstream-analysis)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7510696732960149504](https://www.linkedin.com/feed/update/urn:li:ugcPost:7510696732960149504)
+
 #### Slide-tags
 Single-nucleus barcoding technology for multimodal spatial genomics, tagging nuclei within intact tissue via DNA-barcoded bead oligonucleotides at <10 μm resolution.
 - Paper: [https://www.nature.com/articles/s41586-023-06837-4](https://www.nature.com/articles/s41586-023-06837-4)
@@ -1928,6 +1936,12 @@ Hierarchical spatial omics simulator using a factorized generative model that se
 Comparison of four imaging-based spatial transcriptomics methods (RNAscope HiPlex, Molecular Cartography, MERFISH/Merscope, Xenium) against sequencing-based Visium on tumor cryosections.
 - Paper: [https://link.springer.com/article/10.1186/s13059-025-03624-4](https://link.springer.com/article/10.1186/s13059-025-03624-4)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7194306723208187905/](https://www.linkedin.com/feed/update/urn:li:share:7194306723208187905/)
+
+#### SpatialBench
+Benchmark resource with matched spatial transcriptomics and single-cell or single-nucleus reference data for comparing high-resolution spatial platforms and computational methods.
+- Paper: [https://www.biorxiv.org/content/10.64898/2026.04.29.721531v1.full](https://www.biorxiv.org/content/10.64898/2026.04.29.721531v1.full)
+- Code: [https://github.com/ashsolano/SpatialBench](https://github.com/ashsolano/SpatialBench)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7511067927622615040](https://www.linkedin.com/feed/update/urn:li:ugcPost:7511067927622615040)
 
 #### SpatialBenchmarking
 Public technical reference providing datasets, code, and cross-platform benchmarks for spatial transcriptomics.
