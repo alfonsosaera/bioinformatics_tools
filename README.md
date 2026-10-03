@@ -1,6 +1,6 @@
 # BIOINFORMATICS TOOLS
 
-A curated catalogue of bioinformatics tools for single-cell, spatial omics, multimodal analysis, and related computational biology workflows. Entries are grouped by practical analysis task and include links to papers, code, packages, websites, protocols, tutorials, and the source LinkedIn posts when available.
+A curated catalogue of the bioinformatics tools I published for single-cell, spatial omics, multimodal analysis, and related computational biology workflows. Entries are grouped by practical analysis task and include links to papers, code, and the source LinkedIn posts.
 
 <!-- TOC -->
 **Table of Contents**
@@ -502,7 +502,7 @@ ReconEval is a benchmark framework to systematically evaluate how well different
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7492600999853924352](https://www.linkedin.com/feed/update/urn:li:ugcPost:7492600999853924352)
 
 #### scConcept
-Transformer-based contrastive learning framework for technology-agnostic single-cell embeddings.
+Transformer-based contrastive learning framework for technology-agnostic single-cell embeddings that directly optimizes biologically meaningful cell representations.
 - Paper: [https://www.biorxiv.org/content/10.1101/2025.10.14.682419v1](https://www.biorxiv.org/content/10.1101/2025.10.14.682419v1)
 - Code: [https://github.com/theislab/scConcept](https://github.com/theislab/scConcept)
 - LinkedIn posts:
@@ -1017,7 +1017,7 @@ Palette is a flexible and interpretable framework for mosaic integration of sing
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7480256154871345152](https://www.linkedin.com/feed/update/urn:li:share:7480256154871345152)
 
 #### scConcept
-Transformer-based contrastive learning framework for technology-agnostic single-cell embeddings.
+Transformer-based contrastive learning framework for technology-agnostic single-cell embeddings that directly optimizes biologically meaningful cell representations.
 - Paper: [https://www.biorxiv.org/content/10.1101/2025.10.14.682419v1](https://www.biorxiv.org/content/10.1101/2025.10.14.682419v1)
 - Code: [https://github.com/theislab/scConcept](https://github.com/theislab/scConcept)
 - LinkedIn posts:
@@ -2679,7 +2679,7 @@ Generative encoder-decoder transformer foundation model pre-trained on ~107 mill
   - [https://www.linkedin.com/feed/update/urn:li:share:7493675442013507584](https://www.linkedin.com/feed/update/urn:li:share:7493675442013507584)
 
 #### scConcept
-Transformer-based contrastive learning framework for technology-agnostic single-cell embeddings.
+Transformer-based contrastive learning framework for technology-agnostic single-cell embeddings that directly optimizes biologically meaningful cell representations.
 - Paper: [https://www.biorxiv.org/content/10.1101/2025.10.14.682419v1](https://www.biorxiv.org/content/10.1101/2025.10.14.682419v1)
 - Code: [https://github.com/theislab/scConcept](https://github.com/theislab/scConcept)
 - LinkedIn posts:
