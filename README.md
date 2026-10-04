@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="assets/banner.png"
+       alt="Bioinformatics Tools — Single-Cell & Spatial Transcriptomics"
+       width="100%">
+</p>
 # BIOINFORMATICS TOOLS
 
 A curated catalogue of the bioinformatics tools I published for single-cell, spatial omics, multimodal analysis, and related computational biology workflows. Entries are grouped by practical analysis task and include links to papers, code, and the source LinkedIn posts.
