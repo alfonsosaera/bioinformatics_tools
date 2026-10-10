@@ -79,6 +79,11 @@ Deterministic single-cell platform that couples high-resolution imaging with dro
 - Paper: [https://doi.org/10.1101/2025.11.28.690954](https://doi.org/10.1101/2025.11.28.690954)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7420405529304268800](https://www.linkedin.com/feed/update/urn:li:share:7420405529304268800)
 
+#### microcapsule-integrated smRandom-seq
+microcapsule-integrated smRandom-seq uses semipermeable PEGDA-dextran microcapsules to retain released nucleic acids for fixation-free high-throughput single-microbe RNA sequencing.
+- Paper: [https://doi.org/10.1002/advs.77013](https://doi.org/10.1002/advs.77013)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7513969228782223361](https://www.linkedin.com/feed/update/urn:li:share:7513969228782223361)
+
 #### MitoPerturb-Seq
 Single-cell platform combining pooled CRISPR screening with multiome profiling to measure nuclear transcription, chromatin accessibility, gRNAs, mtDNA sequence, copy number and heteroplasmy.
 - Code: [https://github.com/JvdAlab/mitoPerturb-Seq](https://github.com/JvdAlab/mitoPerturb-Seq)
@@ -570,6 +575,12 @@ cell-cycle-prediction_using_ML is a consensus-labeled deep learning and ensemble
 - Code: [https://github.com/Mituvinci/cell-cycle-prediction_using_ML](https://github.com/Mituvinci/cell-cycle-prediction_using_ML)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7501627978783580161](https://www.linkedin.com/feed/update/urn:li:share:7501627978783580161)
 
+#### CellTypeAI
+CellTypeAI uses local LLMs with retrieval-augmented context to annotate pre-clustered scRNA-seq datasets within Scanpy workflows.
+- Paper: [https://academic.oup.com/bioinformatics/article/42/Supplement_2/btag425/8767271](https://academic.oup.com/bioinformatics/article/42/Supplement_2/btag425/8767271)
+- Code: [https://github.com/rhdaw/celltypeai](https://github.com/rhdaw/celltypeai)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7512894718230470657](https://www.linkedin.com/feed/update/urn:li:ugcPost:7512894718230470657)
+
 #### DeepScence
 Deep learning framework designed to identify senescent cells across single-cell and spatial transcriptomics
 - Paper: [https://www.cell.com/cell-genomics/fulltext/S2666-979X(25)00291-5](https://www.cell.com/cell-genomics/fulltext/S2666-979X(25)00291-5)
@@ -684,6 +695,13 @@ RUVIII-based correction of unwanted variation in pseudobulk DE analyses.
 - Code: [https://github.com/esprietol/ruvPBPS](https://github.com/esprietol/ruvPBPS)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7424835978244288512](https://www.linkedin.com/feed/update/urn:li:ugcPost:7424835978244288512)
 
+#### scLS
+scLS uses Lomb-Scargle periodograms to detect dynamic and shifted pseudotime-associated differential expression in scRNA-seq trajectory analyses.
+- Paper: [https://academic.oup.com/nar/article/54/13/gkag682/8735595](https://academic.oup.com/nar/article/54/13/gkag682/8735595)
+- Code: [https://github.com/hiuchi/scLS](https://github.com/hiuchi/scLS)
+- Code: [https://github.com/hiuchi/Iuchi_and_Hamada_2026](https://github.com/hiuchi/Iuchi_and_Hamada_2026)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7514585851901890560](https://www.linkedin.com/feed/update/urn:li:share:7514585851901890560)
+
 #### scRNA-ML Biomarker Workflow
 scRNA-ML Biomarker Workflow is an end-to-end machine-learning framework for discovering biomarkers from single-cell RNA-seq.
 - Paper: [https://doi.org/10.3389/fbinf.2026.1767362](https://doi.org/10.3389/fbinf.2026.1767362)
@@ -763,6 +781,13 @@ builds upon the marge modeling framework to characterize trajectory’s effects 
 - Paper: [https://academic.oup.com/nar/article/54/2/gkaf1494/8425303](https://academic.oup.com/nar/article/54/2/gkaf1494/8425303)
 - Code: [https://github.com/jr-leary7/scLANE](https://github.com/jr-leary7/scLANE)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7168138063192305664/](https://www.linkedin.com/feed/update/urn:li:share:7168138063192305664/)
+
+#### scLS
+scLS uses Lomb-Scargle periodograms to detect dynamic and shifted pseudotime-associated differential expression in scRNA-seq trajectory analyses.
+- Paper: [https://academic.oup.com/nar/article/54/13/gkag682/8735595](https://academic.oup.com/nar/article/54/13/gkag682/8735595)
+- Code: [https://github.com/hiuchi/scLS](https://github.com/hiuchi/scLS)
+- Code: [https://github.com/hiuchi/Iuchi_and_Hamada_2026](https://github.com/hiuchi/Iuchi_and_Hamada_2026)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7514585851901890560](https://www.linkedin.com/feed/update/urn:li:share:7514585851901890560)
 
 #### Temporal Multi-Omics
 Temporal Multi-Omics is a transformer-based framework that learns signed, cell-state-conditional regulatory lags between chromatin accessibility (ATAC) and gene expression (RNA) using asymmetric cross-modal attention.
@@ -1075,6 +1100,12 @@ Temporal Multi-Omics is a transformer-based framework that learns signed, cell-s
 - Paper: [https://doi.org/10.64898/2026.06.08.730880](https://doi.org/10.64898/2026.06.08.730880)
 - Code: [https://github.com/phabel-LD/TemporalMultiOmics](https://github.com/phabel-LD/TemporalMultiOmics)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7492291954593017856](https://www.linkedin.com/feed/update/urn:li:share:7492291954593017856)
+
+#### UniVI
+UniVI is a mixture-of-experts beta-variational autoencoder that integrates multimodal single-cell data into a unified latent space while preserving modality-specific structure.
+- Paper: [https://genome.cshlp.org/content/early/2026/09/15/gr281431125](https://genome.cshlp.org/content/early/2026/09/15/gr281431125)
+- Code: [https://github.com/Ashford-A/UniVI](https://github.com/Ashford-A/UniVI)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7512585675737780225](https://www.linkedin.com/feed/update/urn:li:share:7512585675737780225)
 
 ### Simulation & Benchmarking
 
@@ -1801,6 +1832,11 @@ Extending single-cell foundation models to predict population-level phenotypes
 
 ### Metagenomics
 
+#### microcapsule-integrated smRandom-seq
+microcapsule-integrated smRandom-seq uses semipermeable PEGDA-dextran microcapsules to retain released nucleic acids for fixation-free high-throughput single-microbe RNA sequencing.
+- Paper: [https://doi.org/10.1002/advs.77013](https://doi.org/10.1002/advs.77013)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7513969228782223361](https://www.linkedin.com/feed/update/urn:li:share:7513969228782223361)
+
 #### SMAGLinker
 Integration of single-cell genomics with metagenomics to improve the quality and accuracy of metagenome-assembled genomes (MAGs) by using single-cell amplified genomes (SAGs) as binning guides.
 - Paper: [https://link.springer.com/article/10.1186/s40168-021-01152-4](https://link.springer.com/article/10.1186/s40168-021-01152-4)
@@ -1879,6 +1915,12 @@ Probabilistic variational Bayesian model that corrects transcript misassignment 
 - Code: [https://github.com/yunguan-wang/MisTIC-Wanglab](https://github.com/yunguan-wang/MisTIC-Wanglab)
 - Paper: [https://doi.org/10.64898/2025.12.11.693759](https://doi.org/10.64898/2025.12.11.693759)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7428893459178041344](https://www.linkedin.com/feed/update/urn:li:share:7428893459178041344)
+
+#### Off-target Probe Tracker (OPT)
+Off-target Probe Tracker aligns Xenium probe target sequences to transcriptome annotations to predict off-target probe binding in spatial transcriptomics panels.
+- Paper: [https://elifesciences.org/reviewed-preprints/107070](https://elifesciences.org/reviewed-preprints/107070)
+- Code: [https://github.com/JEFworks-Lab/off-target-probe-tracker](https://github.com/JEFworks-Lab/off-target-probe-tracker)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7513233451278602240](https://www.linkedin.com/feed/update/urn:li:ugcPost:7513233451278602240)
 
 #### SCALPEL
 Modular pipeline for processing large-scale spatial transcriptomics datasets.
@@ -2795,6 +2837,12 @@ Agentic AI system that uses an LLM to orchestrate pre‑vetted tools for end‑t
 - Paper: [https://doi.org/10.1038/s44387-025-00064-0](https://doi.org/10.1038/s44387-025-00064-0)
 - Code: [https://github.com/AstraZeneca/cellatria](https://github.com/AstraZeneca/cellatria)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7428098480088391680](https://www.linkedin.com/feed/update/urn:li:ugcPost:7428098480088391680)
+
+#### CellTypeAI
+CellTypeAI uses local LLMs with retrieval-augmented context to annotate pre-clustered scRNA-seq datasets within Scanpy workflows.
+- Paper: [https://academic.oup.com/bioinformatics/article/42/Supplement_2/btag425/8767271](https://academic.oup.com/bioinformatics/article/42/Supplement_2/btag425/8767271)
+- Code: [https://github.com/rhdaw/celltypeai](https://github.com/rhdaw/celltypeai)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7512894718230470657](https://www.linkedin.com/feed/update/urn:li:ugcPost:7512894718230470657)
 
 #### CellVoyager
 Agentic AI system that autonomously analyzes single-cell biological data and generates interpretable insights.
