@@ -321,6 +321,14 @@ Smart-seq3 UMI counting pipeline focused on speed and a light memory footprint.
 
 ### Batch Integration
 
+#### ArchMap
+Web platform that maps single-cell datasets to reference atlases using scArches models for cell-type annotation and collaborative analysis.
+- Paper: [https://doi.org/10.1038/s41588-026-02756-y](https://doi.org/10.1038/s41588-026-02756-y)
+- Code: [https://github.com/theislab/archmap_data/tree/mappingjob](https://github.com/theislab/archmap_data/tree/mappingjob)
+- Code: [https://github.com/theislab/archmap/tree/mapjob](https://github.com/theislab/archmap/tree/mapjob)
+- Website: [https://www.ArchMap.bio](https://www.ArchMap.bio)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7515122392319467521](https://www.linkedin.com/feed/update/urn:li:share:7515122392319467521)
+
 #### Batch Correction Benchmark
 Evaluation of popular batch-correction methods
 - Papers:
@@ -473,6 +481,14 @@ Calculates the geometric Intrinsic Dimension (ID) of single-cell expression prof
 - Code: [https://github.com/maddalenastn/IDEAS](https://github.com/maddalenastn/IDEAS)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7364705316988506112](https://www.linkedin.com/feed/update/urn:li:share:7364705316988506112)
 
+#### mc-ASTRA
+Python framework that integrates molecular, compositional and spatial sample descriptors with probabilistic group factor analysis to identify interpretable multicellular tissue programs.
+- Paper: [https://www.biorxiv.org/content/10.64898/2026.09.18.752722v1](https://www.biorxiv.org/content/10.64898/2026.09.18.752722v1)
+- Code: [https://github.com/saezlab/mc-ASTRA](https://github.com/saezlab/mc-ASTRA)
+- Paper: [https://doi.org/10.5281/zenodo.22280030](https://doi.org/10.5281/zenodo.22280030)
+- Tutorial: [https://saezlab.github.io/mc-astra/tutorials/](https://saezlab.github.io/mc-astra/tutorials/)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7515770175376392192](https://www.linkedin.com/feed/update/urn:li:ugcPost:7515770175376392192)
+
 #### mcRigor
 Detects dubious (heterogeneous) metacells and tunes partitioning hyperparameters across methods to enhance the rigor of metacell partitioning in single-cell data analysis
 - Paper: [https://www.nature.com/articles/s41467-025-63626-5](https://www.nature.com/articles/s41467-025-63626-5)
@@ -568,6 +584,14 @@ Unsupervised self-supervised graph diffusion framework to resolve fine-grained f
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7457796916454752257](https://www.linkedin.com/feed/update/urn:li:ugcPost:7457796916454752257)
 
 ### Cell Type Annotation
+
+#### ArchMap
+Web platform that maps single-cell datasets to reference atlases using scArches models for cell-type annotation and collaborative analysis.
+- Paper: [https://doi.org/10.1038/s41588-026-02756-y](https://doi.org/10.1038/s41588-026-02756-y)
+- Code: [https://github.com/theislab/archmap_data/tree/mappingjob](https://github.com/theislab/archmap_data/tree/mappingjob)
+- Code: [https://github.com/theislab/archmap/tree/mapjob](https://github.com/theislab/archmap/tree/mapjob)
+- Website: [https://www.ArchMap.bio](https://www.ArchMap.bio)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7515122392319467521](https://www.linkedin.com/feed/update/urn:li:share:7515122392319467521)
 
 #### cell-cycle-prediction_using_ML
 cell-cycle-prediction_using_ML is a consensus-labeled deep learning and ensemble framework for three-phase (G1/S/G2M) cell-cycle prediction from scRNA-seq.
@@ -869,6 +893,13 @@ unified framework for knowledge-driven network inference that integrates prior k
 - Paper: [https://www.nature.com/articles/s42256-025-01069-9](https://www.nature.com/articles/s42256-025-01069-9)
 - Code: [https://github.com/saezlab/corneto](https://github.com/saezlab/corneto)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7364721241091379201](https://www.linkedin.com/feed/update/urn:li:share:7364721241091379201)
+
+#### DeepSCENIC
+Interpretable deep-learning framework that combines pretrained sequence-to-function models with single-cell multiome data to infer transcription-factor, regulatory-element and target-gene networks.
+- Paper: [https://www.biorxiv.org/content/10.64898/2026.09.18.752607v1.full](https://www.biorxiv.org/content/10.64898/2026.09.18.752607v1.full)
+- Code: [https://github.com/aertslab/deepSCENIC](https://github.com/aertslab/deepSCENIC)
+- Code: [https://github.com/aertslab/deepSCENIC_analyses](https://github.com/aertslab/deepSCENIC_analyses)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7515453701751435264](https://www.linkedin.com/feed/update/urn:li:ugcPost:7515453701751435264)
 
 #### Epiregulon
 Construct gene regulatory networks and infer transcription factor (TF) activity in single cells by integration of scATAC-seq and scRNA-seq data and incorporation of public bulk TF ChIP-seq data
@@ -1693,6 +1724,14 @@ DeepDETAILS is a quasi-supervised deep learning framework that reconstructs cell
   - [https://www.linkedin.com/feed/update/urn:li:share:7507851392582201344](https://www.linkedin.com/feed/update/urn:li:share:7507851392582201344)
   - [https://www.linkedin.com/feed/update/urn:li:share:7500921069436903424](https://www.linkedin.com/feed/update/urn:li:share:7500921069436903424)
   - [https://www.linkedin.com/feed/update/urn:li:share:7498384351710085120](https://www.linkedin.com/feed/update/urn:li:share:7498384351710085120)
+
+#### DeepSCENIC
+Interpretable deep-learning framework that combines pretrained sequence-to-function models with single-cell multiome data to infer transcription-factor, regulatory-element and target-gene networks.
+- Paper: [https://www.biorxiv.org/content/10.64898/2026.09.18.752607v1.full](https://www.biorxiv.org/content/10.64898/2026.09.18.752607v1.full)
+- Code: [https://github.com/aertslab/deepSCENIC](https://github.com/aertslab/deepSCENIC)
+- Code: [https://github.com/aertslab/deepSCENIC_analyses](https://github.com/aertslab/deepSCENIC_analyses)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7515453701751435264](https://www.linkedin.com/feed/update/urn:li:ugcPost:7515453701751435264)
+
 #### enCORE
 Network-based framework reconstructing clustered open regulatory elements (COREs) from scATAC-seq by integrating co-accessibility, TF motif information, genomic distance, and enhancer network topology, more robust to sparsity than alternative annotations.
 - Paper: [https://www.biorxiv.org/content/10.64898/2026.03.17.712366v10](https://www.biorxiv.org/content/10.64898/2026.03.17.712366v10)
@@ -1878,6 +1917,12 @@ Perturb-DBiT is a sequencing-based spatial functional genomics platform that co-
 - Code: [https://github.com/abaysoy/Perturb_DBiT](https://github.com/abaysoy/Perturb_DBiT)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7495476447105503233](https://www.linkedin.com/feed/update/urn:li:share:7495476447105503233)
 
+#### RAEFISH
+Imaging-based, sequencing-free spatial transcriptomics assay that uses reversed padlock probes, rolling-circle amplification and barcoded readout to profile transcripts at single-molecule resolution.
+- Paper: [https://doi.org/10.1016/j.cell.2025.09.006](https://doi.org/10.1016/j.cell.2025.09.006)
+- Website: [https://campuspress.yale.edu/wanglab/RAEFISH/](https://campuspress.yale.edu/wanglab/RAEFISH/)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7517122575232241666](https://www.linkedin.com/feed/update/urn:li:ugcPost:7517122575232241666)
+
 #### Seq-Scope-X
 Sequencing-based spatial omics platform that combines tissue expansion with submicrometer Seq-Scope for sub-diffraction transcriptome and high-plex proteome profiling.
 - Paper: [https://doi.org/10.1038/s41467-026-69346-8](https://doi.org/10.1038/s41467-026-69346-8)
@@ -1921,6 +1966,13 @@ Off-target Probe Tracker aligns Xenium probe target sequences to transcriptome a
 - Paper: [https://elifesciences.org/reviewed-preprints/107070](https://elifesciences.org/reviewed-preprints/107070)
 - Code: [https://github.com/JEFworks-Lab/off-target-probe-tracker](https://github.com/JEFworks-Lab/off-target-probe-tracker)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7513233451278602240](https://www.linkedin.com/feed/update/urn:li:ugcPost:7513233451278602240)
+
+#### ResolVI
+Probabilistic model that separates true cell expression from diffusion and background noise in spatial transcriptomics count data.
+- Paper: [https://doi.org/10.1038/s41592-026-03212-9](https://doi.org/10.1038/s41592-026-03212-9)
+- Code: [https://github.com/scverse/scvi-tools](https://github.com/scverse/scvi-tools)
+- Code: [https://github.com/YosefLab/resolvi-reproducibility](https://github.com/YosefLab/resolvi-reproducibility)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7516848265745760258](https://www.linkedin.com/feed/update/urn:li:share:7516848265745760258)
 
 #### SCALPEL
 Modular pipeline for processing large-scale spatial transcriptomics datasets.
@@ -2137,6 +2189,13 @@ STID is a standardized end-to-end spatial transcriptomics framework for infectio
 - Website: [https://yulongqin.github.io/STID/](https://yulongqin.github.io/STID/)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7485329594657685504](https://www.linkedin.com/feed/update/urn:li:share:7485329594657685504)
 
+#### TumorSPACE
+Statistical method that infers spatial organization and hierarchical tissue groups from tumor transcriptomic profiles.
+- Paper: [https://doi.org/10.1016/j.xcrm.2026.103013](https://doi.org/10.1016/j.xcrm.2026.103013)
+- Code: [https://github.com/aramanlab/TumorSPACE.jl](https://github.com/aramanlab/TumorSPACE.jl)
+- Code: [https://github.com/aramanlab/Behera_etal_2025](https://github.com/aramanlab/Behera_etal_2025)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7516141357178978305](https://www.linkedin.com/feed/update/urn:li:ugcPost:7516141357178978305)
+
 ### Histology-integrated Analysis
 
 #### Cell Synergy
@@ -2250,6 +2309,14 @@ Modular graph-transformer framework jointly modeling local and global cellular i
 - Paper: [https://doi.org/10.64898/2026.05.07.723456](https://doi.org/10.64898/2026.05.07.723456)
 - Website: [https://github.com/theislab/InterScale_reproducibility/](https://github.com/theislab/InterScale_reproducibility/)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7475918447781122048](https://www.linkedin.com/feed/update/urn:li:share:7475918447781122048)
+
+#### mc-ASTRA
+Python framework that integrates molecular, compositional and spatial sample descriptors with probabilistic group factor analysis to identify interpretable multicellular tissue programs.
+- Paper: [https://www.biorxiv.org/content/10.64898/2026.09.18.752722v1](https://www.biorxiv.org/content/10.64898/2026.09.18.752722v1)
+- Code: [https://github.com/saezlab/mc-ASTRA](https://github.com/saezlab/mc-ASTRA)
+- Paper: [https://doi.org/10.5281/zenodo.22280030](https://doi.org/10.5281/zenodo.22280030)
+- Tutorial: [https://saezlab.github.io/mc-astra/tutorials/](https://saezlab.github.io/mc-astra/tutorials/)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7515770175376392192](https://www.linkedin.com/feed/update/urn:li:ugcPost:7515770175376392192)
 
 #### netPCF
 netPCF is a network-based, geometry-aware extension of the pair correlation function for analysing spatial organisation on complex biological domains.
@@ -2917,6 +2984,14 @@ Multi-agent AI framework (planner/executor/reporter) for omics-driven scientific
 - Paper: [https://www.biorxiv.org/content/10.1101/2025.07.31.667797v3](https://www.biorxiv.org/content/10.1101/2025.07.31.667797v3)
 - Code: [https://github.com/FuhaiLiAiLab/OmniCellAgent](https://github.com/FuhaiLiAiLab/OmniCellAgent)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7470480486109319168](https://www.linkedin.com/feed/update/urn:li:ugcPost:7470480486109319168)
+
+#### PantheonOS
+Multi-agent framework that orchestrates single-cell and spatial genomics analyses through domain-specific agents and adapts analysis code and workflows.
+- Paper: [https://www.biorxiv.org/content/10.64898/2026.02.26.707870v1](https://www.biorxiv.org/content/10.64898/2026.02.26.707870v1)
+- Code: [https://github.com/aristoteleo/pantheon-agents](https://github.com/aristoteleo/pantheon-agents)
+- Code: [https://github.com/aristoteleo/pantheonos-reproducibility](https://github.com/aristoteleo/pantheonos-reproducibility)
+- Website: [https://pantheonos.stanford.edu](https://pantheonos.stanford.edu)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7516505958748049409](https://www.linkedin.com/feed/update/urn:li:ugcPost:7516505958748049409)
 
 #### Paper2Agent
 Paper2Agent is a multi-agent system that converts research papers and their codebases into queryable AI paper agents.
