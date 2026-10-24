@@ -327,7 +327,9 @@ Web platform that maps single-cell datasets to reference atlases using scArches 
 - Code: [https://github.com/theislab/archmap_data/tree/mappingjob](https://github.com/theislab/archmap_data/tree/mappingjob)
 - Code: [https://github.com/theislab/archmap/tree/mapjob](https://github.com/theislab/archmap/tree/mapjob)
 - Website: [https://www.ArchMap.bio](https://www.ArchMap.bio)
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7515122392319467521](https://www.linkedin.com/feed/update/urn:li:share:7515122392319467521)
+- LinkedIn posts:
+  - [https://www.linkedin.com/feed/update/urn:li:share:7515122392319467521](https://www.linkedin.com/feed/update/urn:li:share:7515122392319467521)
+  - [https://www.linkedin.com/feed/update/urn:li:ugcPost:7519659294066282496](https://www.linkedin.com/feed/update/urn:li:ugcPost:7519659294066282496)
 
 #### Batch Correction Benchmark
 Evaluation of popular batch-correction methods
@@ -591,7 +593,9 @@ Web platform that maps single-cell datasets to reference atlases using scArches 
 - Code: [https://github.com/theislab/archmap_data/tree/mappingjob](https://github.com/theislab/archmap_data/tree/mappingjob)
 - Code: [https://github.com/theislab/archmap/tree/mapjob](https://github.com/theislab/archmap/tree/mapjob)
 - Website: [https://www.ArchMap.bio](https://www.ArchMap.bio)
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7515122392319467521](https://www.linkedin.com/feed/update/urn:li:share:7515122392319467521)
+- LinkedIn posts:
+  - [https://www.linkedin.com/feed/update/urn:li:share:7515122392319467521](https://www.linkedin.com/feed/update/urn:li:share:7515122392319467521)
+  - [https://www.linkedin.com/feed/update/urn:li:ugcPost:7519659294066282496](https://www.linkedin.com/feed/update/urn:li:ugcPost:7519659294066282496)
 
 #### cell-cycle-prediction_using_ML
 cell-cycle-prediction_using_ML is a consensus-labeled deep learning and ensemble framework for three-phase (G1/S/G2M) cell-cycle prediction from scRNA-seq.
@@ -1147,6 +1151,13 @@ Automated preprocessing recommendation platform, support deep learning models fo
 - Code: [https://github.com/OmicsML/dance](https://github.com/OmicsML/dance)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7182756617635938304/](https://www.linkedin.com/feed/update/urn:li:share:7182756617635938304/)
 
+#### GARAGE
+A graph-attentive GAN that generates synthetic scRNA-seq data seeded from high-attention cells to augment rare populations.
+- Paper: [https://doi.org/10.1371/journal.pcbi.1014601](https://doi.org/10.1371/journal.pcbi.1014601)
+- Code: [https://github.com/RitwikGanguly/GARAGE](https://github.com/RitwikGanguly/GARAGE)
+- Website: [https://garage-docs.readthedocs.io/en/latest/](https://garage-docs.readthedocs.io/en/latest/)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7519384989860339713](https://www.linkedin.com/feed/update/urn:li:ugcPost:7519384989860339713)
+
 #### ReconEval
 ReconEval is a benchmark framework to systematically evaluate how well different single-cell latent representations support reconstruction of gene expression, including after latent-space perturbation modeling.
 - Paper: [https://www.biorxiv.org/content/10.64898/2026.06.15.731445v1](https://www.biorxiv.org/content/10.64898/2026.06.15.731445v1)
@@ -1559,6 +1570,13 @@ Large-scale single-cell foundation model leveraging cellular context and in-cont
 - LinkedIn posts:
   - [https://www.linkedin.com/feed/update/urn:li:share:7421947190950055936](https://www.linkedin.com/feed/update/urn:li:share:7421947190950055936)
   - [https://www.linkedin.com/feed/update/urn:li:share:7491755419426619392](https://www.linkedin.com/feed/update/urn:li:share:7491755419426619392)
+
+#### Tahoe-100M
+A single-cell drug-perturbation atlas profiling approximately 100 million transcriptomes to map drug-induced phenotypes across cancer cell lines.
+- Paper: [https://doi.org/10.1016/j.cell.2026.08.035](https://doi.org/10.1016/j.cell.2026.08.035)
+- Code: [https://github.com/ArcInstitute/arc-virtual-cell-atlas](https://github.com/ArcInstitute/arc-virtual-cell-atlas)
+- Website: [https://doi.org/10.5281/zenodo.21864540](https://doi.org/10.5281/zenodo.21864540)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7517968152580767745](https://www.linkedin.com/feed/update/urn:li:ugcPost:7517968152580767745)
 
 #### TAP-seq
 Targeted Perturb-seq method that amplifies predefined genes and gRNAs from single-cell cDNA via multiplex semi-nested PCR, concentrating sequencing on selected targets to cut cost and improve detection of weak regulatory effects (e.g., enhancer screens).
@@ -2345,6 +2363,13 @@ SCIMAP is a scalable toolkit for analyzing spatial molecular data, suitable for 
 - Website: [https://scimap.xyz/](https://scimap.xyz/)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7188418426577563648/](https://www.linkedin.com/feed/update/urn:li:share:7188418426577563648/)
 
+#### SpaCEy
+An explainable graph neural network that models single-cell spatial proteomics as tissue graphs to associate marker-level microenvironments with clinical outcomes.
+- Paper: [https://doi.org/10.1038/s41467-026-77924-z](https://doi.org/10.1038/s41467-026-77924-z)
+- Code: [https://github.com/saezlab/SpaCEy](https://github.com/saezlab/SpaCEy)
+- Website: [https://doi.org/10.5281/zenodo.17710588](https://doi.org/10.5281/zenodo.17710588)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7517659105097031681](https://www.linkedin.com/feed/update/urn:li:share:7517659105097031681)
+
 #### spatialproteomics
 spatialproteomics is a Python package that provides an interoperable, end-to-end toolbox for highly multiplexed fluorescence imaging.
 - Paper: [https://doi.org/10.1038/s41592-026-03155-1](https://doi.org/10.1038/s41592-026-03155-1)
@@ -2616,6 +2641,14 @@ DeepDETAILS is a quasi-supervised deep learning framework that reconstructs cell
   - [https://www.linkedin.com/feed/update/urn:li:share:7507851392582201344](https://www.linkedin.com/feed/update/urn:li:share:7507851392582201344)
   - [https://www.linkedin.com/feed/update/urn:li:share:7500921069436903424](https://www.linkedin.com/feed/update/urn:li:share:7500921069436903424)
   - [https://www.linkedin.com/feed/update/urn:li:share:7498384351710085120](https://www.linkedin.com/feed/update/urn:li:share:7498384351710085120)
+
+#### DeMixNB
+A semi-reference-based deconvolution method that models sparse tumor and non-tumor RNA counts with separate negative binomial distributions to estimate tumor transcript proportions.
+- Paper: [https://link.springer.com/article/10.1186/s13059-026-04234-4](https://link.springer.com/article/10.1186/s13059-026-04234-4)
+- Code: [https://github.com/wwylab/DeMixT/tree/develop](https://github.com/wwylab/DeMixT/tree/develop)
+- R package: [https://www.bioconductor.org/packages/release/bioc/html/DeMixT.html](https://www.bioconductor.org/packages/release/bioc/html/DeMixT.html)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7519042742077800448](https://www.linkedin.com/feed/update/urn:li:share:7519042742077800448)
+
 #### Dual Simplex
 Framework that casts Non-negative matrix factorization (NMF) and deconvolution as joint identification of complementary simplexes in feature and sample spaces.
 - Paper: [https://link.springer.com/article/10.1186/s13059-025-03910-1](https://link.springer.com/article/10.1186/s13059-025-03910-1)
@@ -3131,6 +3164,13 @@ Recently published in Nature Methods by Josh Moore, Fabian J. Theis, Oliver Steg
 - LinkedIn posts:
   - [https://www.linkedin.com/feed/update/urn:li:share:7200155009638928384/](https://www.linkedin.com/feed/update/urn:li:share:7200155009638928384/)
   - [https://www.linkedin.com/feed/update/urn:li:share:7163881242071969794/](https://www.linkedin.com/feed/update/urn:li:share:7163881242071969794/)
+
+#### Tahoe-100M
+A single-cell drug-perturbation atlas profiling approximately 100 million transcriptomes to map drug-induced phenotypes across cancer cell lines.
+- Paper: [https://doi.org/10.1016/j.cell.2026.08.035](https://doi.org/10.1016/j.cell.2026.08.035)
+- Code: [https://github.com/ArcInstitute/arc-virtual-cell-atlas](https://github.com/ArcInstitute/arc-virtual-cell-atlas)
+- Website: [https://doi.org/10.5281/zenodo.21864540](https://doi.org/10.5281/zenodo.21864540)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7517968152580767745](https://www.linkedin.com/feed/update/urn:li:ugcPost:7517968152580767745)
 
 #### Tidyomics
 Merges the tidy data principles of R's tidyverse with the powerful omic data analysis capabilities of Bioconductor, designed to enhance the efficiency and effectiveness of your research.
