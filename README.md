@@ -1558,7 +1558,7 @@ Database harmonizing 44 single-cell perturbation-response datasets (transcriptom
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7161365251462975492/](https://www.linkedin.com/feed/update/urn:li:share:7161365251462975492/)
 
 #### Squidiff
-Diffusion-based framework for modeling how cells develop and respond to perturbations across diverse biological contexts (Links in the comments).
+Diffusion-based framework for modeling how cells develop and respond to perturbations across diverse biological contexts.
 - Code: [https://github.com/siyuh/Squidiff](https://github.com/siyuh/Squidiff)
 - Paper: [https://www.nature.com/articles/s41592-025-02877-y](https://www.nature.com/articles/s41592-025-02877-y)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7397575349422919680](https://www.linkedin.com/feed/update/urn:li:share:7397575349422919680)
