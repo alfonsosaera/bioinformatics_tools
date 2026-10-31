@@ -465,6 +465,15 @@ Mixed‑curvature variational autoencoder that embeds cells into multiple latent
 - Code: [https://github.com/Ding-Group/CellUntangler](https://github.com/Ding-Group/CellUntangler)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7425220255377063936](https://www.linkedin.com/feed/update/urn:li:share:7425220255377063936)
 
+#### ClustoCell
+Reference-free method discovers cell states and marker genes from single-cell transcriptomes using within-cell transcriptional architecture.
+- Paper: [https://www.biorxiv.org/content/10.64898/2026.08.20.746095v1](https://www.biorxiv.org/content/10.64898/2026.08.20.746095v1)
+- Code: [https://github.com/asalavaty/celliverse](https://github.com/asalavaty/celliverse)
+- Code: [https://github.com/asalavaty/CelliVerse-Project](https://github.com/asalavaty/CelliVerse-Project)
+- R package: [https://cran.r-project.org/package=celliverse](https://cran.r-project.org/package=celliverse)
+- Website: [https://huggingface.co/spaces/asalavaty/celliverse](https://huggingface.co/spaces/asalavaty/celliverse)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7520210921483386880](https://www.linkedin.com/feed/update/urn:li:ugcPost:7520210921483386880)
+
 #### GAIA
 Information-geometric framework for cell representation learning and inter-cell similarity measurement.
 - Paper: [https://www.biorxiv.org/content/10.64898/2026.02.25.707866v2.full](https://www.biorxiv.org/content/10.64898/2026.02.25.707866v2.full)
@@ -663,6 +672,15 @@ Data-driven method that identifies cell (sub)types and states without relying on
 - Post: [https://www.linkedin.com/feed/update/urn:li:share:7154488285208141824/](https://www.linkedin.com/feed/update/urn:li:share:7154488285208141824/)
 
 ### Differential Expression & Marker Discovery
+
+#### ClustoCell
+Reference-free method discovers cell states and marker genes from single-cell transcriptomes using within-cell transcriptional architecture.
+- Paper: [https://www.biorxiv.org/content/10.64898/2026.08.20.746095v1](https://www.biorxiv.org/content/10.64898/2026.08.20.746095v1)
+- Code: [https://github.com/asalavaty/celliverse](https://github.com/asalavaty/celliverse)
+- Code: [https://github.com/asalavaty/CelliVerse-Project](https://github.com/asalavaty/CelliVerse-Project)
+- R package: [https://cran.r-project.org/package=celliverse](https://cran.r-project.org/package=celliverse)
+- Website: [https://huggingface.co/spaces/asalavaty/celliverse](https://huggingface.co/spaces/asalavaty/celliverse)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7520210921483386880](https://www.linkedin.com/feed/update/urn:li:ugcPost:7520210921483386880)
 
 #### cytoKernel
 Kernel-based score test for differential expression (DE) analysis of scRNA-seq and high-dimensional cytometry data
@@ -1466,7 +1484,9 @@ Method predicting single-cell perturbation responses from non-time-resolved data
 Niche-aware generative model that predicts perturbation-induced gene expression responses in spatial transcriptomics.
 - Code: [https://github.com/mims-harvard/CONCERT](https://github.com/mims-harvard/CONCERT)
 - Paper: [https://doi.org/10.1101/2025.11.08.686890](https://doi.org/10.1101/2025.11.08.686890)
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7411692887697932288](https://www.linkedin.com/feed/update/urn:li:share:7411692887697932288)
+- LinkedIn posts:
+  - [https://www.linkedin.com/feed/update/urn:li:share:7411692887697932288](https://www.linkedin.com/feed/update/urn:li:share:7411692887697932288)
+  - [https://www.linkedin.com/feed/update/urn:li:ugcPost:7521229898368208896](https://www.linkedin.com/feed/update/urn:li:ugcPost:7521229898368208896)
 
 #### Continual Learning (CL) & Relative Representations (RR) Mapping
 Expand single-cell atlases and link observational atlases to perturbational datasets using robust case–control integration without catastrophic forgetting
@@ -1530,6 +1550,12 @@ Transformer-based model for predicting cellular phenotypes from perturbations.
 - Code: [https://github.com/theislab/prophet](https://github.com/theislab/prophet)
 - Paper: [https://doi.org/10.1101/2024.08.12.607533](https://doi.org/10.1101/2024.08.12.607533)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7396905179046019072](https://www.linkedin.com/feed/update/urn:li:share:7396905179046019072)
+
+#### RNA fingerprinting
+Two-stage statistical framework learns denoised perturbation-specific transcriptional fingerprints and maps single-cell or grouped queries with Bayesian credible sets and Bayes factors.
+- Paper: [https://www.cell.com/cell/abstract/S0092-8674(26)01119-0](https://www.cell.com/cell/abstract/S0092-8674(26)01119-0)
+- Code: [https://www.github.com/satijalab/rna-fingerprinting](https://www.github.com/satijalab/rna-fingerprinting)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7520858696743235584](https://www.linkedin.com/feed/update/urn:li:share:7520858696743235584)
 
 #### scGeneScope
 Treatment-matched multimodal dataset pairing single-cell RNA sequencing with Cell Painting microscopy images for modeling cellular responses to chemical interventions.
@@ -1940,6 +1966,12 @@ Imaging-based, sequencing-free spatial transcriptomics assay that uses reversed 
 - Paper: [https://doi.org/10.1016/j.cell.2025.09.006](https://doi.org/10.1016/j.cell.2025.09.006)
 - Website: [https://campuspress.yale.edu/wanglab/RAEFISH/](https://campuspress.yale.edu/wanglab/RAEFISH/)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7517122575232241666](https://www.linkedin.com/feed/update/urn:li:ugcPost:7517122575232241666)
+
+#### REZCUE
+Non-destructive antigen retrieval chemistry enables uniform 3D immunostaining of archived FFPE tissue while preserving nucleic acids and proteins for spatial multi-omic profiling.
+- Paper: [https://www.biorxiv.org/content/10.64898/2026.10.06.757132v1](https://www.biorxiv.org/content/10.64898/2026.10.06.757132v1)
+- Code: [https://github.com/heiminglai/REZCUE](https://github.com/heiminglai/REZCUE)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7521594647840903168](https://www.linkedin.com/feed/update/urn:li:share:7521594647840903168)
 
 #### Seq-Scope-X
 Sequencing-based spatial omics platform that combines tissue expansion with submicrometer Seq-Scope for sub-diffraction transcriptome and high-plex proteome profiling.
@@ -2419,7 +2451,9 @@ Generative deep learning framework to reconstruct continuous spatiotemporal sing
 Niche-aware generative model that predicts perturbation-induced gene expression responses in spatial transcriptomics.
 - Code: [https://github.com/mims-harvard/CONCERT](https://github.com/mims-harvard/CONCERT)
 - Paper: [https://doi.org/10.1101/2025.11.08.686890](https://doi.org/10.1101/2025.11.08.686890)
-- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7411692887697932288](https://www.linkedin.com/feed/update/urn:li:share:7411692887697932288)
+- LinkedIn posts:
+  - [https://www.linkedin.com/feed/update/urn:li:share:7411692887697932288](https://www.linkedin.com/feed/update/urn:li:share:7411692887697932288)
+  - [https://www.linkedin.com/feed/update/urn:li:ugcPost:7521229898368208896](https://www.linkedin.com/feed/update/urn:li:ugcPost:7521229898368208896)
 
 #### Perturb-DBiT
 Perturb-DBiT is a sequencing-based spatial functional genomics platform that co-barcodes total RNA and CRISPR sgRNAs in intact tissue sections using PAC and DC chemistries.
@@ -2648,6 +2682,12 @@ A semi-reference-based deconvolution method that models sparse tumor and non-tum
 - Code: [https://github.com/wwylab/DeMixT/tree/develop](https://github.com/wwylab/DeMixT/tree/develop)
 - R package: [https://www.bioconductor.org/packages/release/bioc/html/DeMixT.html](https://www.bioconductor.org/packages/release/bioc/html/DeMixT.html)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7519042742077800448](https://www.linkedin.com/feed/update/urn:li:share:7519042742077800448)
+
+#### DeOPUS
+Reference-based method estimates cell-type proportions in bulk RNA-seq using a variance-moderated power transformation with shrinkage and constrained unmixing.
+- Paper: [https://academic.oup.com/bib/article/27/5/bbag524/8836535](https://academic.oup.com/bib/article/27/5/bbag524/8836535)
+- Code: [https://github.com/tinnlab/DeOPUS](https://github.com/tinnlab/DeOPUS)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7520519964303368194](https://www.linkedin.com/feed/update/urn:li:share:7520519964303368194)
 
 #### Dual Simplex
 Framework that casts Non-negative matrix factorization (NMF) and deconvolution as joint identification of complementary simplexes in feature and sample spaces.
