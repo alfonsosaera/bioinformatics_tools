@@ -855,6 +855,13 @@ Computational framework based on Hodge decomposition to reconstruct high-dimensi
 - Code: [https://github.com/kazumits/ddHodge.jl](https://github.com/kazumits/ddHodge.jl)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7427020627393290241](https://www.linkedin.com/feed/update/urn:li:ugcPost:7427020627393290241)
 
+#### DynaVelo
+DynaVelo uses a generative neural ODE to model joint RNA expression and TF-motif accessibility dynamics in single-cell multiome data, infer regulatory trajectories, and simulate perturbation responses.
+- Paper: [https://doi.org/10.1038/s41587-026-03348-1](https://doi.org/10.1038/s41587-026-03348-1)
+- Code: [https://github.com/karbalayghareh/DynaVelo](https://github.com/karbalayghareh/DynaVelo)
+- Website: [https://doi.org/10.6084/m9.figshare.29169602](https://doi.org/10.6084/m9.figshare.29169602)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7522747635749978112](https://www.linkedin.com/feed/update/urn:li:share:7522747635749978112)
+
 #### FIERCE
 FIERCE is a bottom-up framework that reconstructs single-cell differentiation trajectories by predicting changes in transcriptional entropy.
 - Paper: [https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag516/8733396?login=false](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag516/8733396?login=false)
@@ -922,6 +929,13 @@ Interpretable deep-learning framework that combines pretrained sequence-to-funct
 - Code: [https://github.com/aertslab/deepSCENIC](https://github.com/aertslab/deepSCENIC)
 - Code: [https://github.com/aertslab/deepSCENIC_analyses](https://github.com/aertslab/deepSCENIC_analyses)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7515453701751435264](https://www.linkedin.com/feed/update/urn:li:ugcPost:7515453701751435264)
+
+#### DynaVelo
+DynaVelo uses a generative neural ODE to model joint RNA expression and TF-motif accessibility dynamics in single-cell multiome data, infer regulatory trajectories, and simulate perturbation responses.
+- Paper: [https://doi.org/10.1038/s41587-026-03348-1](https://doi.org/10.1038/s41587-026-03348-1)
+- Code: [https://github.com/karbalayghareh/DynaVelo](https://github.com/karbalayghareh/DynaVelo)
+- Website: [https://doi.org/10.6084/m9.figshare.29169602](https://doi.org/10.6084/m9.figshare.29169602)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7522747635749978112](https://www.linkedin.com/feed/update/urn:li:share:7522747635749978112)
 
 #### Epiregulon
 Construct gene regulatory networks and infer transcription factor (TF) activity in single cells by integration of scATAC-seq and scRNA-seq data and incorporation of public bulk TF ChIP-seq data
@@ -1064,6 +1078,13 @@ DRVI is an unsupervised generative model that learns interpretable nonlinear lat
 - Code: [http://github.com/theislab/drvi](http://github.com/theislab/drvi)
 - Code: [http://github.com/theislab/drvi_reproducibility](http://github.com/theislab/drvi_reproducibility)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7488944399272411136](https://www.linkedin.com/feed/update/urn:li:share:7488944399272411136)
+
+#### DynaVelo
+DynaVelo uses a generative neural ODE to model joint RNA expression and TF-motif accessibility dynamics in single-cell multiome data, infer regulatory trajectories, and simulate perturbation responses.
+- Paper: [https://doi.org/10.1038/s41587-026-03348-1](https://doi.org/10.1038/s41587-026-03348-1)
+- Code: [https://github.com/karbalayghareh/DynaVelo](https://github.com/karbalayghareh/DynaVelo)
+- Website: [https://doi.org/10.6084/m9.figshare.29169602](https://doi.org/10.6084/m9.figshare.29169602)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7522747635749978112](https://www.linkedin.com/feed/update/urn:li:share:7522747635749978112)
 
 #### HoloCell
 HoloCell is a unified generative foundation model for holistic single-cell modeling across epigenomics, transcriptomics, and proteomics.
@@ -1291,6 +1312,13 @@ Computational method to project scRNA-seq data into reference single-cell atlase
 - Code: [https://github.com/carmonalab/ProjecTILs](https://github.com/carmonalab/ProjecTILs)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7388290339394027522](https://www.linkedin.com/feed/update/urn:li:share:7388290339394027522)
 
+#### SCAHN
+SCAHN is an integrated atlas of human neutrophil single-cell states across tissues and diseases that provides state signatures for identifying neutrophil populations and relating them to clinical outcomes.
+- Paper: [https://doi.org/10.1038/s41590-026-02671-8](https://doi.org/10.1038/s41590-026-02671-8)
+- Code: [https://github.com/Khatri-Lab/SCAHN](https://github.com/Khatri-Lab/SCAHN)
+- Website: [https://scahn.khatrilab.org/](https://scahn.khatrilab.org/)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7524473520425369602](https://www.linkedin.com/feed/update/urn:li:ugcPost:7524473520425369602)
+
 #### scImmuneCo
 scImmuneCo is a reference atlas of cell-type-specific co-expression modules for decoding immune responses from single-cell and bulk RNA-seq.
 - Paper: [https://academic.oup.com/bib/article/27/4/bbag366/8726034](https://academic.oup.com/bib/article/27/4/bbag366/8726034)
@@ -1505,6 +1533,13 @@ Transformer-based framework that predicts condition-matched, drug-induced transc
 - Code: [https://github.com/lazypuff/DEPICT](https://github.com/lazypuff/DEPICT)
 - Paper: [https://doi.org/10.64898/2026.03.27.714886](https://doi.org/10.64898/2026.03.27.714886)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7450186770144595968](https://www.linkedin.com/feed/update/urn:li:share:7450186770144595968)
+
+#### DynaVelo
+DynaVelo uses a generative neural ODE to model joint RNA expression and TF-motif accessibility dynamics in single-cell multiome data, infer regulatory trajectories, and simulate perturbation responses.
+- Paper: [https://doi.org/10.1038/s41587-026-03348-1](https://doi.org/10.1038/s41587-026-03348-1)
+- Code: [https://github.com/karbalayghareh/DynaVelo](https://github.com/karbalayghareh/DynaVelo)
+- Website: [https://doi.org/10.6084/m9.figshare.29169602](https://doi.org/10.6084/m9.figshare.29169602)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7522747635749978112](https://www.linkedin.com/feed/update/urn:li:share:7522747635749978112)
 
 #### MitoPerturb-Seq
 Single-cell platform combining pooled CRISPR screening with multiome profiling to measure nuclear transcription, chromatin accessibility, gRNAs, mtDNA sequence, copy number and heteroplasmy.
@@ -2768,6 +2803,12 @@ Autoencoder that deconvolves bulk expression using multiple reference classes wi
 
 ### Spatial Cell Mapping & Reconstruction
 
+#### Cell2space
+Cell2space reconstructs the spatial organization of scRNA-seq cells by aligning them with spatial transcriptomics references and learning spatial affinities for stepwise, multi-scale cell placement.
+- Paper: [https://doi.org/10.1093/bib/bbag531](https://doi.org/10.1093/bib/bbag531)
+- Code: [https://github.com/SDU-Math-SunLab/Cell2space](https://github.com/SDU-Math-SunLab/Cell2space)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7523395420719448064](https://www.linkedin.com/feed/update/urn:li:share:7523395420719448064)
+
 #### CytoSPACE
 Map individual cells from a scRNA-seq atlas to their precise spatial locations within spatial transcriptomics datasets..
 - Paper: [https://www.nature.com/articles/s41587-023-01697-9](https://www.nature.com/articles/s41587-023-01697-9)
@@ -3171,6 +3212,13 @@ GPU-accelerated framework for scalable single-cell analysis operating directly o
 - Code: [https://github.com/scverse/rapids-singlecell](https://github.com/scverse/rapids-singlecell)
 - Website: [https://rapids-singlecell.readthedocs.io/en/stable](https://rapids-singlecell.readthedocs.io/en/stable)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7445835348217184256](https://www.linkedin.com/feed/update/urn:li:share:7445835348217184256)
+
+#### SCAHN
+SCAHN is an integrated atlas of human neutrophil single-cell states across tissues and diseases that provides state signatures for identifying neutrophil populations and relating them to clinical outcomes.
+- Paper: [https://doi.org/10.1038/s41590-026-02671-8](https://doi.org/10.1038/s41590-026-02671-8)
+- Code: [https://github.com/Khatri-Lab/SCAHN](https://github.com/Khatri-Lab/SCAHN)
+- Website: [https://scahn.khatrilab.org/](https://scahn.khatrilab.org/)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7524473520425369602](https://www.linkedin.com/feed/update/urn:li:ugcPost:7524473520425369602)
 
 #### ScaleSC
 Fast and scalable single-cell RNA-seq data analysis pipeline powered by GPU.
