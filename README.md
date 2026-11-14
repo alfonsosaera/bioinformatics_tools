@@ -673,6 +673,13 @@ Data-driven method that identifies cell (sub)types and states without relying on
 
 ### Differential Expression & Marker Discovery
 
+#### CellDEEP
+Metacell-pooling framework for differential gene expression testing in single-cell RNA-seq.
+- Paper: [https://academic.oup.com/nargab/article/8/4/lqag128/8960103](https://academic.oup.com/nargab/article/8/4/lqag128/8960103)
+- Code: [https://github.com/sii-scRNA-Seq/CellDEEP](https://github.com/sii-scRNA-Seq/CellDEEP)
+- Code: [https://github.com/YiyiChen0328/CellDEEP_analysis](https://github.com/YiyiChen0328/CellDEEP_analysis)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7525948196112711682](https://www.linkedin.com/feed/update/urn:li:ugcPost:7525948196112711682)
+
 #### ClustoCell
 Reference-free method discovers cell states and marker genes from single-cell transcriptomes using within-cell transcriptional architecture.
 - Paper: [https://www.biorxiv.org/content/10.64898/2026.08.20.746095v1](https://www.biorxiv.org/content/10.64898/2026.08.20.746095v1)
@@ -945,6 +952,12 @@ Construct gene regulatory networks and infer transcription factor (TF) activity 
   - [https://www.linkedin.com/feed/update/urn:li:share:7144252151203102720/](https://www.linkedin.com/feed/update/urn:li:share:7144252151203102720/)
   - [https://www.linkedin.com/feed/update/urn:li:ugcPost:7451167980312489985](https://www.linkedin.com/feed/update/urn:li:ugcPost:7451167980312489985)
 
+#### GP-DHT
+Dual-head transformer that predicts single-cell transcription-factor–target links from multi-relational gene–cell graphs using supervised contrastive learning.
+- Paper: [https://doi.org/10.1371/journal.pone.0359164](https://doi.org/10.1371/journal.pone.0359164)
+- Code: [https://github.com/chromaprim/GP-DHT](https://github.com/chromaprim/GP-DHT)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7525284350964322304](https://www.linkedin.com/feed/update/urn:li:share:7525284350964322304)
+
 #### hdWGCNA
 R package for performing weighted gene co-expression network analysis (WGCNA) in high dimensional transcriptomics data such as single-cell RNA-seq or spatial transcriptomics
 - Paper: [https://www.cell.com/cell-reports-methods/fulltext/S2667-2375(23)00127-3](https://www.cell.com/cell-reports-methods/fulltext/S2667-2375(23)00127-3)
@@ -1190,6 +1203,12 @@ Automated preprocessing recommendation platform, support deep learning models fo
 - Code: [https://github.com/OmicsML/dance](https://github.com/OmicsML/dance)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7182756617635938304/](https://www.linkedin.com/feed/update/urn:li:share:7182756617635938304/)
 
+#### Dynamic Range Fraction (DRF)
+Calibration framework that evaluates whether metrics for single-cell perturbation-model benchmarks distinguish positive and negative controls.
+- Paper: [https://doi.org/10.1038/s41587-026-03307-w](https://doi.org/10.1038/s41587-026-03307-w)
+- Code: [https://github.com/shiftbioscience/Perturbation-Models-Outperform-Baselines](https://github.com/shiftbioscience/Perturbation-Models-Outperform-Baselines)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7525593395281473536](https://www.linkedin.com/feed/update/urn:li:ugcPost:7525593395281473536)
+
 #### GARAGE
 A graph-attentive GAN that generates synthetic scRNA-seq data seeded from high-attention cells to augment rare populations.
 - Paper: [https://doi.org/10.1371/journal.pcbi.1014601](https://doi.org/10.1371/journal.pcbi.1014601)
@@ -1251,6 +1270,12 @@ Combines deep generative models and active learning to economically generate sin
 - Paper: [https://www.nature.com/articles/s41467-024-50150-1](https://www.nature.com/articles/s41467-024-50150-1)
 - Code: [https://github.com/mcgilldinglab/scSemiProfiler](https://github.com/mcgilldinglab/scSemiProfiler)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7138120241938698240/](https://www.linkedin.com/feed/update/urn:li:share:7138120241938698240/)
+
+#### scTab
+Single-cell corpus and benchmarking resource for testing how pretraining dataset size and diversity affect foundation-model performance.
+- Paper: [https://www.nature.com/articles/s41592-026-03120-y](https://www.nature.com/articles/s41592-026-03120-y)
+- Code: [https://github.com/microsoft/scFM-dataselection](https://github.com/microsoft/scFM-dataselection)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7526668045889748993](https://www.linkedin.com/feed/update/urn:li:ugcPost:7526668045889748993)
 
 ### Visualization & Interactive Exploration
 
@@ -2939,6 +2964,12 @@ Next-generation single-cell foundation model trained on a 350M-cell multi-organi
 - Website: [https://cantinilab.github.io/scPRINT-2/](https://cantinilab.github.io/scPRINT-2/)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7415332108090372096](https://www.linkedin.com/feed/update/urn:li:share:7415332108090372096)
 
+#### scRM
+Single-cell foundation model that learns from raw scRNA-seq reads using a hierarchical transformer spanning sequence fragments, molecules and cells.
+- Paper: [https://doi.org/10.64898/2026.10.24.761590](https://doi.org/10.64898/2026.10.24.761590)
+- Code: [https://github.com/altoslabs/scRM](https://github.com/altoslabs/scRM)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7527010228509376512](https://www.linkedin.com/feed/update/urn:li:share:7527010228509376512)
+
 #### scUnify
 Unified zero-shot inference framework that runs multiple single-cell RNA-seq foundation models from a standard AnnData object while automating environment setup, preprocessing, and tokenization.
 - Paper: [https://www.biorxiv.org/content/10.64898/2026.03.01.708392v2](https://www.biorxiv.org/content/10.64898/2026.03.01.708392v2)
@@ -3239,6 +3270,12 @@ Scverse package and file format for large-scale single-cell imaging and multimod
 - Code: [https://github.com/MannLabs/scPortrait](https://github.com/MannLabs/scPortrait)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7378838610277552128](https://www.linkedin.com/feed/update/urn:li:share:7378838610277552128)
 
+#### scTab
+Single-cell corpus and benchmarking resource for testing how pretraining dataset size and diversity affect foundation-model performance.
+- Paper: [https://www.nature.com/articles/s41592-026-03120-y](https://www.nature.com/articles/s41592-026-03120-y)
+- Code: [https://github.com/microsoft/scFM-dataselection](https://github.com/microsoft/scFM-dataselection)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7526668045889748993](https://www.linkedin.com/feed/update/urn:li:ugcPost:7526668045889748993)
+
 #### SingleRust
 Toolkit designed to overcome scalability limits in single-cell RNA-seq analysis.
 - Paper: [https://www.biorxiv.org/content/10.1101/2025.08.04.668429v2](https://www.biorxiv.org/content/10.1101/2025.08.04.668429v2)
@@ -3259,6 +3296,12 @@ A single-cell drug-perturbation atlas profiling approximately 100 million transc
 - Code: [https://github.com/ArcInstitute/arc-virtual-cell-atlas](https://github.com/ArcInstitute/arc-virtual-cell-atlas)
 - Website: [https://doi.org/10.5281/zenodo.21864540](https://doi.org/10.5281/zenodo.21864540)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7517968152580767745](https://www.linkedin.com/feed/update/urn:li:ugcPost:7517968152580767745)
+
+#### Thyra
+Python library that converts mass spectrometry imaging data into OME-NGFF/SpatialData for multimodal spatial-omics analysis with harmonized mass axes and sparse storage.
+- Paper: [https://doi.org/10.64898/2026.01.26.700792](https://doi.org/10.64898/2026.01.26.700792)
+- Code: [https://github.com/M4i-Imaging-Mass-Spectrometry/thyra](https://github.com/M4i-Imaging-Mass-Spectrometry/thyra)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7527284528537788416](https://www.linkedin.com/feed/update/urn:li:share:7527284528537788416)
 
 #### Tidyomics
 Merges the tidy data principles of R's tidyverse with the powerful omic data analysis capabilities of Bioconductor, designed to enhance the efficiency and effectiveness of your research.
