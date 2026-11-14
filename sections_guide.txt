@@ -116,6 +116,8 @@ Methods that need BOTH single-cell and spatial (or bulk) data.
 Cell-type proportion estimation in bulk or spatial spots from sc references (reference-free too).
 ### Spatial Cell Mapping & Reconstruction
 Mapping sc cells to spatial coordinates, pseudo-space reconstruction, sc-spatial joint models.
+### Reference-guided Spatial Segmentation & Annotation
+Joint cell segmentation and cell type annotation from spatial data using single-cell references.
 ### Benchmarking & Method Evaluation
 Benchmarks/metrics for sc-spatial integration and deconvolution.
 

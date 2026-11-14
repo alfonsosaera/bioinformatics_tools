@@ -54,6 +54,7 @@ A curated catalogue of the bioinformatics tools I published for single-cell, spa
 - [Single-cell & Spatial Integration](#single-cell--spatial-integration)
   - [Deconvolution](#deconvolution)
   - [Spatial Cell Mapping & Reconstruction](#spatial-cell-mapping--reconstruction)
+  - [Reference-guided Spatial Segmentation & Annotation](#reference-guided-spatial-segmentation--annotation)
   - [Benchmarking & Method Evaluation](#benchmarking--method-evaluation)
 - [Foundation Models & LLMs](#foundation-models--llms)
   - [Single-cell Foundation Models](#single-cell-foundation-models)
@@ -2863,6 +2864,14 @@ Integrates spatial and single-cell RNA-seq data, enhancing gene expression maps 
 - Paper: [https://www.nature.com/articles/s41592-024-02184-y](https://www.nature.com/articles/s41592-024-02184-y)
 - Code: [https://github.com/sunericd/TISSUE](https://github.com/sunericd/TISSUE)
 - LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7190639815099363328/](https://www.linkedin.com/feed/update/urn:li:share:7190639815099363328/)
+
+### Reference-guided Spatial Segmentation & Annotation
+
+#### CellART
+Framework integrating staining images, high-resolution spatial transcriptomics, and scRNA-seq references to jointly segment cells and annotate cell types.
+- Paper: [https://www.nature.com/articles/s43588-026-01054-1](https://www.nature.com/articles/s43588-026-01054-1)
+- Code: [https://github.com/YangLabHKUST/CellART](https://github.com/YangLabHKUST/CellART)
+- LinkedIn post: [https://www.linkedin.com/feed/update/urn:li:share:7526303369993441280](https://www.linkedin.com/feed/update/urn:li:share:7526303369993441280)
 
 ### Benchmarking & Method Evaluation
 
